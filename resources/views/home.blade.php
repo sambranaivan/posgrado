@@ -16,17 +16,29 @@
 
 
                     <div class="row">
-                        <div class="col col-md-4">
-                            <button type="button" class="btn btn-primary">Gestionar Ofertas</button>
-                        </div>
+                            <div class="col col-md-3 col-md-offset-1">
+                                <a href="/admin/ofertas">
 
-                            <div class="col col-md-4">
-                                <button type="button" class="btn btn-primary">Gestionar Carreras</button>
+                                    <button type="button" class="btn btn-primary btn-block">Ofertas</button>
+                                </a>
                             </div>
+                            <div class="col col-md-3 col-md-offset-1">
+                                <button type="button" class="btn btn-primary btn-block">Carreras</button>
+                            </div>
+                            <div class="col col-md-3 col-md-offset-1">
+                                <button type="button" class="btn btn-primary btn-block">Resoluciones</button>
+                            </div>
+                            <div class="col col-md-3 col-md-offset-1">
+                                <button type="button" class="btn btn-primary btn-block">Autoridades</button>
+                            </div>
+                    </div>
 
-
-                            <div class="col col-md-4">
-                                <button type="button" class="btn btn-primary">Gestionar Resoluciones</button>
+                    <div class="row">
+                            <div class="col col-md-3 col-md-offset-1">
+                                <button type="button" class="btn btn-primary btn-block">Unidades Académicas</button>
+                            </div>
+                            <div class="col col-md-3 col-md-offset-1">
+                                <button type="button" class="btn btn-primary btn-block">Imprimir Catálogo</button>
                             </div>
 
                     </div>
