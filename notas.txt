@@ -1,0 +1,22 @@
+Ofertas[Fecha de inscripcion,]
+	Carrera[[CS...],AC,ME]
+
+
+Una Oferta 
+	Tiene Fecha de Inscripcion
+	corresponde a una Carrera
+Una Carrera puede tener 
+	1 Director
+	1 Contacto Director
+	1 contacto
+	1 mail
+	1 o Mas Unidades Académicas Responsables
+	1 o varias Res.CS // 1 de creacion y hasta 7 de dictado
+	1 Acreditación CONEAU
+	1 Res. ME.
+	1 Descripción
+	1 Folleto? veterinaria
+
+
+	Resolucion de consejo superior para la estructura es cada año?
+	
