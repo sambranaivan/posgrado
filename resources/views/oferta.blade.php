@@ -8,7 +8,14 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-md-10"><h2>Ofertas de Posgrado</h2></div>
-                        <div class="col-md-2"><button class="btn btn-success  btn-block">Nueva Oferta</button></div>
+                        <div class="col-md-2">
+                            <a href="ofertas/add">
+
+                                <button class="btn btn-success  btn-block">
+                                    Nueva Oferta
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
