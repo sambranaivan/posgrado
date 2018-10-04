@@ -15,6 +15,11 @@ class CreateResolucionsTable extends Migration
     {
         Schema::create('resolucions', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('anio');//en 4 cifras luego se le da formato
+            $table->integer('numero');
+            $table->string('titulo');
+            $table->string('descripcion');
+            $table->string('url');
             $table->timestamps();
         });
     }

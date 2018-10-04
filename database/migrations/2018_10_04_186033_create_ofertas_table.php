@@ -17,12 +17,13 @@ class CreateOfertasTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('carrera_id');
             //relacion con ofertas carrera
+            $table->foreign('carrera_id')->references('id')->on('carreras')->onDelete('cascade');
             $table->date('inicio_inscripcion')->nullable();
             $table->date('fin_inscripcion')->nullable();
             $table->date('inicio_oferta')->nullable();//delay for publish
             $table->date('expiracion_oferta')->nullable();//expiracion del oferta no se muestra en la web
             $table->string('enlace')->nullable();//expiracion del oferta no se muestra en la web
-            $table->foreign('carrera_id')->references('id')->on('carreras')->onDelete('cascade');
+            $table->string('descripcion');
             $table->timestamps();
         });
     }
