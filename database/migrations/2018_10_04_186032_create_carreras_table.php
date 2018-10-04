@@ -27,6 +27,8 @@ class CreateCarrerasTable extends Migration
             $table->unsignedInteger('denominacion_id');//denominacion
             $table->foreign('denominacion_id')->references('id')->on('denominacions')->onDelete('cascade');
             $table->string('descripcion');
+            $table->unsignedInteger('unidad_id');//denominacion
+            $table->foreign('unidad_id')->references('id')->on('unidads')->onDelete('cascade');
             $table->timestamps();
         });
     }
