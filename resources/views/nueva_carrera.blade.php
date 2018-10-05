@@ -10,6 +10,19 @@
                         <div class="col-md-10"><h2>Nueva Carrera</h2></div>
                     </div>
                 </div>
+                    <div class="card-body">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nro</th>
+                                    <th>Nombre</th>
+                                    <th>Res.Cs</th>
+                                    <th>Res. Coneau</th>
+                                    <th>Res. ME</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
             </div>{{-- end card --}}
 
 
