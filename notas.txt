@@ -2,10 +2,10 @@ Ofertas[Fecha de inscripcion,]
 	Carrera[[CS...],AC,ME]
 
 
-Una Oferta 
+Una Oferta
 	Tiene Fecha de Inscripcion
 	corresponde a una Carrera
-Una Carrera puede tener 
+Una Carrera puede tener
 	1 Director
 	1 Contacto Director
 	1 contacto
@@ -19,4 +19,11 @@ Una Carrera puede tener
 
 
 	Resolucion de consejo superior para la estructura es cada año?
-	
+
+
+WorkFlow de publicar una Oferta
+
+Nueva Oferta
+-> Seleccionar Carrera-------->
+-> Cargar Nueva Carrera-->Cargar Resolucion
+
