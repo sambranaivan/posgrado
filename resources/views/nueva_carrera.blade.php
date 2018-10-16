@@ -3,19 +3,20 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-<div class="col-md-10">
+<div class="col-md-12">
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-md-10"><h2>Nueva Carrera</h2></div>
+                        <div class="col-md-12"><h2>Nueva Carrera</h2></div>
                     </div>
                 </div>
                     <div class="card-body">
-                        <table>
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th>Nro</th>
                                     <th>Nombre</th>
+                                    <th>Denominación</th>
                                     <th>Res.Cs</th>
                                     <th>Res. Coneau</th>
                                     <th>Res. ME</th>

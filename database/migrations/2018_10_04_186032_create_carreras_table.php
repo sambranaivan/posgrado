@@ -15,9 +15,9 @@ class CreateCarrerasTable extends Migration
     {
         Schema::create('carreras', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('anio');
+            $table->integer('anio')->nullable();
             $table->string('nombre');
-            $table->string('titulo');//titulo que otorga
+            $table->string('titulo')->nullable();//titulo que otorga
             $table->unsignedInteger('consejo_id');//resolucion de consejo superior
             $table->foreign('consejo_id')->references('id')->on('resolucions')->onDelete('cascade');
             $table->unsignedInteger('coneau_id')->nullable();//resolucion de coneau
@@ -26,7 +26,7 @@ class CreateCarrerasTable extends Migration
             $table->foreign('ministerio_id')->references('id')->on('resolucions')->onDelete('cascade');
             $table->unsignedInteger('denominacion_id');//denominacion
             $table->foreign('denominacion_id')->references('id')->on('denominacions')->onDelete('cascade');
-            $table->string('descripcion');
+            $table->string('descripcion')->nullable();
             $table->unsignedInteger('unidad_id');//denominacion
             $table->foreign('unidad_id')->references('id')->on('unidads')->onDelete('cascade');
             $table->timestamps();

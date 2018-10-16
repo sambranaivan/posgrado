@@ -37,7 +37,7 @@
                         </tbody>
 
 
-                        </th>
+
                     </table>
 
                 </div>
