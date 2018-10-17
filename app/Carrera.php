@@ -65,4 +65,22 @@ $this->addResolucion($me,3);
 
 
     }
+
+    ////relaciones
+    public function resolucion()
+    {
+    return $this->belongsTo('App\resolucion','consejo_id');
+    }
+    ////relaciones
+    public function coneau()
+    {
+    return $this->belongsTo('App\resolucion','coneau_id');
+    }
+    ////relaciones
+    public function ministerio()
+    {
+    return $this->belongsTo('App\resolucion','ministerio_id');
+    }
+
+
 }

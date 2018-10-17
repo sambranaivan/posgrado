@@ -17,7 +17,7 @@ class CreateCarrerasTable extends Migration
             $table->increments('id');
             $table->integer('anio')->nullable();
             $table->string('nombre');
-            $table->string('titulo')->nullable();//titulo que otorga
+            $table->string('titulo')->default('');//titulo que otorga
             $table->unsignedInteger('consejo_id');//resolucion de consejo superior
             $table->foreign('consejo_id')->references('id')->on('resolucions')->onDelete('cascade');
             $table->unsignedInteger('coneau_id')->nullable();//resolucion de coneau

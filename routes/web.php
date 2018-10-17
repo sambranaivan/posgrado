@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+///super index
 Route::get('/', function () {
     return view('welcome');
 });
@@ -22,9 +22,17 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
     Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
     // Carreras
-      Route::get('admin/carreras','CarreraController@index')->name('carreras');
+    //   Route::get('admin/carreras','CarreraController@index')->name('carreras');
       Route::get('admin/carreras/add','CarreraController@nuevaCarrera')->name('nuevaCarrera');
 
 });
 
+
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/carreras','CarreraController@index')->name('carreras');
+Route::get('/carreras/doctorado','CarreraController@doctorados')->name('doctorado');
+Route::get('/carreras/maestria','CarreraController@maestrias')->name('maestrias');
+Route::get('/carreras/especializacion','CarreraController@especializaciones')->name('especializaciones');
+Route::get('/carreras/doctorado/{id}','CarreraController@showdoctorados')->name('doctorado');
+Route::get('/carreras/maestria/{id}','CarreraController@showmaestrias')->name('maestrias');
+Route::get('/carreras/especializacion/{id}','CarreraController@showespecializaciones')->name('especializaciones');

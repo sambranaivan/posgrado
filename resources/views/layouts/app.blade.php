@@ -11,6 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -24,7 +25,8 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <img src="{{asset('img/unne.png')}}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Posgrado
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +35,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                               Inicio
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/carreras">
+                               Carreras
+                            </a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -75,6 +86,17 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <footer class="footer">
+      <div class="container text-center">
+        <span class="text-muted text-center">
+            Secretaría de Posgrado :: Universidad Nacional del Nordester
+        </span></br>
+        <span class="text-muted text-center">
+
+25 de Mayo 868, Corrientes (3400), Argentina :: +54 379 4474186 :: +54 379 4425060 int. 119 :: posgrado@unne.edu.ar :: gndapozo@unne.edu.ar
+        </span>
+      </div>
+    </footer>
     </div>
 </body>
 </html>
