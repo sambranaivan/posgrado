@@ -15,6 +15,7 @@ class CreateAutoridadsTable extends Migration
     {
         Schema::create('autoridads', function (Blueprint $table) {
             $table->increments('id');
+
             $table->string('nombre')->unique();
             $table->string('contacto')->nullable();
             $table->string('email')->nullable();
