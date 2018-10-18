@@ -41,14 +41,14 @@ class Carrera extends Model
         return $this;
     }
 
-    public function addAutoridad($nombre)
+    public function addAutoridad($nombre,$cargo = "Director")
     {
         $a = new Autoridad();
         $a->nombre = $nombre;
 
         $a->save();
         $d = new Designacion();
-        $d->cargo = ("Director");
+        $d->cargo = $cargo;
         $d->carrera_id = $this->id;
         $d->autoridad_id = $a->id;
         $d->save();
