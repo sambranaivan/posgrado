@@ -445,13 +445,13 @@ class DatabaseSeeder extends Seeder
         $c->save();
 
 
-        // EN REVISION
-                // $c->titulo = 'Magister en Medicina Tropical e Higiene';
-//         $c->titulo = 'Especialista en Infectología';
-// $c->titulo = 'Especialista en Bacteriología Clínica';
-        // $c->titulo = 'Magister en Análisis Institucional en las Prácticas Profesionales y la Formación; Orientación Ciencias de la Salud';
-        // $c->titulo = 'Especialista en Docencia y Gestión Universitaria con orientación en Ciencias  de la Salud.';
-        // $c->titulo = 'Especialsta en Prótesis Dentobucomaxilar';
+    // EN REVISION
+    // $c->titulo = 'Magister en Medicina Tropical e Higiene';
+    // $c->titulo = 'Especialista en Infectología';
+    // $c->titulo = 'Especialista en Bacteriología Clínica';
+    // $c->titulo = 'Magister en Análisis Institucional en las Prácticas Profesionales y la Formación; Orientación Ciencias de la Salud';
+    // $c->titulo = 'Especialista en Docencia y Gestión Universitaria con orientación en Ciencias  de la Salud.';
+    // $c->titulo = 'Especialsta en Prótesis Dentobucomaxilar';
 
     }
 }
