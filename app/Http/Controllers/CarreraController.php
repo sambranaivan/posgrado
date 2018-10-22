@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Carrera;
+use Barryvdh\DomPDF\Facade as PDF;
 class CarreraController extends Controller
 {
     //
@@ -57,7 +58,17 @@ class CarreraController extends Controller
     public function getDoctoradoPdf(){
 
 
+        $carreras = Carrera::where('denominacion_id',3)->get();
+  $pdf = PDF::loadView('folleto_doctorado',compact('carreras'));
+//   $pdf->set_paper("A4", "portrait");
+  return $pdf->stream('pruebapdf.pdf');
     }
+public function getDoctorado(){
 
+
+        $carreras = Carrera::where('denominacion_id',3)->get();
+  return view('folleto_doctorado',compact('carreras'));
+
+    }
 
 }
