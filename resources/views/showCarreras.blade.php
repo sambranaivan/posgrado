@@ -15,8 +15,6 @@ $(document).ready(function(){
                     <h2 class="text-center">Ofertas de {{$titulo}}</h2>
                 </div>
 
-
-
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-5">
@@ -40,9 +38,11 @@ $(document).ready(function(){
                             <p><strong>Acreditación: </strong>{{$selected->coneau->codigo}} - {{$selected->ministerio->codigo}}</p>
 
                             <span> &nbsp</span>
-                            <p><strong><u>Autoridades</u><strong></p>
-                            <p><strong>Director: </strong></p>
-                            <p><strong>Coordinador Academico: </strong></p>
+                            <p><strong><u>Autoridades</u></strong></p>
+
+                            @foreach ($selected->designaciones as $designacion)
+                                    <p><strong>{{$designacion->cargo}}: </strong>{{$designacion->autoridad->nombre}}</p>
+                            @endforeach
                             {{-- <p><strong>Acreditación: </strong>{{$selected->ministerio->codigo}}</p> --}}
                              <span> &nbsp</span>
                             <p><strong><u>Informes</u><strong></p>

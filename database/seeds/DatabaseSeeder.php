@@ -109,6 +109,7 @@ class DatabaseSeeder extends Seeder
         $c->addResolucion('Res. 443/16',3);
         $c->setUnidadAcademica('arquitectura');
         $c->save();
+        $c->addAutoridad('Arq. Victor Pelli');
 
         $c = new Carrera();
         $c->nombre = 'Maestría en Gestión Ambiental y del Territorio Urbano';
@@ -119,6 +120,7 @@ class DatabaseSeeder extends Seeder
         $c->addResolucion(' Res. Nº4074/17 ME',3);
         $c->setUnidadAcademica('arquitectura');
         $c->save();
+        $c->addAutoridad('Mg. Sandra Raquel Fogar');
 
 
         $c = new Carrera();
@@ -182,6 +184,7 @@ class DatabaseSeeder extends Seeder
         $c->setDenominacion('Especialización');
         $c->setUnidadAcademica('economicas');
         $c->save();
+        $c->addAutoridad('Mg. Gabriel Eduardo Ojeda Fosaro');
         $c = new Carrera();
         $c->constructor('Especialización en Tributación','Res. Nº 090/97 C.S.',' Acreditada Res Nº274/16',' Res. Nº3662/17 ME');
         $c->titulo = 'Especialista en Tributación';
@@ -216,12 +219,14 @@ class DatabaseSeeder extends Seeder
     $c->setDenominacion('Maestria');
     $c->setUnidadAcademica('exactas');
     $c->save();
+
     $c = new Carrera();
     $c->constructor('Especialización en Análisis de Alimentos','Res. Nº 113/09 C.S.','Acreditada (Res. Nº106/16). ','Res Nº3683/17ME');
     $c->titulo = 'Especialista en Análisis de Alimentos ';
     $c->setDenominacion('Especialización');
     $c->setUnidadAcademica('exactas');
     $c->save();
+    $c->addAutoridad('Dr. Sonia Cecilia Sgroppo');
 
 // Veterinaria
 
@@ -238,6 +243,7 @@ class DatabaseSeeder extends Seeder
     $c->setDenominacion('Maestria');
     $c->setUnidadAcademica('veterinaria');
     $c->save();
+    $c->addAutoridad('Dr. Enriquelle a Yaniez');
 
     $c = new Carrera();
     $c->constructor('Especialización  en Cirugía de Pequeños Animales',' Res. Nº373/03 CS.',' Acreditada (Res Nº1192/14).',' Res. Nº/11 ME');
@@ -245,18 +251,23 @@ class DatabaseSeeder extends Seeder
     $c->setDenominacion('Especialización');
     $c->setUnidadAcademica('veterinaria');
     $c->save();
+    $c->addAutoridad('Dr. Jose Eduardo Lopez');
     $c = new Carrera();
     $c->constructor('Especialización en Diagnostico  Anatomohistopatológico Veterinario',' Nº336/04CS.',' Acreditada (Res Nº217/08).',' Res. Nº0610/07 ME');
     $c->titulo = 'Especialista  en Diagnostico Anatomohistopatológico Veterinario';
     $c->setDenominacion('Especialización');
     $c->setUnidadAcademica('veterinaria');
     $c->save();
+    $c->addAutoridad('Dr. Marcial Sanchez Negrette');
+
+
     $c = new Carrera();
     $c->constructor('Especialización en Clínica de Animales de Compañía','Res. Nº 969/13 C.S.',' Acreditada (Acta 412/14).',' Res Nº1874/16 ME');
     $c->titulo = 'Especialista en Animales de Compañía';
     $c->setDenominacion('Especialización');
     $c->setUnidadAcademica('veterinaria');
     $c->save();
+    $c->addAutoridad('Dr. Patricia konsinksuk');
 
 //Derecho
 
@@ -308,6 +319,8 @@ class DatabaseSeeder extends Seeder
     $c->setDenominacion('Especialización');
     $c->setUnidadAcademica('derecho');
     $c->save();
+    $c->addAutoridad('Dr. Maza Miguel Angel');
+
     $c = new Carrera();
     $c->constructor('Especialización en Teoría y Técnica del Proceso Judicial','Res. Nº 267/07 C.S.',' Acreditada (Res. Nº  1047/15).','  Res. Nº4377/17 ME');
     $c->titulo = 'Especialista en Teoría y Técnica del Proceso Judicial';
@@ -353,6 +366,7 @@ class DatabaseSeeder extends Seeder
         $c->setDenominacion('Especialización');
         $c->setUnidadAcademica('humanidades');
         $c->save();
+        $c->addAutoridad('Dra. Maria Del Mar Solis Carnicier');
 
 
         // other
@@ -377,6 +391,7 @@ class DatabaseSeeder extends Seeder
         $c->setDenominacion('Especialización');
         $c->setUnidadAcademica('ingenieria');
         $c->save();
+        $c->addAutoridad('Mg. Ing. Nora Basterra');
 
 //Medicina
         $c = new Carrera();
@@ -385,6 +400,7 @@ class DatabaseSeeder extends Seeder
         $c->setUnidadAcademica('medicina');
         $c->titulo = 'Doctor de la UNNE en Medicina';
         $c->save();
+        $c->addAutoridad('Dr.  Jorge Osvaldo Gorodner');
         $c = new Carrera();
         $c->constructor('Maestría en Ciencias de la Enfermería Comunitaria','Res. Nº 714/15 C.S.  –  ','Acreditada (Sesión  433/15)', 'Res Nº2043/17 ME');
         $c->titulo = 'Magister en Ciencias  de la Enfermería Comunitaria';
@@ -425,18 +441,21 @@ class DatabaseSeeder extends Seeder
         $c->setDenominacion('Especialización');
         $c->setUnidadAcademica('odontologia');
         $c->save();
+
         $c = new Carrera();
         $c->constructor('Especialización en Odontología Legal ','Res. Nº 725/11 C.S. ','Acreditada (Acta Nº368/12)','Res. Nº 1359/15 ME');
         $c->titulo = 'Especialista en odontología legal';
         $c->setDenominacion('Especialización');
         $c->setUnidadAcademica('odontologia');
         $c->save();
+
         $c = new Carrera();
         $c->constructor('Especialización en Docencia y Gestión Universitaria con orientación en Ciencias de la Salud ','Res. Nº 754/06 C.S. ','Acreditada (Res. Nº 319/13)','Res. Nº 1411/08 ME');
         $c->titulo = 'Especialista en Docencia y Gestión Universitaria con orientación en Ciencias  de la Salud.';
         $c->setDenominacion('Especialización');
         $c->setUnidadAcademica('odontologia');
         $c->save();
+
         $c = new Carrera();
         $c->constructor('Especialización en Diagnóstico por Imágenes de la región Buco-Maxilofacial','Res. Nº 838/13 C.S. ','Acreditada (Acta Nº 412/14)','Res. Nº 1482/16 ME');
         $c->titulo = 'Especialista en Diagnóstico por Imágenes de la Región Buco - Maxilofacial                        ';
@@ -446,9 +465,9 @@ class DatabaseSeeder extends Seeder
 
 
     // EN REVISION
-    // $c->titulo = 'Magister en Medicina Tropical e Higiene';
-    // $c->titulo = 'Especialista en Infectología';
-    // $c->titulo = 'Especialista en Bacteriología Clínica';
+    // $c->titulo = 'Magister en Medicina Tropical e Higiene';$c->addAutoridad('Dr.  Jorge Osvaldo Gorodner');
+    // $c->titulo = 'Especialista en Infectología'; Dr.  Jorge Osvaldo Gorodner
+    // $c->titulo = 'Especialista en Bacteriología Clínica'; Dr. Luis Antonio Merino
     // $c->titulo = 'Magister en Análisis Institucional en las Prácticas Profesionales y la Formación; Orientación Ciencias de la Salud';
     // $c->titulo = 'Especialista en Docencia y Gestión Universitaria con orientación en Ciencias  de la Salud.';
     // $c->titulo = 'Especialsta en Prótesis Dentobucomaxilar';
