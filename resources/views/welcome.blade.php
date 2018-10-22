@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-md-10"><h2>Ofertas de Posgrado</h2></div>
+                        <div class="col-md-10"><h2>Noticias</h2></div>
                     </div>
                 </div>
             </div>{{-- end card --}}

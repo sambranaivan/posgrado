@@ -37,7 +37,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="/">
-                               Inicio
+                               Noticias
                             </a>
                         </li>
                          <li class="nav-item">
@@ -45,6 +45,12 @@
                                Carreras
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                               Guia de Trámites
+                            </a>
+                        </li>
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->

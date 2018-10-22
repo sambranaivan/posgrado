@@ -52,5 +52,12 @@ class CarreraController extends Controller
 
 }
 
+// PDF
+
+    public function getDoctoradoPdf(){
+
+
+    }
+
 
 }
