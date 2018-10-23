@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::group(['middleware' => ['auth']], function () {
    // Only authenticated users may enter...
+    Route::get('admin');
     Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
     Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
     // Carreras

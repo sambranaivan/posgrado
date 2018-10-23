@@ -14,6 +14,7 @@
                         </div>
                     @endif
 
+                    @auth
 
                     <div class="row">
                             <div class="col col-md-3 col-md-offset-1">
@@ -44,6 +45,8 @@
                             </div>
 
                     </div>
+                    @endauth
+
                 </div>
             </div>
         </div>
