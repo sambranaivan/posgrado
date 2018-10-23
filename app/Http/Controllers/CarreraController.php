@@ -71,4 +71,10 @@ public function getDoctorado(){
 
     }
 
+
+    public function editView($id){
+        $s = Carrera::find($id);
+        return view('edit')->with('carrera',$s);
+    }
+
 }

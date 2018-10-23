@@ -19,7 +19,12 @@ Auth::routes();
 
 Route::group(['middleware' => ['auth']], function () {
    // Only authenticated users may enter...
-    Route::get('admin');
+    Route::get('admin',function(){
+        return view('admin');
+    });
+
+    Route::get('edit/{id}','CarreraController@editView');
+    Route::Post('editar','CarreraController@editSave');
     Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
     Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
     // Carreras
