@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Carrera;
+use App\Unidad;
 use Barryvdh\DomPDF\Facade as PDF;
 class CarreraController extends Controller
 {
@@ -74,7 +75,7 @@ public function getDoctorado(){
 
     public function editView($id){
         $s = Carrera::find($id);
-        return view('edit')->with('carrera',$s);
+        return view('edit')->with('carrera',$s)->with('unidades',Unidad::all());
     }
 
 }

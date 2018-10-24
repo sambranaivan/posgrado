@@ -45,18 +45,58 @@
         <div class="form-group">
             <label for="denominacion">Denominación</label>
             <select class="form-control" name="denominacion" id="denominacion">
-                <option value="1">Especialización</option>
-                <option value="2">Maestría</option>
-                <option value="3">Doctorado</option>
+                <option value="1"
+                @if ($carrera->denominacion_id == 1)
+                    selected
+                @endif
+                >Especialización</option>
+                <option value="2"
+                @if ($carrera->denominacion_id == 2)
+                    selected
+                @endif
+                >Maestría</option>
+                <option value="3"
+                @if ($carrera->denominacion_id == 3)
+                    selected
+                @endif
+                >Doctorado</option>
             </select>
         </div>
+
+        {{--  muestro todas la unidades academicas y elijo la mia noma   --}}
+
+            <div class="form-group">
+              <label for="unidad">Unidad Académica</label>
+              <select class="form-control" name="unidad" id="">
+                @foreach ($unidades as $unidad)
+                    <option value="{{$unidad->id}}"
+                        @if ($unidad->id == $carrera->unidad_id)
+                        selected
+                        @endif
+                        >
+                        {{$unidad->nombre}}
+                    </option>
+                @endforeach
+              </select>
+
+        </div>
+
+
         <button type="submit" class="btn btn-primary">Actualizar <i class="fas fa-sync-alt" aria-hidden="true"></i></button>
 
     </form>
       </div>
     </div>
   </div>
-  <div class="tab-pane fade" id="academica" role="tabpanel" aria-labelledby="academica-tab">academica-tab</div>
+  <div class="tab-pane fade" id="academica" role="tabpanel" aria-labelledby="academica-tab">
+      <div class="card">
+        <div class="card-body">
+            <form action="" method="post">
+
+            </form>
+        </div>
+      </div>
+  </div>
   <div class="tab-pane fade" id="autoridad" role="tabpanel" aria-labelledby="autoridad-tab">autoridad-tab</div>
   <div class="tab-pane fade" id="resolucion" role="tabpanel" aria-labelledby="resolucion-tab">resolucion-tab</div>
 </div>
