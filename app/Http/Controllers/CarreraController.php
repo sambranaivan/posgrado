@@ -78,4 +78,21 @@ public function getDoctorado(){
         return view('edit')->with('carrera',$s)->with('unidades',Unidad::all());
     }
 
+    public function editSave(Request $request){
+
+
+        $c = Carrera::find($request->id);
+        $c->unidad_id = $request->unidad;
+        $c->nombre = $request->nombre;
+        $c->titulo = $request->titulo;
+        $c->denominacion_id = $request->denominacion;
+
+        $c->save();
+
+        // print("ok");
+        return redirect('edit/'.$c->id)->with('info','Carrera Actualizada');
+
+
+    }
+
 }

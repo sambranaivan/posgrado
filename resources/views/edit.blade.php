@@ -3,8 +3,21 @@
 @section('content')
 
 <div class="container">
+
     <div class="row justify-content-center">
 <div class="col-md-8">
+    @if ($mensaje = Session::get('info'))
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <strong>{{$mensaje}}</strong>
+</div>
+
+<script>
+  $(".alert").alert();
+</script>
+    @endif
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="carrera-tab" data-toggle="tab" href="#carrera" role="tab" aria-controls="carrera" aria-selected="true">Carrera
@@ -27,9 +40,10 @@
 
       <div class="card-body">
 
-        <form class="form" method="POST">
+        <form class="form" action="/editarCarrera"method="POST">
         {{ csrf_field() }}
 
+            <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
         <div class="form-group">
           <label for="nombre">Nombre</label>
           <input type="text" name="nombre" id="frm_nombre" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->nombre}}">

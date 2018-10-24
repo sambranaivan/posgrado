@@ -12,7 +12,18 @@ $(document).ready(function(){
 
             <div class="card">
                 <div class="card-header">
-                    <h2 class="text-center">Ofertas de {{$titulo}}</h2>
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <h2 class="text-center">Ofertas de {{$titulo}}</h2>
+                        </div>
+                        <div class="col-md-3 text-right">
+                            <a class="btn btn-primary" href="#">
+                                Agregar nueva Carrera
+                                <i class="fas fa-edit    "></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card-body">
@@ -30,6 +41,11 @@ $(document).ready(function(){
                         </div>
                         <div class="col-md-7 bg-light">
 @if ($selected)
+                            @auth
+                                <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
+                                        Editar carrera <i class="fas fa-edit"></i>
+                                </a>
+                            @endauth
                             {{-- {{print_r($selected)}} --}}
                             <h3>{{$selected->nombre}}</h3>
                               <span> &nbsp</span>
