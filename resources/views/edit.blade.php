@@ -21,7 +21,6 @@
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="carrera-tab" data-toggle="tab" href="#carrera" role="tab" aria-controls="carrera" aria-selected="true">Carrera
-
     </a>
   </li>
   <li class="nav-item">
@@ -105,8 +104,21 @@
   <div class="tab-pane fade" id="academica" role="tabpanel" aria-labelledby="academica-tab">
       <div class="card">
         <div class="card-body">
-            <form action="" method="post">
-
+            <form action="edit/unidad" method="post">
+                @csrf
+                <div class="form-group">
+                  <label for="unidad">Nombre</label>
+                  <input type="hidden" name="unidad_id" value="{{$carrera->unidad_id}}">
+                  <input type="text" class="form-control" name="nombre" id="" aria-describedby="helpId" placeholder="" value="{{$carrera->unidadAcademica->nombre}}">
+                </div>
+                <div class="form-group">
+                  <label for="direccion">Domicilio</label>
+                  <input type="text" class="form-control" name="direccion" id="" aria-describedby="helpId" placeholder="" value="{{$carrera->unidadAcademica->domicilio}}">
+                </div>
+                <div class="form-group">
+                  <label for="contacto">Telefono</label>
+                  <input type="text" class="form-control" name="telefono" id="" aria-describedby="helpId" placeholder="" value="{{$carrera->unidadAcademica->telefono}}">
+                </div>
             </form>
         </div>
       </div>

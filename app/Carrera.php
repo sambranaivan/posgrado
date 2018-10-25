@@ -87,5 +87,14 @@ $this->addResolucion($me,3);
         return $this->hasMany('App\designacion','carrera_id');
     }
 
+    public function unidadAcademica(){
+        return $this->belongsTo('App\unidad','unidad_id');
+    }
+
+    public function autoridades(){
+        return $this->hasMany('App\designacion','unidad_id');
+    }
+
+
 
 }

@@ -18,6 +18,8 @@ class CreateUnidadsTable extends Migration
             $table->string('alias');
             $table->string('nombre');
             $table->string('link')->nullable();
+            $table->string('domicilio')->nullable();
+            $table->string('telefono')->nullable();
             $table->timestamps();
         });
     }

@@ -18,10 +18,12 @@ $(document).ready(function(){
                             <h2 class="text-center">Ofertas de {{$titulo}}</h2>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-primary" href="#">
+                            @auth
+                                <a class="btn btn-primary" href="#">
                                 Agregar nueva Carrera
                                 <i class="fas fa-edit    "></i>
                             </a>
+                            @endauth
                         </div>
                     </div>
                 </div>
