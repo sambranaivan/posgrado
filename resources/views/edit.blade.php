@@ -106,15 +106,18 @@
         <div class="card-body">
             <form action="edit/unidad" method="post">
                 @csrf
+
                 <div class="form-group">
                   <label for="unidad">Nombre</label>
                   <input type="hidden" name="unidad_id" value="{{$carrera->unidad_id}}">
                   <input type="text" class="form-control" name="nombre" id="" aria-describedby="helpId" placeholder="" value="{{$carrera->unidadAcademica->nombre}}">
                 </div>
+
                 <div class="form-group">
                   <label for="direccion">Domicilio</label>
                   <input type="text" class="form-control" name="direccion" id="" aria-describedby="helpId" placeholder="" value="{{$carrera->unidadAcademica->domicilio}}">
                 </div>
+
                 <div class="form-group">
                   <label for="contacto">Telefono</label>
                   <input type="text" class="form-control" name="telefono" id="" aria-describedby="helpId" placeholder="" value="{{$carrera->unidadAcademica->telefono}}">
@@ -123,7 +126,42 @@
         </div>
       </div>
   </div>
-  <div class="tab-pane fade" id="autoridad" role="tabpanel" aria-labelledby="autoridad-tab">autoridad-tab</div>
+  <div class="tab-pane fade" id="autoridad" role="tabpanel" aria-labelledby="autoridad-tab">
+    <h3 class="text-muted text-center">Designaciones</h3>
+    <div class="card">
+        <div class="card-body">
+            <ul class="list-group">
+
+
+                @foreach ($carrera->designaciones as $designacion)
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-md-12"><h3 class="text-muted text-center">{{$designacion->cargo}}</h3></div>
+                        <div class="col-md-4">{{$designacion->autoridad->nombre}}</div>
+                        <div class="col-md-3">Tel: {{$designacion->autoridad->contacto}}</div>
+                        <div class="col-md-3">Email: {{$designacion->autoridad->email}}</div>
+                        <div class="col-md-2"><a href="/edit/autoridad/{{$designacion->autoridad->id}}" class="btn btn-primary btn-sm btn-block"><i class="fas fa-edit"></i></a></div>
+                    </div>
+                </li>
+
+
+                @endforeach
+                <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-12">
+
+                            <button type="button" name="" id="" class="btn btn-primary btn-sm">Nueva Designación</button>
+
+                    </div>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+  </div>
   <div class="tab-pane fade" id="resolucion" role="tabpanel" aria-labelledby="resolucion-tab">resolucion-tab</div>
 </div>
 

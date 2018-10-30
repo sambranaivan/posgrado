@@ -46,3 +46,8 @@ Route::get('/carreras/especializacion/{id}','CarreraController@showespecializaci
 Route::get("/download/doctorado",'CarreraController@getDoctoradoPdf');
 
 Route::get("/doctorado",'CarreraController@getDoctorado');
+
+
+
+////Open Data
+
