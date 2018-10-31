@@ -19,7 +19,6 @@
                     <div class="row">
                             <div class="col col-md-3 col-md-offset-1">
                                 <a href="/admin/ofertas">
-
                                     <button type="button" class="btn btn-primary btn-block">Ofertas</button>
                                 </a>
                             </div>

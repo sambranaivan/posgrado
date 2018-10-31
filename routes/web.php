@@ -30,10 +30,10 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
     Route::get('admin/carreras/add','CarreraController@nuevaCarrera')->name('nuevaCarrera');
 
-      Route::get('edit/autoridad/{id}','AutoridadController@edit');
-      Route::get('edit/designacion/{id}','DesignacionController@edit');
-      Route::get('edit/unidad/{id}','UnidadController@edit');
-      Route::get('edit/resolucion/{id}','ResolucionController@edit');
+    Route::get('edit/autoridad/{id}','AutoridadController@edit');
+    Route::get('edit/designacion/{id}','DesignacionController@edit');
+    Route::get('edit/unidad/{id}','UnidadController@edit');
+    Route::get('edit/resolucion/{id}','ResolucionController@edit');
 
 });
 
