@@ -140,7 +140,11 @@
                         <div class="col-md-4">{{$designacion->autoridad->nombre}}</div>
                         <div class="col-md-3">Tel: {{$designacion->autoridad->contacto}}</div>
                         <div class="col-md-3">Email: {{$designacion->autoridad->email}}</div>
-                        <div class="col-md-2"><a href="/edit/autoridad/{{$designacion->autoridad->id}}" class="btn btn-primary btn-sm btn-block"><i class="fas fa-edit"></i></a></div>
+                        <div class="col-md-2">
+                            <a href="/edit/autoridad/{{$designacion->autoridad->id}}" class="btn btn-primary btn-sm btn-block">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                        </div>
                     </div>
                 </li>
 
@@ -149,9 +153,7 @@
                 <li class="list-group-item">
                 <div class="row">
                     <div class="col-md-12">
-
                             <button type="button" name="" id="" class="btn btn-primary btn-sm">Nueva Designación</button>
-
                     </div>
                 </div>
                 </li>
