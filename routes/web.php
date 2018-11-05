@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::group(['middleware' => ['auth']], function () {
    // Only authenticated users may enter...
+   //
     Route::get('admin',function(){
         return view('admin');
     });
