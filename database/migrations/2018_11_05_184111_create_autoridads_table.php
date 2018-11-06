@@ -19,6 +19,12 @@ class CreateAutoridadsTable extends Migration
             $table->string('nombre');
             $table->string('contacto')->nullable();
             $table->string('email')->nullable();
+            // refactor from designacion
+            $table->unsignedInteger('carrera_id');
+            //relacion con carrera
+            $table->foreign('carrera_id')->references('id')->on('carreras')->onDelete('cascade');
+
+            $table->string('cargo');
             $table->timestamps();
 
         });
