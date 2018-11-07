@@ -5,11 +5,11 @@
 
 
 
-<form class="form-group"  method="POST" action="/subir">
+<form class="form-group"  method="POST" action="/subir" enctype="multipart/form-data">
     @csrf
 <div class="from-group">
-    <label for="Archivo"></label>
-    <input type="file" name="pdf" class="form-control" enctype="multipart/form-data">
+    <label for="archivo"></label>
+    <input type="file" name="archivo" class="form-control-file">
 </div>
 <button type="submit" class="btn btn-primary">Submit</button>
 </form>

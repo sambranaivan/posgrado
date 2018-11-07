@@ -8,15 +8,18 @@ class ResolucionController extends Controller
 {
     //
 
-    public function subir(Request $request)
+    public function subir(request $request)
     {
-            if($request->hasfile('pdf'))
+            if($request->hasFile('archivo'))
             {
-                $file = $request->file('pdf');
-                $name = 'prueb';
+                $file = $request->file('archivo');
+                $name = 'prueb.pdf';
                 $file->move(public_path().'/pdf/',$name);
                 return $name;
 
             }
+           else{
+               return 'no archivo';
+           }
     }
 }
