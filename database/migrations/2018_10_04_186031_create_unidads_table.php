@@ -20,6 +20,8 @@ class CreateUnidadsTable extends Migration
             $table->string('link')->nullable();
             $table->string('domicilio')->nullable();
             $table->string('telefono')->nullable();
+            $table->unsignedInteger("user_id")->nullable();
+            $table->foreign("user_id")->references("id")->on("users");
             $table->timestamps();
         });
     }
