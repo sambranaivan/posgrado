@@ -120,6 +120,13 @@ class DatabaseSeeder extends Seeder
         $d = new Denominacion();
         $d->descripcion = 'Doctorado';
         $d->save();
+
+        // $d = new Denominacion();
+        // $d->descripcion = 'Doctorado';
+        // $d->save();
+        // $d = new Denominacion();
+        // $d->descripcion = 'Doctorado';
+        // $d->save();
      }
 
     private function seedCarreras(){

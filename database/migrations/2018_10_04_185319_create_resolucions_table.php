@@ -18,7 +18,7 @@ class CreateResolucionsTable extends Migration
             $table->string('codigo');//en 4 cifras luego se le da formato
 
             $table->integer('tipo');//1 = cs, 2= cn,3 = me
-            // $table->string('descripcion')->;
+            $table->string('descripcion')->nullable();
             $table->string('url')->nullable();
             $table->timestamps();
         });
