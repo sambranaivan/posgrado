@@ -16,9 +16,11 @@ class CreateResolucionsTable extends Migration
         Schema::create('resolucions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('codigo');//en 4 cifras luego se le da formato
-            $table->integer('tipo');//1 = cs, 2= cn,3 = me
+            //$table->integer('tipo');//1 = cs, 2= cn,3 = me
             $table->string('descripcion')->nullable();
-            $table->string('url')->nullable();
+            $table->string('file')->nullable();
+            $table->unsignedInteger('carrera_id');
+            $table->foreign('carrera_id')->references('id')->on("carreras")->onDelete('cascade');
             $table->timestamps();
         });
     }

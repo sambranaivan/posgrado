@@ -18,12 +18,16 @@ class CreateCarrerasTable extends Migration
             $table->integer('anio')->nullable();
             $table->string('nombre');
             $table->string('titulo')->default('');//titulo que otorga
-            $table->unsignedInteger('consejo_id');//resolucion de consejo superior
-            $table->foreign('consejo_id')->references('id')->on('resolucions')->onDelete('cascade');
-            $table->unsignedInteger('coneau_id')->nullable();//resolucion de coneau
-            $table->foreign('coneau_id')->references('id')->on('resolucions')->onDelete('cascade');
-            $table->unsignedInteger('ministerio_id')->nullable();//resolucion de miniterio de educacion
-            $table->foreign('ministerio_id')->references('id')->on('resolucions')->onDelete('cascade');
+
+            // $table->unsignedInteger('consejo_id');//resolucion de consejo superior
+            // $table->foreign('consejo_id')->references('id')->on('resolucions')->onDelete('cascade');
+            // $table->unsignedInteger('coneau_id')->nullable();//resolucion de coneau
+            // $table->foreign('coneau_id')->references('id')->on('resolucions')->onDelete('cascade');
+            // $table->unsignedInteger('ministerio_id')->nullable();//resolucion de miniterio de educacion
+            // $table->foreign('ministerio_id')->references('id')->on('resolucions')->onDelete('cascade');
+
+
+
             $table->unsignedInteger('denominacion_id');//denominacion
             $table->foreign('denominacion_id')->references('id')->on('denominacions')->onDelete('cascade');
             $table->string('descripcion')->nullable();
