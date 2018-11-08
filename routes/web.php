@@ -57,8 +57,10 @@ Route::get("/doctorado",'CarreraController@getDoctorado');
 Route::get('get/carreras','CarreraController@getJson');
 
 //file test
-Route::get('subirpdf',function(){
-    return view('subirpdf');
+Route::get('nuevotramite',function(){
+    return view('nuevo_tramite');
 });
 
-Route::post('/subir',"resolucionController@subir");
+Route::post('/nuevotramite',"TramiteController@subir");
+
+Route::get('tramites',"TramiteController@listado");

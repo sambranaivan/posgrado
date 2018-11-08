@@ -5,7 +5,7 @@
 
 
 
-<form  method="POST" action="/subir" enctype="multipart/form-data">
+<form  method="POST" action="/nuevotramite" enctype="multipart/form-data">
     @csrf
 
     <div class="from-group">
