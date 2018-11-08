@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateResolucionsTable extends Migration
+class CreateTramitesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class CreateResolucionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('resolucions', function (Blueprint $table) {
+        Schema::create('tramites', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('codigo');//en 4 cifras luego se le da formato
-            $table->integer('tipo');//1 = cs, 2= cn,3 = me
-            $table->string('descripcion')->nullable();
-            $table->string('url')->nullable();
+            $table->string('titulo');
+            $table->string('file');
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class CreateResolucionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('resolucions');
+        Schema::dropIfExists('tramites');
     }
 }

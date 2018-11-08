@@ -55,3 +55,10 @@ Route::get("/doctorado",'CarreraController@getDoctorado');
 ////Open Data
 
 Route::get('get/carreras','CarreraController@getJson');
+
+//file test
+Route::get('subirpdf',function(){
+    return view('subirpdf');
+});
+
+Route::post('/subir',"resolucionController@subir");

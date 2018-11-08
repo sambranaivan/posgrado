@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 
 use App\Unidad;
+use App\User;
 use App\Carrera;
 use App\Denominacion;
 use App\Resolucion;
@@ -17,10 +18,20 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
     // $this->call(UsersTableSeeder::class);
-    self::seedUnidadesAcademicas();
+    self::seedUnidadesAcademicas();//con usuarios
     self::seedDenominacion();
     self::seedCarreras();
+    self::seedAdmin();
         // self::seedContructor();
+    }
+
+    private function seedAdmin(){
+
+        $u = new User();
+        $u->name = "admin";
+        $u->email = "sambranaivan@gmail.com";
+        $u->password = bcrypt("admin");
+        $u->save();
     }
 
     private function seedUnidadesAcademicas()
@@ -31,51 +42,65 @@ class DatabaseSeeder extends Seeder
             $u->nombre = 'Facultad de Medicina';
             $u->alias = 'medicina';
             $u->save();
+            $u->generateUser();
+
+
+
+
 
             $u = new Unidad();
             $u->alias = 'odontologia';
             $u->nombre = 'Odontología';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'arquitectura';
             $u->nombre = 'Facultad de Arquitectura y Urbanismo';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'agrarias';
             $u->nombre = 'Facultad de Ciencias Agrarias';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'economicas';
             $u->nombre = 'Facultad de Ciencias Económicas';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'exactas';
             $u->nombre = 'Facultad de  Ciencias  Exactas y Naturales  y Agrimensura';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'veterinaria';
             $u->nombre = 'Facultad de Ciencias  Veterinarias';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'derecho';
             $u->nombre = 'Facultad de Derecho y Ciencias Sociales y Políticas';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'humanidades';
             $u->nombre = 'Facultad de Humanidades';
             $u->save();
+            $u->generateUser();
 
             $u = new Unidad();
             $u->alias = 'ingenieria';
             $u->nombre = 'Facultad de Ingeniería ';
             $u->save();
+            $u->generateUser();
 
 
 
@@ -95,6 +120,13 @@ class DatabaseSeeder extends Seeder
         $d = new Denominacion();
         $d->descripcion = 'Doctorado';
         $d->save();
+
+        // $d = new Denominacion();
+        // $d->descripcion = 'Doctorado';
+        // $d->save();
+        // $d = new Denominacion();
+        // $d->descripcion = 'Doctorado';
+        // $d->save();
      }
 
     private function seedCarreras(){

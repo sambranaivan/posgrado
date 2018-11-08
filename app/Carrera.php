@@ -45,14 +45,9 @@ class Carrera extends Model
     {
         $a = new Autoridad();
         $a->nombre = $nombre;
+        $a->cargo = $cargo;
+        $a->carrera_id = $this->id;
         $a->save();
-
-
-        $d = new Designacion();
-        $d->cargo = $cargo;
-        $d->carrera_id = $this->id;
-        $d->autoridad_id = $a->id;
-        $d->save();
         return $this;
 
     }
@@ -92,7 +87,7 @@ $this->addResolucion($me,3);
     }
 
     public function autoridades(){
-        return $this->hasMany('App\designacion','unidad_id');
+        return $this->hasMany('App\autoridad','carrera_id');
     }
 
 

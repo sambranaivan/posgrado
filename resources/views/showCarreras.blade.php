@@ -58,8 +58,8 @@ $(document).ready(function(){
                             <span> &nbsp</span>
                             <p><strong><u>Autoridades</u></strong></p>
 
-                            @foreach ($selected->designaciones as $designacion)
-                                    <p><strong>{{$designacion->cargo}}: </strong>{{$designacion->autoridad->nombre}}</p>
+                            @foreach ($selected->autoridades as $autoridades)
+                                    <p><strong>{{$autoridades->cargo}}: </strong>{{$autoridades->nombre}}</p>
                             @endforeach
                             {{-- <p><strong>Acreditación: </strong>{{$selected->ministerio->codigo}}</p> --}}
                              <span> &nbsp</span>
