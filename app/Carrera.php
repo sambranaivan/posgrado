@@ -21,28 +21,20 @@ class Carrera extends Model
         return $this;
     }
 
-    public function addResolucion($codigo,$tipo)
+    public function addResolucion($codigo,$descripcion)
     {
         $res = new Resolucion();
         $res->codigo = $codigo;
-        $res->tipo = $tipo;
+        $res->descripcion = $descripcion;
+        $res->carrera_id = $this->id;
         $res->save();
-        switch($tipo){
-            case 1:
-            $this->consejo_id = $res->id;
-            break;
-            case 2:
-            $this->coneau_id = $res->id;
-            break;
-            case 3:
-            $this->ministerio_id = $res->id;
-            break;
-        }
+
         return $this;
     }
 
     public function addAutoridad($nombre,$cargo = "Director")
     {
+
         $a = new Autoridad();
         $a->nombre = $nombre;
         $a->cargo = $cargo;
@@ -55,32 +47,22 @@ class Carrera extends Model
     public function constructor($nombre,$res,$cn,$me)
     {
         $this->nombre = $nombre;
-$this->addResolucion($res,1);
-$this->addResolucion($cn,2);
-$this->addResolucion($me,3);
+        $this->save();
+$this->addResolucion($res,'Consejo Superior');
+$this->addResolucion($cn,'Coneau');
+$this->addResolucion($me,'Ministerial');
 
 
     }
 
     ////relaciones
-    public function resolucion()
+    public function resoluciones()
     {
-    return $this->belongsTo('App\resolucion','consejo_id');
-    }
-    ////relaciones
-    public function coneau()
-    {
-    return $this->belongsTo('App\resolucion','coneau_id');
-    }
-    ////relaciones
-    public function ministerio()
-    {
-    return $this->belongsTo('App\resolucion','ministerio_id');
+    return $this->hasMany('App\resolucion','carrera_id');
     }
 
-    public function designaciones(){
-        return $this->hasMany('App\designacion','carrera_id');
-    }
+
+
 
     public function unidadAcademica(){
         return $this->belongsTo('App\unidad','unidad_id');
