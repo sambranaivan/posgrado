@@ -172,7 +172,7 @@
                     @foreach ($carrera->resoluciones as $item)
 
                         <div class="list-group">
-                            <a class="list-group-item clearfix">
+                            <li class="list-group-item clearfix">
                             {{$item->descripcion.": ".$item->codigo }}
 
 
@@ -181,9 +181,9 @@
                                 </button>
 
                             @if($item->file)
-                                <button class="btn btn-sm float-right btn-danger">
+                                <a href="{{asset('/pdf/resoluciones/'.$item->file)}}" class="btn btn-sm float-right btn-danger">
                                     <i class="fas fa-file-pdf    "></i>
-                                </button>
+                                </a>
                             @else
                                 <button onclick="" class="btn btn-sm float-right btn-success">
                                     <i class="fas fa-file-upload    "></i>
@@ -192,7 +192,7 @@
 
 
 
-                            </a>
+                            </li>
 
                         </div>
                         @endforeach

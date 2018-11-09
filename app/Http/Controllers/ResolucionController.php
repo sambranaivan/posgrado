@@ -20,7 +20,7 @@ class ResolucionController extends Controller
             if($request->hasFile('archivo'))
             {
                 $file = $request->file('archivo');
-                $name = "resolucion_".$r->descripcion."_".$r->codigo;
+                $name = "resolucion_".$r->id.".pdf";
                 $file->move(public_path().'/pdf/resoluciones/',$name);
                 $r->file = $name;
 
