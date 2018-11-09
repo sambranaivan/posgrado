@@ -37,6 +37,8 @@ Route::group(['middleware' => ['auth']], function () {
 
     // Gestion
     Route::get('gestion/carreras','CarreraController@gestionListado');
+    Route::Post('nuevoAutoridad','AutoridadController@nuevo');
+    Route::Post('updateAutoridad','AutoridadController@update');
 
 });
 

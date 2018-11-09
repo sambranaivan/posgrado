@@ -126,6 +126,7 @@
         </div>
       </div>
   </div>
+  {{-- TAB AUTORIDADES --}}
   <div class="tab-pane fade" id="autoridad" role="tabpanel" aria-labelledby="autoridad-tab">
     <h3 class="text-muted text-center">Designaciones</h3>
     <div class="card">
@@ -134,30 +135,67 @@
 
 
                 @foreach ($carrera->autoridades as $autoridad)
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-md-12"><h3 class="text-muted text-center">{{$autoridad->cargo}}</h3></div>
-                        <div class="col-md-4">{{$autoridad->nombre}}</div>
-                        <div class="col-md-3">Tel: {{$autoridad->contacto}}</div>
-                        <div class="col-md-3">Email: {{$autoridad->email}}</div>
-                        <div class="col-md-2">
-                            <a href="/edit/autoridad/{{$autoridad->id}}" class="btn btn-primary btn-sm btn-block">
-                                <i class="fas fa-edit"></i>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-
-
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-12"><h3 class="text-muted text-center">{{$autoridad->cargo}}</h3></div>
+                                <div class="col-md-4">{{$autoridad->nombre}}</div>
+                                <div class="col-md-3">Tel: {{$autoridad->contacto}}</div>
+                                <div class="col-md-3">Email: {{$autoridad->email}}</div>
+                                <div class="col-md-2">
+                                    <a href="/edit/autoridad/{{$autoridad->id}}" class="btn btn-primary btn-sm btn-block">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                 @endforeach
-                <li class="list-group-item">
-                <div class="row">
-                    <div class="col-md-12">
-                            <button type="button" name="" id="" class="btn btn-primary btn-sm">Nueva Designación</button>
-                    </div>
-                </div>
-                </li>
             </ul>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#autoridadModal">
+  Nueva Designación
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="autoridadModal" tabindex="-1" role="dialog" aria-labelledby="autoridadModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="autoridadModalLabel">Nueva Designacion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{-- ///form de alta de autoridad --}}
+        <form method="POST"  action="/nuevoAutoridad">
+            @csrf
+            <input type="hidden" name="id" value="{{$carrera->id}}" >
+            <div class="form-group">
+              <label for="cargo">Cargo</label>
+              <input type="text" name="cargo" id="" class="form-control" placeholder="Cargo" aria-describedby="helpId" required>
+            </div>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="" class="form-control" placeholder="nombre" aria-describedby="helpId" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Direccion de Correo Electrónico</label>
+              <input type="email" name="email" id="" class="form-control" placeholder="email" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="contacto">Teléfono de contacto</label>
+              <input type="text" name="contacto" id="" class="form-control" placeholder="contacto" aria-describedby="helpId">
+            </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      {{-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        {{-- <button type="button" class="btn btn-primary">Enviar</button>
+      </div> --}}
+    </div>
+  </div>
+</div>
         </div>
 
     </div>
