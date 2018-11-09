@@ -51,9 +51,18 @@ $(document).ready(function(){
                             {{-- {{print_r($selected)}} --}}
                             <h3>{{$selected->nombre}}</h3>
                               <span> &nbsp</span>
-                            <p><strong>Título que otorga:</strong>{{$selected->titulo}} </p>
-                            <p><strong>Resolución de Creación de Carrera: </strong>{{$selected->resolucion->codigo}}</p>
-                            <p><strong>Acreditación: </strong>{{$selected->coneau->codigo}} - {{$selected->ministerio->codigo}}</p>
+                            <p><strong>Título que otorga: </strong>{{$selected->titulo}} </p>
+
+                                @foreach ($selected->resoluciones as $item)
+                                        <p>
+                                            <strong>
+                                                Resolución {{$item->descripcion}}:
+                                            </strong>
+                                                {{$item->codigo}}
+                                            </p>
+
+
+                                @endforeach
 
                             <span> &nbsp</span>
                             <p><strong><u>Autoridades</u></strong></p>

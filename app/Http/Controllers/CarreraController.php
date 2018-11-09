@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Carrera;
 use App\Unidad;
 use Barryvdh\DomPDF\Facade as PDF;
@@ -59,16 +60,18 @@ class CarreraController extends Controller
     public function getDoctoradoPdf(){
 
 
-        $carreras = Carrera::where('denominacion_id',3)->get();
-  $pdf = PDF::loadView('folleto_doctorado',compact('carreras'));
-//   $pdf->set_paper("A4", "portrait");
-  return $pdf->stream('pruebapdf.pdf');
-    }
-public function getDoctorado(){
+                $carreras = Carrera::where('denominacion_id',3)->get();
+        $pdf = PDF::loadView('folleto_doctorado',compact('carreras'));
+        //   $pdf->set_paper("A4", "portrait");
+        return $pdf->stream('pruebapdf.pdf');
+            }
 
 
-        $carreras = Carrera::where('denominacion_id',3)->get();
-  return view('folleto_doctorado',compact('carreras'));
+        public function getDoctorado(){
+
+
+                $carreras = Carrera::where('denominacion_id',3)->get();
+        return view('folleto_doctorado',compact('carreras'));
 
     }
 
@@ -93,6 +96,22 @@ public function getDoctorado(){
         return redirect('edit/'.$c->id)->with('info','Carrera Actualizada');
 
 
+    }
+
+    // GESTION
+
+    public function gestionListado(){
+
+        if(Auth::user()->id == 1)
+        {
+            $c = Carrera::all();
+        }
+        else
+        {
+            $c = Auth::user()->carreras();
+        }
+
+        return view('gestioncarrera')->with('carreras',$c);
     }
 
 }

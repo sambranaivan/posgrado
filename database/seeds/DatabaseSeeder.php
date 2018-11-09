@@ -18,10 +18,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
     // $this->call(UsersTableSeeder::class);
+    self::seedAdmin();
     self::seedUnidadesAcademicas();//con usuarios
     self::seedDenominacion();
     self::seedCarreras();
-    self::seedAdmin();
         // self::seedContructor();
     }
 
@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
 
         $u = new User();
         $u->name = "admin";
-        $u->email = "sambranaivan@gmail.com";
+        $u->email = "admin";
         $u->password = bcrypt("admin");
         $u->save();
     }

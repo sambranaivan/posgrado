@@ -80,7 +80,7 @@
 
             <div class="form-group">
               <label for="unidad">Unidad Académica</label>
-              <select class="form-control" name="unidad" id="">
+              <select class="form-control" name="unidad" id="" disabled>
                 @foreach ($unidades as $unidad)
                     <option value="{{$unidad->id}}"
                         @if ($unidad->id == $carrera->unidad_id)
@@ -133,15 +133,15 @@
             <ul class="list-group">
 
 
-                @foreach ($carrera->designaciones as $designacion)
+                @foreach ($carrera->autoridades as $autoridad)
                 <li class="list-group-item">
                     <div class="row">
-                        <div class="col-md-12"><h3 class="text-muted text-center">{{$designacion->cargo}}</h3></div>
-                        <div class="col-md-4">{{$designacion->autoridad->nombre}}</div>
-                        <div class="col-md-3">Tel: {{$designacion->autoridad->contacto}}</div>
-                        <div class="col-md-3">Email: {{$designacion->autoridad->email}}</div>
+                        <div class="col-md-12"><h3 class="text-muted text-center">{{$autoridad->cargo}}</h3></div>
+                        <div class="col-md-4">{{$autoridad->nombre}}</div>
+                        <div class="col-md-3">Tel: {{$autoridad->contacto}}</div>
+                        <div class="col-md-3">Email: {{$autoridad->email}}</div>
                         <div class="col-md-2">
-                            <a href="/edit/autoridad/{{$designacion->autoridad->id}}" class="btn btn-primary btn-sm btn-block">
+                            <a href="/edit/autoridad/{{$autoridad->id}}" class="btn btn-primary btn-sm btn-block">
                                 <i class="fas fa-edit"></i>
                             </a>
                         </div>
@@ -164,7 +164,45 @@
 
 
   </div>
-  <div class="tab-pane fade" id="resolucion" role="tabpanel" aria-labelledby="resolucion-tab">resolucion-tab</div>
+  <div class="tab-pane fade" id="resolucion" role="tabpanel" aria-labelledby="resolucion-tab">
+
+
+      <div class="row" id="listadoResoluciones">
+            <div class="col-md-12">
+                    @foreach ($carrera->resoluciones as $item)
+
+                        <div class="list-group">
+                            <a class="list-group-item clearfix">
+                            {{$item->descripcion.": ".$item->codigo }}
+
+
+                            <button onclick="location.href='/edit/resolucion/{{$item->id}}'"  class="btn btn-sm float-right ">
+                                    <i class="fas fa-edit    "></i>
+                                </button>
+
+                            @if($item->file)
+                                <button class="btn btn-sm float-right btn-danger">
+                                    <i class="fas fa-file-pdf    "></i>
+                                </button>
+                            @else
+                                <button onclick="" class="btn btn-sm float-right btn-success">
+                                    <i class="fas fa-file-upload    "></i>
+                                </button>
+                            @endif
+
+
+
+                            </a>
+
+                        </div>
+                        @endforeach
+                    </div>
+        </div>
+
+
+
+
+  </div>
 </div>
 
 

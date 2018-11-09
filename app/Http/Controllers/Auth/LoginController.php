@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Auth;
 
+
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-
+use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     /*
@@ -35,5 +36,36 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+         $this->name = $this->findname();
     }
+
+     /**
+     * Get the login name to be used by the controller.
+     *
+     * @return string
+     */
+    public function findname()
+    {
+        $login = request()->input('login');
+
+        $fieldType = filter_var($login, FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
+
+        request()->merge([$fieldType => $login]);
+
+        return $fieldType;
+    }
+
+    /**
+     * Get name property.
+     *
+     * @return string
+     */
+    public function name()
+    {
+        return $this->name;
+    }
+
+
+
+
 }

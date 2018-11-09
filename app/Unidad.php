@@ -12,7 +12,7 @@ class Unidad extends Model
         $u = new User();
         $u->name = $this->alias;
         $u->email = $this->alias;
-        $u->password = bcrypt($this->alias.$this->alias);
+        $u->password = bcrypt($this->alias);
         $u->save();
 
     }
