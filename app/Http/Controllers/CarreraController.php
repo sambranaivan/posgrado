@@ -108,7 +108,11 @@ class CarreraController extends Controller
         }
         else
         {
-            $c = Auth::user()->carreras();
+            $c = Auth::user()->unidad->carreras;
+
+
+
+
         }
 
         return view('gestioncarrera')->with('carreras',$c);

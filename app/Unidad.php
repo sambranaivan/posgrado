@@ -14,6 +14,12 @@ class Unidad extends Model
         $u->email = $this->alias;
         $u->password = bcrypt($this->alias);
         $u->save();
+        $this->user_id = $u->id;
+        $this->save();
 
+    }
+
+    public function carreras(){
+        return $this->hasMany('App\Carrera');
     }
 }
