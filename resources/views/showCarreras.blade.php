@@ -85,9 +85,16 @@ $(document).ready(function(){
                             @endforeach
                             {{-- <p><strong>Acreditación: </strong>{{$selected->ministerio->codigo}}</p> --}}
 
-                            <p><strong><u>Fechas de Inscripción: </u><strong></p>
+                            <p><strong><u>Fechas de Inscripción:</u> </strong>
 
-                            <p><strong><u><a href="#">Más información</a></u><strong></p>
+                            @if (false)
+                               <b>01/04/2019 al 30/03/2010</b>
+                            @else
+                               <span class="text-muted">a termino</span>
+                            @endif
+                          </p>
+
+                            <p><strong><u><a href="#">Más información</a></u></strong></p>
 @else
 
 @endif
