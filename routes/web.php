@@ -42,6 +42,20 @@ Route::group(['middleware' => ['auth']], function () {
 
 });
 
+////sector publico
+
+Route::get('becas',function(){
+    return view('becas');
+});
+Route::get('eventos',function(){
+    return view('eventos');
+});
+Route::get('formacion',function(){
+    return view('formacion');
+});
+
+
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/carreras','CarreraController@index')->name('carreras');

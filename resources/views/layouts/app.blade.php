@@ -50,6 +50,21 @@
                                Guia de Trámites
                             </a>
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/formacion">
+                               Formación continua
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/becas">
+                               Becas y Subsidios
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/eventos">
+                               Eventos
+                            </a>
+                        </li>
 
                     </ul>
 
