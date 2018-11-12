@@ -59,20 +59,35 @@ $(document).ready(function(){
                                                 Resolución {{$item->descripcion}}:
                                             </strong>
                                                 {{$item->codigo}}
-                                            </p>
+
+                                        @if($item->file)
+                                                <a href="{{asset('/pdf/resoluciones/'.$item->file)}}" class="btn btn-sm btn-danger">
+                                                <i class="fas fa-file-pdf    "></i>
+                                                </a>
+                                        @else
+
+                                                <i class="fas fa-file-pdf    "></i>
+
+                                        @endif
+                            </p>
+
 
 
                                 @endforeach
 
                             <span> &nbsp</span>
-                            <p><strong><u>Autoridades</u></strong></p>
+                            <p><strong><u>Responsables</u></strong></p>
 
                             @foreach ($selected->autoridades as $autoridades)
-                                    <p><strong>{{$autoridades->cargo}}: </strong>{{$autoridades->nombre}}</p>
+                                    <p><strong>{{$autoridades->cargo}}:</br> </strong>{{$autoridades->nombre}}</p>
+                                    <p><strong>Tel: </strong>{{$autoridades->contacto}}</p>
+                                    <p><strong>Direccion de email: </strong>{{$autoridades->email}}</p>
                             @endforeach
                             {{-- <p><strong>Acreditación: </strong>{{$selected->ministerio->codigo}}</p> --}}
-                             <span> &nbsp</span>
-                            <p><strong><u>Informes</u><strong></p>
+
+                            <p><strong><u>Fechas de Inscripción: </u><strong></p>
+
+                            <p><strong><u><a href="#">Más información</a></u><strong></p>
 @else
 
 @endif

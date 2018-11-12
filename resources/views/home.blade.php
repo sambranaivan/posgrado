@@ -31,7 +31,7 @@
                                 <button type="button" class="btn btn-primary btn-block">Resoluciones</button>
                             </div>
                             <div class="col col-md-3 col-md-offset-1">
-                                <button type="button" class="btn btn-primary btn-block">Autoridades</button>
+                                <button type="button" class="btn btn-primary btn-block">Responsables</button>
                             </div>
                     </div>
 
