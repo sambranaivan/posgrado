@@ -26,7 +26,8 @@ class ResolucionController extends Controller
 
             }
         $r->save();
-        return redirect('/edit/'.$r->carrera->id);
+        return redirect('/edit/'.$r->carrera->id)->with('info','Resolucion '.$r->codigo." Actualizada");
+;
 
     }
 
