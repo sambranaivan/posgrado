@@ -85,7 +85,7 @@ class CarreraController extends Controller
 
 
         $c = Carrera::find($request->id);
-        $c->unidad_id = $request->unidad;
+        // $c->unidad_id = $request->unidad;
         $c->nombre = $request->nombre;
         $c->titulo = $request->titulo;
         $c->denominacion_id = $request->denominacion;
