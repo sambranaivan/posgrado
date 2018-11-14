@@ -25,9 +25,9 @@
                              <p>El doctor en Física de la Facultad de Ciencias Exactas de la UNNE, Patricio Provasi, organizó cursos de posgrado sobre Fundamentos del Modelado Molecular e Introducción al Modelado Molecular. Los mismos contaron como profesor dictante al doctor en Química Stephan Sauer de la Universidad de Copenague, Dinamarca.</p>
                         </div>
                         <div class="col-md-4">
-                             <h4>El decano de la Facultad de Ingeniería de la UNNE será el nuevo presidente del CONFEDI en 2019</h4>
+                             <h4>Se formalizó la doble titulación para la Carrera de Posgrado Maestría en Ciencias de la Ingeniería entre la UNNE y la UFRGS</h4>
                              <img src="{{asset('img/3.jpg')}}" class="img-thumbnail">
-                             <p>El marco de la 64° asamblea plenaria del Consejo Federal de Decanos de Ingeniería, CONFEDI, el Decano de la Facultad de Ingeniería de la UNNE, Ing. Mec. José Basterra, fue electo como Secretario General de esa institución que agrupa a más de cien facultades de todo el país, y además se dejó sentado que será Presidente de la misma para el período 2019-2020.</p>
+                             <p>Autoridades de la Facultad de Ingeniería de la UNNE mantuvieron una reunión con sus pares de la Escola de Engenharia da UFRGS –Brasil-, con el objetivo de avanzar en cuestiones procedimentales del acuerdo de Doble Titulación para la Carrera de Posgrado Maestría en Ciencias de la Ingeniería de esta casa de estudios.</p>
                         </div>
 
 
