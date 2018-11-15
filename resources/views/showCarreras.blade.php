@@ -19,10 +19,10 @@ $(document).ready(function(){
                         </div>
                         <div class="col-md-3 text-right">
                             @auth
-                                <a class="btn btn-primary" href="#">
+                                {{--  <a class="btn btn-primary" href="#">
                                 Agregar nueva Carrera
                                 <i class="fas fa-edit    "></i>
-                            </a>
+                            </a>  --}}
                             @endauth
                         </div>
                     </div>
@@ -44,9 +44,12 @@ $(document).ready(function(){
                         <div class="col-md-7 bg-light">
 @if ($selected)
                             @auth
-                                <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
+                                @if(Auth::user()->unidad->id == $selected->unidad->id or Auth::user()->id == 1)
+
+                                    <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
                                         Editar carrera <i class="fas fa-edit"></i>
                                 </a>
+                                @endif
                             @endauth
                             {{-- {{print_r($selected)}} --}}
                             <h3>{{$selected->nombre}}</h3>

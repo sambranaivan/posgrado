@@ -27,7 +27,7 @@
     <a class="nav-link" id="academica-tab" data-toggle="tab" href="#academica" role="tab" aria-controls="academica" aria-selected="false">Unidad Académica</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="autoridad-tab" data-toggle="tab" href="#autoridad" role="tab" aria-controls="autoridad" aria-selected="false">Autoridades</a>
+    <a class="nav-link" id="autoridad-tab" data-toggle="tab" href="#autoridad" role="tab" aria-controls="autoridad" aria-selected="false">Responsables</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" id="resolucion-tab" data-toggle="tab" href="#resolucion" role="tab" aria-controls="resolucion" aria-selected="false">Resoluciones</a>
@@ -45,19 +45,37 @@
             <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
         <div class="form-group">
           <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="frm_nombre" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->nombre}}">
+          <input type="text" name="nombre" id="frm_nombre" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->nombre}}"
+           @if(Auth::user()->id == 1) ///es admin
+            enabled
+          @else
+            disabled
+          @endif
+          >
           {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
         </div>
 
         <div class="form-group">
           <label for="titulo">Título que otorga</label>
-          <input type="text" name="titulo" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->titulo}}">
+          <input type="text" name="titulo" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->titulo}}"
+          @if(Auth::user()->id == 1) ///es admin
+            enabled
+          @else
+            disabled
+          @endif
+          >
           {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
         </div>
 
         <div class="form-group">
             <label for="denominacion">Denominación</label>
-            <select class="form-control" name="denominacion" id="denominacion">
+            <select class="form-control" name="denominacion" id="denominacion"
+              @if(Auth::user()->id == 1) ///es admin
+            enabled
+          @else
+            disabled
+          @endif
+            >
                 <option value="1"
                 @if ($carrera->denominacion_id == 1)
                     selected
@@ -95,7 +113,9 @@
         </div>
 
 
+        @if(Auth::user()->id == 1)
         <button type="submit" class="btn btn-primary">Actualizar <i class="fas fa-sync-alt" aria-hidden="true"></i></button>
+        @endif
 
     </form>
       </div>
@@ -214,9 +234,12 @@
                             {{$item->descripcion.": ".$item->codigo }}
 
 
-                            <button onclick="location.href='/edit/resolucion/{{$item->id}}'"  class="btn btn-sm float-right ">
+                            @if (Auth::user()->id == 1)
+                                <button onclick="location.href='/edit/resolucion/{{$item->id}}'"  class="btn btn-sm float-right ">
                                     <i class="fas fa-edit    "></i>
                                 </button>
+
+                            @endif
 
                             @if($item->file)
                                 <a href="{{asset('/pdf/resoluciones/'.$item->file)}}" class="btn btn-sm float-right btn-danger">

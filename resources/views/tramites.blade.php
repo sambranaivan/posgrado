@@ -11,7 +11,10 @@
             </div>
             <div class="col-md-2">
                 @auth
-                <a href="nuevotramite" class="btn btn-primary" href="#" role="button">Nuevo Trámite</a>
+                    @if(Auth::user()->id == 1)
+
+                        <a href="nuevotramite" class="btn btn-primary" href="#" role="button">Nuevo Trámite</a>
+                    @endif
                 @endauth
             </div>
         </div>

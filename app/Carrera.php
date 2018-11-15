@@ -68,6 +68,10 @@ $this->addResolucion($me,'Ministerial');
         return $this->belongsTo('App\unidad','unidad_id');
     }
 
+     public function unidad(){
+        return $this->belongsTo('App\unidad','unidad_id');
+    }
+
     public function autoridades(){
         return $this->hasMany('App\autoridad','carrera_id');
     }
