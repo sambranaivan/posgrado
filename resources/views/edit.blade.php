@@ -23,6 +23,7 @@
     <a class="nav-link active" id="carrera-tab" data-toggle="tab" href="#carrera" role="tab" aria-controls="carrera" aria-selected="true">Carrera
     </a>
   </li>
+
   <li class="nav-item">
     <a class="nav-link" id="academica-tab" data-toggle="tab" href="#academica" role="tab" aria-controls="academica" aria-selected="false">Unidad Académica</a>
   </li>
@@ -118,6 +119,21 @@
         @endif
 
     </form>
+
+    <form method="POST" action="/editarCarreraFecha">
+       {{ csrf_field() }}
+
+            <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
+        <div class="form-group">
+          <label for="">Fechas de Inscripción</label>
+          <input type="text" class="form-control" name="inscripcion" id="" aria-describedby="helpId" value="{{$carrera->descripcion}}">
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+
+
+
+
       </div>
     </div>
   </div>

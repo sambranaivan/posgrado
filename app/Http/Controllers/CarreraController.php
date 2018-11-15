@@ -118,4 +118,13 @@ class CarreraController extends Controller
         return view('gestioncarrera')->with('carreras',$c);
     }
 
+
+    public function updateFecha(request $request){
+        $c = Carrera::find($request->id);
+        $c->descripcion = $request->inscripcion;
+        $c->save();
+        return redirect('edit/'.$c->id)->with('info','Carrera Actualizada');
+
+    }
+
 }

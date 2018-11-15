@@ -90,8 +90,8 @@ $(document).ready(function(){
 
                             <p><strong><u>Fechas de Inscripción:</u> </strong>
 
-                            @if (false)
-                               <b>01/04/2019 al 30/03/2010</b>
+                            @if ($selected->descripcion)
+                               <b>{{$selected->descripcion}}</b>
                             @else
                                <span class="text-muted">a termino</span>
                             @endif

@@ -40,6 +40,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::Post('nuevoAutoridad','AutoridadController@nuevo');
     Route::Post('updateAutoridad','AutoridadController@update');
 
+    Route::Post('editarCarreraFecha','CarreraController@updatefecha');
+
 });
 
 ////sector publico
