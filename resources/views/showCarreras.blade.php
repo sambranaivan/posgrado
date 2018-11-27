@@ -5,6 +5,23 @@
 $(document).ready(function(){
   var carreras = {!! json_encode($carreras->toArray()) !!};
   console.log(carreras)
+
+
+$('#select_facultad').change(function(){
+var value = $(this).val();
+$(".carrera").hide()
+	$.each($(".carrera"),function(){
+        if($(this).data('unidad-academica') == value | value == 'all' )
+            $(this).show();
+    });
+
+});
+
+
+
+
+
+
 })
 </script>
 <div class="container">
@@ -13,17 +30,30 @@ $(document).ready(function(){
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
+
+                        <div class="col-md-12">
                             <h2 class="text-center">Ofertas de {{$titulo}}</h2>
                         </div>
-                        <div class="col-md-3 text-right">
-                            @auth
-                                {{--  <a class="btn btn-primary" href="#">
-                                Agregar nueva Carrera
-                                <i class="fas fa-edit    "></i>
-                            </a>  --}}
-                            @endauth
+                        <div class="col-md-12">
+                            <form class="form-inline">
+                                {{-- <div class="form-group">
+                                    <label for="filter_denominacion">Denominacion</label>
+                                    <select name="filter_denominacion" id="" class="form-control">
+                                        <option value="">Doctorado</option>
+                                        <option value="">Maestria</option>
+                                        <option value="">Especialización</option>
+                                    </select>
+                                </div> --}}
+                                <div class="form-group">
+                                    <label for="filter_unidad_academica">Buscar por Unidad Académica</label>
+                                    <select name="filter_unidad_academica" id="select_facultad" class="form-control">
+                                        <option value="all">Ver Todo</option>
+                                        @foreach ($unidades as $unidadAcademica)
+                                            <option value="{{$unidadAcademica->alias}}">{{$unidadAcademica->nombre}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -32,14 +62,14 @@ $(document).ready(function(){
                     <div class="row">
                         <div class="col-md-5">
 
-                            <div class="list-group">
-                                <div class="list-group">
+
+                                <div class="list-group" id="listado_carreras">
                                     @foreach ($carreras as $item)
-                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
+                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" data-unidad-academica={{$item->unidadAcademica->alias}} class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
                                     @endforeach
 
                                 </div>
-                            </div>
+
                         </div>
                         <div class="col-md-7 bg-light">
 @if ($selected)
