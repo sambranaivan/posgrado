@@ -74,11 +74,15 @@ $(".carrera").hide()
                         <div class="col-md-7 bg-light">
 @if ($selected)
                             @auth
-                                @if(Auth::user()->unidad->id == $selected->unidad->id or Auth::user()->id == 1)
+                                @if(Auth::user()->id == 1)
 
-                                    <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
+                                            <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
+                                                Editar carrera <i class="fas fa-edit"></i>
+                                            </a>
+                                @else(Auth::user()->unidad->id == $selected->unidad->id)
+                                        <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
                                         Editar carrera <i class="fas fa-edit"></i>
-                                </a>
+                                        </a>
                                 @endif
                             @endauth
                             {{-- {{print_r($selected)}} --}}

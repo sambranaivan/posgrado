@@ -23,16 +23,19 @@ class CarreraController extends Controller
 
     public function doctorados(){
         $c = Carrera::where('denominacion_id',3)->get();
-        return view('showCarreras')->with('carreras',$c)->with('titulo','Doctorado')->with('selected',false)->with('ref','Doctorado');
+         $u = Unidad::all();
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Doctorado')->with('selected',false)->with('ref','Doctorado')->with('unidades',$u);;
     }
     public function maestrias(){
     $c = Carrera::where('denominacion_id',2)->get();
-        return view('showCarreras')->with('carreras',$c)->with('titulo','Maestría')->with('selected',false)->with('ref','Maestria');
+     $u = Unidad::all();
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Maestría')->with('selected',false)->with('ref','Maestria')->with('unidades',$u);;
     return view('showCarreras')->with('carreras',$c);
 }
     public function especializaciones(){
     $c = Carrera::where('denominacion_id',1)->get();
-        return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',false)->with('ref','Especializacion');
+     $u = Unidad::all();
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',false)->with('ref','Especializacion')->with('unidades',$u);;
 
 }
 
@@ -42,22 +45,19 @@ class CarreraController extends Controller
         $c = Carrera::where('denominacion_id',3)->get();
         $u = Unidad::all();
         $s = Carrera::find($id);
-        return view('showCarreras')->with('carreras',$c)->with('titulo','Doctorado')->with('selected',$s)->with('ref','Doctorado')
-        ->with('unidades',$u);
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Doctorado')->with('selected',$s)->with('ref','Doctorado')->with('unidades',$u);
     }
     public function showmaestrias($id){
     $c = Carrera::where('denominacion_id',2)->get();
     $u = Unidad::all();
     $s = Carrera::find($id);
-        return view('showCarreras')->with('carreras',$c)->with('titulo','Maestría')->with('selected',$s)->with('ref','Maestria')
-        ->with('unidades',$u);
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Maestría')->with('selected',$s)->with('ref','Maestria')->with('unidades',$u);
 }
     public function showespecializaciones($id){
     $c = Carrera::where('denominacion_id',1)->get();
     $u = Unidad::all();
     $s = Carrera::find($id);
-        return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',$s)->with('ref','Especializacion')
-        ->with('unidades',$u);
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',$s)->with('ref','Especializacion')->with('unidades',$u);
 
 }
 
