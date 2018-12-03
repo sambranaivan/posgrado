@@ -58,22 +58,22 @@ $this->addResolucion($me,'Ministerial');
     ////relaciones
     public function resoluciones()
     {
-    return $this->hasMany('App\resolucion','carrera_id');
+    return $this->hasMany('App\Resolucion','carrera_id');
     }
 
 
 
 
     public function unidadAcademica(){
-        return $this->belongsTo('App\unidad','unidad_id');
+        return $this->belongsTo('App\Unidad','U_id');
     }
 
-     public function unidad(){
-        return $this->belongsTo('App\unidad','unidad_id');
+     public function U(){
+        return $this->belongsTo('App\Unidad','unidad_id');
     }
 
-    public function autoridades(){
-        return $this->hasMany('App\autoridad','carrera_id');
+    public function aUtoridades(){
+        return $this->hasMany('App\Uutoridad','carrera_id');
     }
 
 

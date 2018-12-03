@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\user;
+use App\User;
 class Unidad extends Model
 {
     //
