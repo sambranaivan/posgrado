@@ -65,15 +65,15 @@ $this->addResolucion($me,'Ministerial');
 
 
     public function unidadAcademica(){
-        return $this->belongsTo('App\Unidad','U_id');
-    }
-
-     public function U(){
         return $this->belongsTo('App\Unidad','unidad_id');
     }
 
-    public function aUtoridades(){
-        return $this->hasMany('App\Uutoridad','carrera_id');
+     public function unidad(){
+        return $this->belongsTo('App\Unidad','unidad_id');
+    }
+
+    public function autoridades(){
+        return $this->hasMany('App\Autoridad','carrera_id');
     }
 
 
