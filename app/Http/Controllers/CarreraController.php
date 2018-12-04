@@ -38,9 +38,6 @@ class CarreraController extends Controller
         return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',false)->with('ref','Especializacion')->with('unidades',$u);;
 
 }
-
-
-
     public function showdoctorados($id){
         $c = Carrera::where('denominacion_id',3)->get();
         $u = Unidad::all();
