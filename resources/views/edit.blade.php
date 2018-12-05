@@ -92,7 +92,25 @@
                     selected
                 @endif
                 >Doctorado</option>
+                 <option value="4"
+                @if ($carrera->denominacion_id == 4)
+                    selected
+                @endif
+                >Diplomatura Superior</option>
             </select>
+        </div>
+
+        {{--  Area diciplinar  --}}
+        <div class="form-group">
+          <label for="titulo">Área Diciplinar</label>
+          <input type="text" name="area" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->area}}"
+          @if(Auth::user()->id == 1) ///es admin
+            enabled
+          @else
+            disabled
+          @endif
+          >
+          {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
         </div>
 
         {{--  muestro todas la unidades academicas y elijo la mia noma   --}}
@@ -115,7 +133,7 @@
 
 
         @if(Auth::user()->id == 1)
-        <button type="submit" class="btn btn-primary">Actualizar <i class="fas fa-sync-alt" aria-hidden="true"></i></button>
+        <button type="submit" class="btn btn-primary">Actualizar<i class="fas fa-sync-alt" aria-hidden="true"></i></button>
         @endif
 
     </form>
@@ -128,7 +146,7 @@
           <label for="">Fechas de Inscripción</label>
           <input type="text" class="form-control" name="inscripcion" id="" aria-describedby="helpId" value="{{$carrera->descripcion}}">
         </div>
-        <button type="submit" class="btn btn-primary">Guardar</button>
+        <button type="submit" class="btn btn-primary">Actualizar Fecha de Inscripción</button>
     </form>
 
 

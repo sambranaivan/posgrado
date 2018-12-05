@@ -17,6 +17,29 @@ $(".carrera").hide()
 
 });
 
+$('#select_area').change(function(){
+var value = $(this).val();
+$(".carrera").hide()
+	$.each($(".carrera"),function(){
+        if($(this).data('area') == value | value == 'all' )
+            $(this).show();
+    });
+
+});
+
+$('#filter_nombre').keyup(function(){
+var value = $(this).val();
+$(".carrera").hide()
+	$.each($(".carrera"),function(){
+        var data = $(this).data('nombre').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+
+        if(data.includes(value) | value == '' )
+            $(this).show();
+    });
+
+});
+
+
 
 
 
@@ -35,24 +58,46 @@ $(".carrera").hide()
                             <h2 class="text-center">Ofertas de {{$titulo}}</h2>
                         </div>
                         <div class="col-md-12">
-                            <form class="form-inline">
-                                {{-- <div class="form-group">
-                                    <label for="filter_denominacion">Denominacion</label>
-                                    <select name="filter_denominacion" id="" class="form-control">
-                                        <option value="">Doctorado</option>
-                                        <option value="">Maestria</option>
-                                        <option value="">Especialización</option>
-                                    </select>
-                                </div> --}}
-                                <div class="form-group">
-                                    <label for="filter_unidad_academica">Buscar por Unidad Académica</label>
-                                    <select name="filter_unidad_academica" id="select_facultad" class="form-control">
-                                        <option value="all">Ver Todo</option>
-                                        @foreach ($unidades as $unidadAcademica)
-                                            <option value="{{$unidadAcademica->alias}}">{{$unidadAcademica->nombre}}</option>
-                                        @endforeach
-                                    </select>
+
+                            <form class="form">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                           <div class="form-group">
+                                        <label for="filter_unidad_academica">Buscar por Unidad Académica</label>
+                                        <select name="filter_unidad_academica" id="select_facultad" class="form-control">
+                                            <option value="all">Ver Todo</option>
+                                            @foreach ($unidades as $unidadAcademica)
+                                                <option value="{{$unidadAcademica->alias}}">{{$unidadAcademica->nombre}}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                         <div class="form-group">
+                                            <label for="filter_area">Área Disciplinaria</label>
+                                            <select name="filter_area" id="select_area" class="form-control">
+                                                <option value="all">Ver Todo</option>
+                                                @foreach ($areas as $a)
+                                                    <option value="{{$a->area}}">{{$a->area}}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                         <div class="form-group">
+                                             <label for="filter_nombre">Nombre de Carrera</label>
+                                                  <input type="text" name="filter_nombre" id="filter_nombre" class="form-control" placeholder="Buscar por nombre de Carrera" aria-describedby="helpId">
+
+                                                </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+
+
+
+
+
                             </form>
                         </div>
                     </div>
@@ -65,7 +110,7 @@ $(".carrera").hide()
 
                                 <div class="list-group" id="listado_carreras">
                                     @foreach ($carreras as $item)
-                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" data-unidad-academica={{$item->unidadAcademica->alias}} class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
+                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" data-unidad-academica="{{$item->unidadAcademica->alias}}" data-area="{{$item->area}}" data-nombre="{{$item->nombre}}" class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
                                     @endforeach
 
                                 </div>
@@ -79,7 +124,9 @@ $(".carrera").hide()
                                             <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
                                                 Editar carrera <i class="fas fa-edit"></i>
                                             </a>
-                                @else(Auth::user()->unidad->id == $selected->unidad->id)
+                                @elseif(Auth::user()->unidad->id == $selected->unidad->id)
+
+
                                         <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
                                         Editar carrera <i class="fas fa-edit"></i>
                                         </a>
@@ -89,6 +136,8 @@ $(".carrera").hide()
                             <h3>{{$selected->nombre}}</h3>
                               <span> &nbsp</span>
                             <p><strong>Título que otorga: </strong>{{$selected->titulo}} </p>
+                            <span> &nbsp</span>
+                            <p><strong>Área disciplinaria: </strong>{{$selected->area}} </p>
 
                                 @foreach ($selected->resoluciones as $item)
                                         <p>
@@ -99,11 +148,11 @@ $(".carrera").hide()
 
                                         @if($item->file)
                                                 <a href="{{asset('/pdf/resoluciones/'.$item->file)}}" class="btn btn-sm btn-danger">
-                                                <i class="fas fa-file-pdf    "></i>
+                                                <i class="fas fa-file-pdf"></i>
                                                 </a>
                                         @else
 
-                                                <i class="fas fa-file-pdf    "></i>
+                                                <i class="fas fa-file-pdf"></i>
 
                                         @endif
                             </p>
@@ -127,11 +176,11 @@ $(".carrera").hide()
                             @if ($selected->descripcion)
                                <b>{{$selected->descripcion}}</b>
                             @else
-                               <span class="text-muted">a termino</span>
+                               <span class="text-muted">a término</span>
                             @endif
                           </p>
 
-                            <p><strong><u><a href="#">Más información</a></u></strong></p>
+                            <p><strong><u><a href="{{$selected->unidad->link}}">Más información</a></u></strong></p>
 @else
 
 @endif

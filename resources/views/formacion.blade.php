@@ -10,7 +10,7 @@
                 </div>
                     <div class="card-body">
                         <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action text-center">Diplomaturas</a>
+                            <a href="/carreras/diplomatura" class="list-group-item list-group-item-action text-center">Diplomaturas</a>
 
                             <a href="#" class="list-group-item list-group-item-action text-center">Cursos de Posgrado</a>
                         </div>

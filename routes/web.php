@@ -68,6 +68,8 @@ Route::get('/carreras/doctorado/{id}','CarreraController@showdoctorados')->name(
 Route::get('/carreras/maestria/{id}','CarreraController@showmaestrias')->name('maestrias');
 Route::get('/carreras/especializacion/{id}','CarreraController@showespecializaciones')->name('especializaciones');
 
+Route::get('/carreras/diplomatura','CarreraController@diplomaturas');
+Route::get('/carreras/diplomatura/{id}','CarreraController@showdiplomaturas');
 
 Route::get("/download/doctorado",'CarreraController@getDoctoradoPdf');
 Route::get("/doctorado",'CarreraController@getDoctorado');
