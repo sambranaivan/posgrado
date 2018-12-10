@@ -40,7 +40,15 @@ $(".carrera").hide()
 });
 
 
+$('#select_modalidad').change(function(){
+var value = $(this).val();
+$(".carrera").hide()
+	$.each($(".carrera"),function(){
+        if($(this).data('modalidad') == value | value == 'all' )
+            $(this).show();
+    });
 
+});
 
 
 
@@ -61,7 +69,7 @@ $(".carrera").hide()
 
                             <form class="form">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                            <div class="form-group">
                                         <label for="filter_unidad_academica">Buscar por Unidad Académica</label>
                                         <select name="filter_unidad_academica" id="select_facultad" class="form-control">
@@ -72,7 +80,7 @@ $(".carrera").hide()
                                         </select>
                                     </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                          <div class="form-group">
                                             <label for="filter_area">Área Disciplinaria</label>
                                             <select name="filter_area" id="select_area" class="form-control">
@@ -83,13 +91,24 @@ $(".carrera").hide()
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                          <div class="form-group">
                                              <label for="filter_nombre">Nombre de Carrera</label>
                                                   <input type="text" name="filter_nombre" id="filter_nombre" class="form-control" placeholder="Buscar por nombre de Carrera" aria-describedby="helpId">
 
                                                 </div>
                                         </div>
+                                      <div class="col-md-3">
+                                         <div class="form-group">
+                                            <label for="filter_modalidad">Modalidad</label>
+                                            <select name="filter_modalidad" id="select_modalidad" class="form-control">
+                                                <option value="all">Ver Todo</option>
+                                                <option value="Presencial">Presencial</option>
+                                                <option value="Virtual">Virtual</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
 
@@ -110,7 +129,7 @@ $(".carrera").hide()
 
                                 <div class="list-group" id="listado_carreras">
                                     @foreach ($carreras as $item)
-                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" data-unidad-academica="{{$item->unidadAcademica->alias}}" data-area="{{$item->area}}" data-nombre="{{$item->nombre}}" class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
+                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" data-unidad-academica="{{$item->unidadAcademica->alias}}" data-area="{{$item->area}}" data-nombre="{{$item->nombre}}" data-modalidad="{{$item->modalidad}}" class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
                                     @endforeach
 
                                 </div>
