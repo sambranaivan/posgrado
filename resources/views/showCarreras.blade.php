@@ -138,6 +138,7 @@ $(".carrera").hide()
                             <p><strong>Título que otorga: </strong>{{$selected->titulo}} </p>
                             <span> &nbsp</span>
                             <p><strong>Área disciplinaria: </strong>{{$selected->area}} </p>
+                            <p><strong>Modalidad: </strong>{{$selected->modalidad}} </p>
 
                                 @foreach ($selected->resoluciones as $item)
                                         <p>
