@@ -81,7 +81,7 @@ $(".carrera").hide()
                                         </div>
                                     </div>
                                     {{--    --}}
-                                    @if($titulo != 'Diplomatura Superior'){
+                                    @if($titulo != 'Diplomatura Superior')
                                         <div class="col-md-3">
                                         <div class="form-group">
                                             <label for="filter_area">Área Disciplinaria</label>
@@ -93,7 +93,7 @@ $(".carrera").hide()
                                             </select>
                                         </div>
                                     </div>
-                                    }
+
                                     @endif
 
                                     {{--    --}}
@@ -162,9 +162,9 @@ $(".carrera").hide()
                               <span> &nbsp</span>
                             <p><strong>Título que otorga: </strong>{{$selected->titulo}} </p>
                             <span> &nbsp</span>
-                             @if($titulo != 'Diplomatura Superior'){
+                             @if($titulo != 'Diplomatura Superior')
                             <p><strong>Área disciplinaria: </strong>{{$selected->area}} </p>
-                             }
+
                              @endif
                             <p><strong>Modalidad: </strong>{{$selected->modalidad}} </p>
 
