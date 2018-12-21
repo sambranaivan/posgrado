@@ -25,6 +25,7 @@
 <style>
     body{
         font-family: 'Nunito', sans-serif;
+        background-color: white;
     }
 </style>
 <body>
@@ -116,15 +117,16 @@
             @yield('content')
         </main>
         <footer class="footer">
-      <div class="container text-center">
-        <span class="text-muted text-center">
-            Secretaría de Posgrado :: Universidad Nacional del Nordeste
-        </span></br>
-        <span class="text-muted text-center">
-25 de Mayo 868 1° Piso, Corrientes (3400), Argentina :: +54 379 4474186 :: +54 379 4425060 int. 119 :: posgrado@unne.edu.ar :: gndapozo@unne.edu.ar
-        </span>
-      </div>
+
+        <img src="{{asset('img/footer.png')}}" class="img-responsive">
+
     </footer>
     </div>
 </body>
 </html>
+{{-- <span class="text-muted text-center">
+            Secretaría de Posgrado :: Universidad Nacional del Nordeste
+        </span></br>
+        <span class="text-muted text-center">
+25 de Mayo 868 1° Piso, Corrientes (3400), Argentina :: +54 379 4474186 :: +54 379 4425060 int. 119 :: posgrado@unne.edu.ar :: gndapozo@unne.edu.ar
+        </span> --}}

@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+    #info-carrera{
+        background-color:red;
+    }
+</style>
 <script>
 $(document).ready(function(){
   var carreras = {!! json_encode($carreras->toArray()) !!};
@@ -55,15 +60,15 @@ $(".carrera").hide()
 
 })
 </script>
-<div class="container">
-
+<div class="container-fluid">
+   <h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Ofertas de {{$titulo}}</h1>
 
             <div class="card">
                 <div class="card-header">
                     <div class="row">
 
                         <div class="col-md-12">
-                            <h2 class="text-center">Ofertas de {{$titulo}}</h2>
+
                         </div>
                         <div class="col-md-12">
 
@@ -141,7 +146,8 @@ $(".carrera").hide()
                                 </div>
 
                         </div>
-                        <div class="col-md-7 bg-light">
+                        <div class="col-md-7" style="background-image: url('{{asset('img/carreras/bg_'.$ref.'.png')}}') ;background-size:cover;background-repeat: no-repeat;background-size: 100%; background-position: bottom; ">
+
 @if ($selected)
                             @auth
                                 @if(Auth::user()->id == 1)

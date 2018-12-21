@@ -34,7 +34,7 @@
 
     </div>
 </div>
-{{-- end container --}}
+{{--  end container --}}
 @endsection
 
 
