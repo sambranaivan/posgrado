@@ -1,26 +1,37 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
-    <div class="row justify-content-center">
-<div class="col-md-6">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="text-center">Formacion Continua</h2>
-                </div>
-                    <div class="card-body">
-                        <div class="list-group">
-                            <a href="/carreras/diplomatura" class="list-group-item list-group-item-action text-center">Diplomaturas</a>
 
-                            <a href="#" class="list-group-item list-group-item-action text-center">Cursos de Posgrado</a>
-                        </div>
-                    </div>
-            </div>{{-- end card --}}
+    <div class="row">
+
+        <div class="col-md-6 carrera-image text-center img-center">
+            <a href="carreras/diplomatura">
+
+                 <img class="img-responsive img-center" src="{{asset('img/carreras/diplomatura.png')}}">
+                </a>
+                         <a href="carreras/diplomatura">
+                             <h3 class="text-center">Diplomatura Superior</h3>
+                         </a>
+        </div>
+        <div class="col-md-6 carrera-imagen text-center img-center text-muted">
+
+                <img class="img-responsive img-center" src="{{asset('img/carreras/cursos.png')}}">
+
+                    <h3 class="text-center">Cursos de Posgrado</h3>
+                    <small>..en construcción</small>
 
 
-    </div>{{-- end col --}}
+        </div>
+
+
+    </div>
 </div>
-{{-- end row --}}
-</div>
-{{-- end container --}}
+{{--  end container --}}
 @endsection
+
+
+ {{-- <a href="carreras/doctorado" class="list-group-item list-group-item-action text-center">Doctorados</a>
+                            <a href="carreras/maestria" class="list-group-item list-group-item-action text-center">Maestrías</a>
+                            <a href="carreras/especializacion" class="list-group-item list-group-item-action text-center">Especializaciónes</a> --}}

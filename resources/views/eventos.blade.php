@@ -1,20 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-<div class="col-md-10">
-            <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <div class="col-md-10"><h2>Eventos</h2></div>
-                    </div>
-                </div>
-            </div>{{-- end card --}}
+<div class="container-fluid">
 
-
-    </div>{{-- end col --}}
-</div>
+    <div class="row">
+        <div class="col-md-12 text-center text-info">
+            <h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Eventos</h1>
+        </div>
+        <div class="col-md-12 text-center">
+            <h3 class="text-muted">..En Construcción</h3>
+        </div>
+    </div>
 {{-- end row --}}
 </div>
 {{-- end container --}}

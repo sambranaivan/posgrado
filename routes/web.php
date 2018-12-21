@@ -88,3 +88,8 @@ Route::get('nuevotramite',function(){
 Route::post('/nuevotramite',"TramiteController@subir");
 
 Route::get('tramites',"TramiteController@listado");
+
+
+//reset password
+
+Route::get('change/{id}',"UnidadController@password");
