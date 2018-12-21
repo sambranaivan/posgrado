@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-
+<h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Carreras de Posgrado</h1>
     <div class="row">
         <div class="col-md-4 carrera-imagen">
             <a href="carreras/doctorado">
