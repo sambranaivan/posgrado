@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-
+<h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Formación Continua</h1>
     <div class="row">
 
         <div class="col-md-6 carrera-image text-center img-center">
