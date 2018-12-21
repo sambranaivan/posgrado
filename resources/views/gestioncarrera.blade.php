@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-md-10 text-info text-center"><h2>Carreras de la {{Auth::user()->unidad->nombre}}</h2></div>
+                        <div class="col-md-12 text-info text-center"><h2>Carreras de la {{Auth::user()->unidad->nombre}}</h2></div>
                     </div>
                 </div>
                 <div class="card-body">
