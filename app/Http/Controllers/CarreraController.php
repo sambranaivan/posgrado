@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Carrera;
 use App\Unidad;
+use App\Resolucion;
 use Barryvdh\DomPDF\Facade as PDF;
 use DB;
 class CarreraController extends Controller
@@ -162,6 +163,20 @@ class CarreraController extends Controller
         $c->save();
         return redirect('edit/'.$c->id)->with('info','Carrera Actualizada');
 
+    }
+
+
+    public function addResolucion($carrera_id){
+
+        $r = new Resolucion();
+        $r->carrera_id = $carrera_id;
+        $r->save();
+    }
+
+    public function getCarrera($id)
+    {
+        $c = Carrera::with('resoluciones')->with('unidadAcademica')->with('autoridades')->find($id);
+        return $c->toJson();
     }
 
 }
