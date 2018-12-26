@@ -79,6 +79,7 @@ Route::get("/doctorado",'CarreraController@getDoctorado');
 ////Open Data
 
 Route::get('get/carreras','CarreraController@getJson');
+Route::get('get/carrera/{id}','CarreraController@getCarrera');
 
 //file test
 Route::get('nuevotramite',function(){
@@ -92,4 +93,6 @@ Route::get('tramites',"TramiteController@listado");
 
 //reset password
 
-Route::get('change/{id}',"UnidadController@password");
+// Route::get('change/{id}',"UnidadController@password");
+
+

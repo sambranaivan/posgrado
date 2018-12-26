@@ -2,7 +2,9 @@
 
 @section('content')
 <style>
-
+    #info-carrera{
+        background-color:red;
+    }
 </style>
 <script>
 $(document).ready(function(){
@@ -54,69 +56,6 @@ $(".carrera").hide()
 });
 
 
-$(".carrera_button").click(function(){
-
-    var info = $("#info-carrera");
-    @auth
-        var unidad_id = {{Auth::user()->unidad->id}};
-    @endauth
-    carrera = $(this).data('carrera');
-    $.get('/get/carrera/'+carrera,function(data){
-
-       data = JSON.parse(data);
-        console.log(data);
-       ///procedimiento de actualizacion de marco
-        info.html("");
-        var html = '<h3>'+data.nombre+'</h3> <span> &nbsp;</span>'
-
-        html += '<p><strong>Título que otorga: </strong>'+data.titulo+'</p> <span> &nbsp;</span> '
-
-        if(data.area != "")
-        {
-            html += '<p id="area"><strong>Área disciplinaria: </strong>Ciencias Sociales </p>'
-        }
-
-        html += ' <p><strong>Modalidad: </strong>'+data.modalidad+' </p> '
-
-
-        html += '<div id="resoluciones"><p><strong><u>Resoluciones</u></strong></p> <ul>'
-            data.resoluciones.forEach(function(v,i,a){
-                 if(v.file == null)
-                 {
-                    html += '<p><strong>'+v.descripcion+': </strong>'+v.codigo+'</p>'
-                 }
-                 else
-                 {
-                     html += '<p><strong>'+v.descripcion+': </strong> '+v.codigo+'<a href="/pdf/resoluciones/'+v.file+'" class="btn btn-sm btn-danger"><i class="fas fa-file-pdf"></i></a></p>'
-                 }
-            })
-        html += '</ul></div>'
-        html += ''
-        html += '<div id="responsables">'
-        html += '<p><strong><u>Responsables</u></strong></p><ul> '
-            data.autoridades.forEach(function(v,i,a){
-
-            })
-
-        html += '</ul></div>'
-
-        html += '<p><strong><u>Fechas de Inscripción:</u></strong> '
-            if(data.descripcion != null)
-            {
-                html += data.descripcion
-            }
-            else
-            {
-                html += '<span class="text-muted">sin informar</span>'
-            }
-        html +='</p>'
-
-        html += '<p id="pagina"><strong><u><a href="'+data.unidad_academica.link+'">Más información</a></u></strong></p>'
-
-            info.html(html);
-    })
-
-})
 
 
 })
@@ -146,8 +85,7 @@ $(".carrera_button").click(function(){
                                         </select>
                                         </div>
                                     </div>
-                                    {{--  si no es diplomatura superior muestro los demas campos de busqueda  --}}
-                                    {{-- Diplomatura superuor no tiene area diciplinar  --}}
+                                    {{--    --}}
                                     @if($titulo != 'Diplomatura Superior')
                                         <div class="col-md-3">
                                         <div class="form-group">
@@ -163,7 +101,7 @@ $(".carrera_button").click(function(){
 
                                     @endif
 
-                                    {{--  filtros de busqueda comunes para todos  --}}
+                                    {{--    --}}
                                     <div class="col-md-3">
                                         <div class="form-group">
                                              <label for="filter_nombre">Nombre de Carrera</label>
@@ -202,23 +140,88 @@ $(".carrera_button").click(function(){
 
                                 <div class="list-group" id="listado_carreras">
                                     @foreach ($carreras as $item)
-                                    {{-- listado de carreras --}}
-                                    {{-- este vinculo envia a la nueva carrera --}}
-                                    <a href="#" data-ref={{strtolower($ref)}} data-carrera="{{$item->id}}" data-unidad-academica="{{$item->unidadAcademica->alias}}" data-area="{{$item->area}}" data-nombre="{{$item->nombre}}" data-modalidad="{{$item->modalidad}}" class="list-group-item list-group-item-action btn-sm carrera carrera_button">{{$item->nombre}}</a>
+                                    <a href="/carreras/{{strtolower($ref)}}/{{$item->id}}" data-unidad-academica="{{$item->unidadAcademica->alias}}" data-area="{{$item->area}}" data-nombre="{{$item->nombre}}" data-modalidad="{{$item->modalidad}}" class="list-group-item list-group-item-action btn-sm carrera">{{$item->nombre}}</a>
                                     @endforeach
 
                                 </div>
 
                         </div>
-                        <div class="col-md-7" id="info-carrera" style="background-image: url('{{asset('img/carreras/bg_'.$ref.'.png')}}') ;background-size:cover;background-repeat: no-repeat;background-size: 100%; background-position: bottom; ">
+                        <div class="col-md-7" style="background-image: url('{{asset('img/carreras/bg_'.$ref.'.png')}}') ;background-size:cover;background-repeat: no-repeat;background-size: 100%; background-position: bottom; ">
+
+@if ($selected)
+                            @auth
+                                @if(Auth::user()->id == 1)
+
+                                            <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
+                                                Editar carrera <i class="fas fa-edit"></i>
+                                            </a>
+                                @elseif(Auth::user()->unidad->id == $selected->unidad->id)
 
 
+                                        <a class="btn btn-sm btn-primary" href="/edit/{{$selected->id}}">
+                                        Editar carrera <i class="fas fa-edit"></i>
+                                        </a>
+                                @endif
+                            @endauth
+                            {{-- {{print_r($selected)}} --}}
+                            <h3>{{$selected->nombre}}</h3>
+                              <span> &nbsp</span>
+                            <p><strong>Título que otorga: </strong>{{$selected->titulo}} </p>
+                            <span> &nbsp</span>
+                             @if($titulo != 'Diplomatura Superior')
+                            <p><strong>Área disciplinaria: </strong>{{$selected->area}} </p>
+
+                             @endif
+                            <p><strong>Modalidad: </strong>{{$selected->modalidad}} </p>
+
+                                @foreach ($selected->resoluciones as $item)
+                                        <p>
+                                            <strong>
+                                                Resolución {{$item->descripcion}}:
+                                            </strong>
+                                                {{$item->codigo}}
+
+                                        @if($item->file)
+                                                <a href="{{asset('/pdf/resoluciones/'.$item->file)}}" class="btn btn-sm btn-danger">
+                                                <i class="fas fa-file-pdf"></i>
+                                                </a>
+                                        @else
+
+                                                <i class="fas fa-file-pdf"></i>
+
+                                        @endif
+                            </p>
+
+
+
+                                @endforeach
+
+                            <span> &nbsp</span>
+                            <p><strong><u>Responsables</u></strong></p>
+
+                            @foreach ($selected->autoridades as $autoridades)
+                                    <p><strong>{{$autoridades->cargo}}:</br> </strong>{{$autoridades->nombre}}</p>
+                                    <p><strong>Tel: </strong>{{$autoridades->contacto}}</p>
+                                    <p><strong>Direccion de email: </strong>{{$autoridades->email}}</p>
+                            @endforeach
+                            {{-- <p><strong>Acreditación: </strong>{{$selected->ministerio->codigo}}</p> --}}
+
+                            <p><strong><u>Fechas de Inscripción:</u> </strong>
+
+                            @if ($selected->descripcion)
+                               <b>{{$selected->descripcion}}</b>
+                            @else
+                               <span class="text-muted">Sin informar</span>
+                            @endif
+                          </p>
+
+                            <p><strong><u><a href="{{$selected->unidad->link}}">Más información</a></u></strong></p>
+@else
+
+@endif
                         </div>
-                        {{-- end info-carrea --}}
                     </div>
-                    {{-- end row --}}
                 </div>
-                {{-- end body --}}
                 </div>
         </div>{{-- end card --}}
 
