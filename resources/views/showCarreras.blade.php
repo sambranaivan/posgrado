@@ -104,9 +104,13 @@ $(".carrera_button").click(function(){
         html += '<div id="responsables">'
         html += '<p><strong><u>Responsables</u></strong></p><ul> '
             data.autoridades.forEach(function(v,i,a){
+
+                if(v.contacto == null){contacto = ""}else{contacto = v.contacto}
+                if(v.email == null){email = ""}else{email = v.email}
+
                     html += '<p><strong>'+v.cargo+':</br> </strong>'+v.nombre+'</p>'
-                    html += '<p><strong>Tel: </strong>'+v.contacto+'</p>'
-                    html += '<p><strong>Direccion de email: </strong>'+v.email+'</p>'
+                    html += '<p><strong>Tel: </strong>'+contacto+'</p>'
+                    html += '<p><strong>Direccion de email: </strong>'+email+'</p>'
 
             })
 
