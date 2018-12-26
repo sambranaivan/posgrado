@@ -59,6 +59,10 @@ $(".carrera_button").click(function(){
     var info = $("#info-carrera");
     @auth
         var unidad_id = {{Auth::user()->unidad->id}};
+        var user_id = {{Auth::user()->id}};
+    @else
+        var user_id = 99;
+        var unidad_id = 99;
     @endauth
     carrera = $(this).data('carrera');
     $.get('/get/carrera/'+carrera,function(data){
@@ -67,7 +71,12 @@ $(".carrera_button").click(function(){
         console.log(data);
        ///procedimiento de actualizacion de marco
         info.html("");
-        var html = '<h3>'+data.nombre+'</h3> <span> &nbsp;</span>'
+        html = "";
+        if(data.unidad_academica.id == unidad_id || user_id == 1){
+            html += '  <a class="btn btn-sm btn-primary" href="/edit/'+data.id+'"> Editar carrera <i class="fas fa-edit"></i></a>'
+        }
+
+        html += '<h3>'+data.nombre+'</h3> <span> &nbsp;</span>'
 
         html += '<p><strong>Título que otorga: </strong>'+data.titulo+'</p> <span> &nbsp;</span> '
 
