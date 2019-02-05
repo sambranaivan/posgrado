@@ -82,7 +82,7 @@ $(".carrera_button").click(function(){
 
         if(data.area != "")
         {
-            html += '<p id="area"><strong>Área disciplinaria: </strong>Ciencias Sociales </p>'
+            html += '<p id="area"><strong>Área disciplinar: </strong>Ciencias Sociales </p>'
         }
 
         html += ' <p><strong>Modalidad: </strong>'+data.modalidad+' </p> '
@@ -127,7 +127,7 @@ $(".carrera_button").click(function(){
             }
         html +='</p>'
 
-        html += '<p id="pagina"><strong><u><a href="'+data.unidad_academica.link+'">Más información</a></u></strong></p>'
+        html += '<p id="pagina"><strong><u>Secretaría de Posgrado de la Facultad</u>: <a href="'+data.unidad_academica.link+'">Click Aquí</a></strong></p>'
 
             info.html(html);
     })
@@ -167,7 +167,7 @@ $(".carrera_button").click(function(){
                                     @if($titulo != 'Diplomatura Superior')
                                         <div class="col-md-3">
                                         <div class="form-group">
-                                            <label for="filter_area">Área Disciplinaria</label>
+                                            <label for="filter_area">Área Disciplinar</label>
                                             <select name="filter_area" id="select_area" class="form-control">
                                                 <option value="all">Ver Todo</option>
                                                 @foreach ($areas as $a)
