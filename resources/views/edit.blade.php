@@ -102,7 +102,7 @@
 
         {{--  Area diciplinar  --}}
         <div class="form-group">
-          <label for="titulo">Área Diciplinar</label>
+          <label for="titulo">Área Disciplinar</label>
           <input type="text" name="area" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->area}}"
           @if(Auth::user()->id == 1) ///es admin
             enabled
