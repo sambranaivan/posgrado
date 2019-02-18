@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Carrera;
 use App\Unidad;
 use App\Resolucion;
+use App\Denominacion;
 use Barryvdh\DomPDF\Facade as PDF;
 use DB;
 class CarreraController extends Controller
@@ -19,7 +20,9 @@ class CarreraController extends Controller
 
     public function nuevaCarrera()
     {
-        return view('nueva_carrera');
+            $u = Unidad::all();
+            $d = Denominacion::all();
+        return view('nueva_carrera')->with('unidades',$u)->with('denominaciones',$d);
     }
 
 

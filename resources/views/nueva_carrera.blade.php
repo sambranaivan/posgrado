@@ -2,61 +2,58 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-<div class="col-md-10">
-         <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <div class="col-md-12"><h2>Nueva Carrera</h2></div>
+   <div class="card">
+       <div class="card-header">
+        <h2>Nueva Carrera</h2>
+       </div>
+       <div class="card-body">
+            <form action="" method="post">
+                @csrf
+                <div class="row">
+                     <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="" aria-describedby="helpId" placeholder="">
+                                <small id="helpId" class="form-text text-muted">Help text</small>
+                            </div>
+                      </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="denominacion">Clasificación</label>
+                            <select class="form-control" name="denominacion" id="">
+                               @foreach ($denominaciones as $item)
+                            <option value={{$item->id}}>{{$item->descripcion}}</option>
+                               @endforeach
+
+                            </select>
+                        </div>
                     </div>
-                </div>
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                              <label for="nombre">Nombre de la Carrera</label>
-                              <input type="text" name="nombre" id="frm_carrera" class="form-control" placeholder="" aria-describedby="helpId">
-                              {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
-                            </div>
-                            <div class="form-group">
-                              <label for="nombre">Titulo que otorga</label>
-                              <input type="text" name="titulo" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId">
-                              {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
-                            </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                     <label for="nombre">Resolución C.S</label>
-                                     <input type="text" name="titulo" id="frm_cs" class="form-control" placeholder="" aria-describedby="helpId">
-                                       <input type="file" id="fileselect" name="filecs" class="form-control">
+                    <div class="col-md-6">
 
-                                {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="nombre">Resolución CONEAU</label>
-                                    <input type="text" name="nombre" id="frm_coneau" class="form-control" placeholder="" aria-describedby="helpId">
-                                    <input type="file" id="fileselect" name="filecs" class="form-control">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="nombre">Resolución Ministerio de Educación</label>
-                                    <input type="text" name="nombre" id="frm_me" class="form-control" placeholder="" aria-describedby="helpId">
-                                    <input type="file" id="fileselect" name="fileme" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <label for="">Descripción de la Carrera</label>
-                              <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
 
-                            </div>
-                            </div>
-                        </form>
+                        <div class="form-group">
+                            <label for="unidad">Unidad Académica</label>
+                            <select class="form-control" name="unidad" id="">
+                               @foreach ($unidades as $item)
+                            <option value={{$item->id}}>{{$item->nombre}}</option>
+                               @endforeach
+
+                            </select>
+                        </div>
 
                     </div>
-            </div>{{-- end card --}}
 
-
-    </div>{{-- end col --}}
-</div>
-{{-- end row --}}
+            </div>
+                {{-- nombre
+                facultad
+                resolucion
+                modalidad
+                responsable
+                contacto
+                fecha de inscripcion --}}
+            </form>
+       </div>
+   </div>
 </div>
 {{-- end container --}}
 @endsection
