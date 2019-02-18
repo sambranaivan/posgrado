@@ -23,9 +23,9 @@
                                 </a>
                             </div>
                             <div class="col col-md-3 col-md-offset-1">
-                                              <a href="/admin/carreras">
-                                <button type="button" class="btn btn-primary btn-block">Carreras</button>
-                                              </a>
+                                <a href="/admin/carreras">
+                                    <button type="button" class="btn btn-primary btn-block">Carreras</button>
+                                </a>
                             </div>
                             <div class="col col-md-3 col-md-offset-1">
                                 <button type="button" class="btn btn-primary btn-block">Resoluciones</button>

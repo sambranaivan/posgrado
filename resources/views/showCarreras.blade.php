@@ -137,6 +137,11 @@ $(".carrera_button").click(function(){
             }
         html +='</p>'
 
+            // condicional especial para humanidades que pidio Guillermo Vega carrera codigo 37
+    if(data.id == 37){
+
+    html += '<p id="pagina"><strong><u>Más Información </u>: <a href="http://hum.unne.edu.ar/postgrado/especializ_historia/especializ_historia.htm">Click Aquí</a></strong></p>'
+    }
         html += '<p id="pagina"><strong><u>Secretaría de Posgrado de la Facultad</u>: <a href="'+data.unidad_academica.link+'">Click Aquí</a></strong></p>'
 
             info.html(html);
