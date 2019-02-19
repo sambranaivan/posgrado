@@ -24,9 +24,9 @@
     </a>
   </li>
 
-  <li class="nav-item">
+  {{-- <li class="nav-item">
     <a class="nav-link" id="academica-tab" data-toggle="tab" href="#academica" role="tab" aria-controls="academica" aria-selected="false">Unidad Académica</a>
-  </li>
+  </li> --}}
   <li class="nav-item">
     <a class="nav-link" id="autoridad-tab" data-toggle="tab" href="#autoridad" role="tab" aria-controls="autoridad" aria-selected="false">Responsables</a>
   </li>
@@ -56,7 +56,7 @@
           {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
         </div>
 
-        <div class="form-group">
+        {{-- <div class="form-group">
           <label for="titulo">Título que otorga</label>
           <input type="text" name="titulo" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->titulo}}"
           @if(Auth::user()->id == 1) ///es admin
@@ -65,8 +65,8 @@
             disabled
           @endif
           >
-          {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
-        </div>
+
+        </div> --}}
 
         <div class="form-group">
             <label for="denominacion">Denominación</label>
