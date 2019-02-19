@@ -90,9 +90,9 @@ $(".carrera_button").click(function(){
 
 
 
-        if(data.area != "")
+        if(data.area !== null)
         {
-            html += '<p id="area"><strong>Área disciplinar: </strong>Ciencias Sociales </p>'
+            html += '<p id="area"><strong>Área disciplinar: </strong>'+data.area+'</p>'
         }
 
         html += ' <p><strong>Modalidad: </strong>'+data.modalidad+' </p> '
