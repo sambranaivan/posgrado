@@ -187,7 +187,7 @@ $(".carrera_button").click(function(){
                                     </div>
                                     {{--  si no es diplomatura superior muestro los demas campos de busqueda  --}}
                                     {{-- Diplomatura superuor no tiene area diciplinar  --}}
-                                    @if($titulo != 'Diplomatura Superior')
+                                    @if($titulo != 'Diplomatura Superior' & $titulo != 'Cursos de Posgrado')
                                         <div class="col-md-3">
                                         <div class="form-group">
                                             <label for="filter_area">Área Disciplinar</label>
