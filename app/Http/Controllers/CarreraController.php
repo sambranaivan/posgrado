@@ -225,6 +225,14 @@ public function showcursos($id){
 
     }
 
+     public function updateModalidad(request $request){
+        $c = Carrera::find($request->id);
+        $c->modalidad = $request->modalidad;
+        $c->save();
+        return redirect('edit/'.$c->id)->with('info','Carrera Actualizada');
+
+    }
+
 
     public function addResolucion($carrera_id){
 

@@ -76,6 +76,10 @@ $this->addResolucion($me,'Ministerial');
         return $this->hasMany('App\Autoridad','carrera_id');
     }
 
+    public function denominacion(){
+        return $this->belongsTo('App\Denominacion');
+    }
+
 
 
 }
