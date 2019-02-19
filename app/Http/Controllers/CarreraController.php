@@ -8,6 +8,7 @@ use App\Carrera;
 use App\Unidad;
 use App\Resolucion;
 use App\Denominacion;
+use App\Autoridad;
 use Barryvdh\DomPDF\Facade as PDF;
 use DB;
 class CarreraController extends Controller
@@ -25,12 +26,63 @@ class CarreraController extends Controller
         return view('nueva_carrera')->with('unidades',$u)->with('denominaciones',$d);
     }
 
+    public function addCarrera(Request $request)
+    {
+        $c = new Carrera();
+        $c->nombre = $request->nombre;
+        $c->denominacion_id = $request->denominacion;
+        $c->unidad_id = $request->unidad;
+        $c->modalidad = $request->Modalidad;
+        $c->descripcion = $request->inscripcion;
+        $c->save();
+
+        if($request->filled('responsable'))
+        {
+            $r = new Autoridad();
+            $r->carrera_id = $c->id;
+            $r->cargo = "Responsable";
+            $r->nombre = $request->responsable;
+            $r->save();
+        }
+
+
+        if($request->filled('contacto'))
+        {
+            $contacto = new Autoridad();
+            $contacto->nombre = $request->contacto;
+            $contacto->telefono = $request->telefono;
+            $contacto->email = $request->email;
+            $contacto->carrera_id = $c->id;
+            $contacto->cargo = "Contacto";
+            $contacto->save();
+        }
+
+        if($request->filled('resolucion'))
+        {
+            $res = new Resolucion();
+            $res->codigo = $request->resolucion;
+            $res->carrera_id = $c->id;
+            $res->save();
+        }
+
+        return redirect('admin/carreras/add')->with('carrera',$c->id);
+
+
+
+    }
+
 
     public function doctorados(){
         $c = Carrera::where('denominacion_id',3)->get();
         $u = Unidad::all();
         $areas = DB::table('carreras')->select('area')->distinct()->get();
         return view('showCarreras')->with('carreras',$c)->with('titulo','Doctorado')->with('selected',false)->with('ref','Doctorado')->with('unidades',$u)->with('areas',$areas);
+    }
+     public function cursos(){
+        $c = Carrera::where('denominacion_id',5)->get();
+        $u = Unidad::all();
+        $areas = DB::table('carreras')->select('area')->distinct()->get();
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Cursos de Posgrado')->with('selected',false)->with('ref','Cursos de posgrado')->with('unidades',$u)->with('areas',$areas);
     }
     public function maestrias(){
         $c = Carrera::where('denominacion_id',2)->get();
@@ -66,9 +118,13 @@ class CarreraController extends Controller
     $u = Unidad::all();
     $s = Carrera::find($id);
         return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',$s)->with('ref','Especializacion')->with('unidades',$u)->with('areas',$areas);;
-
-
-
+}
+public function showcursos($id){
+    $c = Carrera::where('denominacion_id',5)->get();
+    $areas = DB::table('carreras')->select('area')->distinct()->get();
+    $u = Unidad::all();
+    $s = Carrera::find($id);
+        return view('showCarreras')->with('carreras',$c)->with('titulo','Cursos de Posgrado')->with('selected',$s)->with('ref','Curso de Posgrado')->with('unidades',$u)->with('areas',$areas);
 
 }
 
