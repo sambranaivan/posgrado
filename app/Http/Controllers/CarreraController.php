@@ -62,6 +62,7 @@ class CarreraController extends Controller
             $res = new Resolucion();
             $res->codigo = $request->resolucion;
             $res->carrera_id = $c->id;
+            $res->descripcion = 'Resolución de Aprobación';
             $res->save();
         }
 
