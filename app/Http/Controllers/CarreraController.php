@@ -36,7 +36,7 @@ class CarreraController extends Controller
         $c->descripcion = $request->inscripcion;
         $c->save();
 
-        if($request->responsable)
+        if($request->filled('responsable'))
         {
             $r = new Autoridad();
             $r->carrera_id = $c->id;
@@ -44,9 +44,9 @@ class CarreraController extends Controller
             $r->nombre = $request->responsable;
             $r->save();
         }
-        
 
-        if($request->contacto)
+
+        if($request->filled('contacto'))
         {
             $contacto = new Autoridad();
             $contacto->nombre = $request->contacto;
@@ -57,13 +57,12 @@ class CarreraController extends Controller
             $contacto->save();
         }
 
-        if($request->resolucion)
+        if($request->filled('resolucion'))
         {
             $res = new Resolucion();
             $res->codigo = $request->resolucion;
             $res->carrera_id = $c->id;
             $res->save();
-
         }
 
         return redirect('admin/carreras/add')->with('carrera',$c->id);
