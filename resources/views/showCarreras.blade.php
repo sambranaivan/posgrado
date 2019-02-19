@@ -216,6 +216,7 @@ $(".carrera_button").click(function(){
                                             <select name="filter_modalidad" id="select_modalidad" class="form-control">
                                                 <option value="all">Ver Todo</option>
                                                 <option value="Presencial">Presencial</option>
+                                                <option value="Presencial con Apoyo Virtual">Presencial con Apoyo Virtual</option>
                                                 <option value="Virtual">Virtual</option>
 
                                             </select>

@@ -40,113 +40,74 @@
 
       <div class="card-body">
 
-        <form class="form" action="/editarCarrera"method="POST">
-        {{ csrf_field() }}
 
-            <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
-        <div class="form-group">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="frm_nombre" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->nombre}}"
-           @if(Auth::user()->id == 1) ///es admin
-            enabled
-          @else
-            disabled
-          @endif
-          >
-          {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
-        </div>
 
-        {{-- <div class="form-group">
-          <label for="titulo">Título que otorga</label>
-          <input type="text" name="titulo" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->titulo}}"
-          @if(Auth::user()->id == 1) ///es admin
-            enabled
-          @else
-            disabled
-          @endif
-          >
+        <div class="form-inline row">
 
-        </div> --}}
 
-        <div class="form-group">
-            <label for="denominacion">Denominación</label>
-            <select class="form-control" name="denominacion" id="denominacion"
-              @if(Auth::user()->id == 1) ///es admin
-            enabled
-          @else
-            disabled
-          @endif
-            >
-                <option value="1"
-                @if ($carrera->denominacion_id == 1)
-                    selected
-                @endif
-                >Especialización</option>
-                <option value="2"
-                @if ($carrera->denominacion_id == 2)
-                    selected
-                @endif
-                >Maestría</option>
-                <option value="3"
-                @if ($carrera->denominacion_id == 3)
-                    selected
-                @endif
-                >Doctorado</option>
-                 <option value="4"
-                @if ($carrera->denominacion_id == 4)
-                    selected
-                @endif
-                >Diplomatura Superior</option>
-            </select>
-        </div>
+                <div class="form-group col-md-12">
+                  <label for="" class="col-md-3">Nombre :</label>
+                  <input type="text" class="form-control col-md-9" disabled value="{{$carrera->nombre}}">
+                </div>
+                 <div class="form-group col-md-12">
+                  <label for="" class="col-md-3">Unidad Académica :</label>
+                  <input type="text" class="form-control col-md-9" disabled value="{{$carrera->unidad->nombre}}">
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="" class="col-md-3">Denominación :</label>
+                  <input type="text" class="form-control col-md-9" disabled value="{{$carrera->denominacion->descripcion}}">
+                </div>
+                 @if ($carrera->denominacion_id < 4)
+                     <div class="form-group col-md-12">
+                  <label for="" class="col-md-3">Área Disciplinar :</label>
+                  <input type="text" class="form-control col-md-9" disabled value="{{$carrera->area}}">
+                </div>
+                 @endif
 
-        {{--  Area diciplinar  --}}
-        <div class="form-group">
-          <label for="titulo">Área Disciplinar</label>
-          <input type="text" name="area" id="frm_titulo" class="form-control" placeholder="" aria-describedby="helpId" value="{{$carrera->area}}"
-          @if(Auth::user()->id == 1) ///es admin
-            enabled
-          @else
-            disabled
-          @endif
-          >
-          {{--  <small id="helpId" class="text-muted">Help text</small>  --}}
-        </div>
 
-        {{--  muestro todas la unidades academicas y elijo la mia noma   --}}
 
-            <div class="form-group">
-              <label for="unidad">Unidad Académica</label>
-              <select class="form-control" name="unidad" id="" disabled>
-                @foreach ($unidades as $unidad)
-                    <option value="{{$unidad->id}}"
-                        @if ($unidad->id == $carrera->unidad_id)
-                        selected
-                        @endif
-                        >
-                        {{$unidad->nombre}}
-                    </option>
-                @endforeach
-              </select>
+
 
         </div>
 
 
-        @if(Auth::user()->id == 1)
-        <button type="submit" class="btn btn-primary">Actualizar<i class="fas fa-sync-alt" aria-hidden="true"></i></button>
-        @endif
-
-    </form>
-
-    <form method="POST" action="/editarCarreraFecha">
+    <form method="POST" action="/editarCarreraFecha" class="form-inline row">
        {{ csrf_field() }}
 
             <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
-        <div class="form-group">
-          <label for="">Fechas de Inscripción</label>
-          <input type="text" class="form-control" name="inscripcion" id="" aria-describedby="helpId" value="{{$carrera->descripcion}}">
-        </div>
-        <button type="submit" class="btn btn-primary">Actualizar Fecha de Inscripción</button>
+
+            <div class="form-group col-md-8">
+                <label for="inscripcion" class="col-md-5">Fechas de Inscripción : </label>
+                <input type="text" class="form-control col-md-7" name="inscripcion" id="" aria-describedby="helpId" value="{{$carrera->descripcion}}">
+            </div>
+
+             <div class="form-group col-md-1">
+             <button type="submit" class="btn btn-primary btn-sm form-control">Actualizar Fecha de Inscripción</button>
+             </div>
+    </form>
+     <form method="POST" action="/editarCarreraModalidad" class="form-inline row">
+       {{ csrf_field() }}
+
+            <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
+
+
+            <div class="form-group col-md-8">
+
+
+                  <label for="modalidad" class="col-form-label col-md-5">Modalidad</label>
+                  <select class="form-control col-md-7" name="modalidad" id="">
+                    <option value="Presencial" @if($carrera->modalidad == 'Presencial') selected @endif>Presencial</option>
+                    <option value="Presencial con Apoyo Virtual" @if($carrera->modalidad == 'Presencial con Apoyo Virtual') selected @endif>Presencial con Apoyo Virtual</option>
+                    <option value="Virtual" @if($carrera->modalidad == 'Virtual') selected @endif>Virtual</option>
+                  </select>
+
+            </div>
+
+
+             <div class="form-group col-md-1">
+             <button type="submit" class="btn btn-primary btn-sm form-control">Actualizar Modalidad</button>
+             </div>
+
     </form>
 
 
