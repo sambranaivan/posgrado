@@ -50,7 +50,15 @@ class CarreraController extends Controller
         {
             $contacto = new Autoridad();
             $contacto->nombre = $request->contacto;
-            $contacto->telefono = $request->telefono;
+            if($request->filled('telefono'))
+            {
+                $contacto->contacto = $request->telefono;
+            }
+            else
+            {
+                $contacto->contacto = " - ";
+            }
+
             $contacto->email = $request->email;
             $contacto->carrera_id = $c->id;
             $contacto->cargo = "Contacto";
