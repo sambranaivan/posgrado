@@ -29,6 +29,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
     Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
     Route::get('admin/carreras/add','CarreraController@nuevaCarrera')->name('nuevaCarrera');
+    // ---v
+    Route::post('addcarrera','CarreraController@addCarrera');
     Route::get('edit/autoridad/{id}','AutoridadController@edit');
     Route::get('edit/designacion/{id}','DesignacionController@edit');
     Route::get('edit/unidad/{id}','UnidadController@edit');
@@ -70,6 +72,10 @@ Route::get('/carreras/especializacion/{id}','CarreraController@showespecializaci
 
 Route::get('/carreras/diplomatura','CarreraController@diplomaturas');
 Route::get('/carreras/diplomatura/{id}','CarreraController@showdiplomaturas');
+
+Route::get('/carreras/cursos','CarreraController@cursos');
+Route::get('/carreras/cursos/{id}','CarreraController@showcursos');
+
 
 Route::get("/download/doctorado",'CarreraController@getDoctoradoPdf');
 Route::get("/doctorado",'CarreraController@getDoctorado');

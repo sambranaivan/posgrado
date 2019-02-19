@@ -17,10 +17,12 @@
         </div>
         <div class="col-md-6 carrera-imagen text-center img-center text-muted">
 
-                <img class="img-responsive img-center" src="{{asset('img/carreras/cursos.png')}}">
+                    <a href="carreras/cursos">
+<img class="img-responsive img-center" src="{{asset('img/carreras/cursos.png')}}">
 
                     <h3 class="text-center">Cursos de Posgrado</h3>
-                    <small>..en construcción</small>
+                    </a>
+
 
 
         </div>
