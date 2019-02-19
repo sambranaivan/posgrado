@@ -115,12 +115,20 @@ $(".carrera_button").click(function(){
         html += '<p><strong><u>Responsables</u></strong></p><ul> '
             data.autoridades.forEach(function(v,i,a){
 
-                if(v.contacto == null){contacto = ""}else{contacto = v.contacto}
-                if(v.email == null){email = ""}else{email = v.email}
-
-                    html += '<p><strong>'+v.cargo+':</br> </strong>'+v.nombre+'</p>'
+                html += '<p><strong>'+v.cargo+':</br> </strong>'+v.nombre+'</p>'
+                if(v.contacto !== null)
+                {
+                    contacto = v.contacto
                     html += '<p><strong>Tel: </strong>'+contacto+'</p>'
+                }
+                if(v.email !== null)
+                {
+                    email = v.email
                     html += '<p><strong>Direccion de email: </strong>'+email+'</p>'
+                }
+
+
+
 
             })
 
