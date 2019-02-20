@@ -78,12 +78,16 @@ $(".carrera_button").click(function(){
 
         html += '<h3>'+data.nombre+'</h3> <span> &nbsp;</span>'
 
-        if(data.denominacion_id >= 4){
+        if(data.titulo)
+        {
+            if(data.denominacion_id >= 4){
             html += '<p><strong>Certificado: </strong>'+data.titulo+'</p> <span> &nbsp;</span> '
         }
         else{
             html += '<p><strong>Título: </strong>'+data.titulo+'</p> <span> &nbsp;</span> '
         }
+        }
+
 
 
 
