@@ -26,7 +26,7 @@
 
             if(estado == 'activar')
             {
-                $.get('subscribe',{asunto:asunto},function(data){
+                $.get('/expedientes/subscribe',{asunto:asunto},function(data){
                 console.log(data);
                 if(data == 'registrado'){
                     boton.html("desactivar").removeClass('btn-success').addClass('btn-danger');
@@ -37,7 +37,7 @@
             }
             else
             {
-                 $.get('unsubscribe',{asunto:asunto},function(data){
+                 $.get('/expedientes/unsubscribe',{asunto:asunto},function(data){
                 console.log(data);
                 if(data == 'unsubscribe ok'){
                     boton.html("Activar").removeClass('btn-danger').addClass('btn-success');
