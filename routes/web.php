@@ -26,9 +26,9 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('edit/{id}','CarreraController@editView');
     Route::Post('editarCarrera','CarreraController@editSave');
-    Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
-    Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
-    Route::get('admin/carreras/add','CarreraController@nuevaCarrera')->name('nuevaCarrera');
+    // Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
+    // Route::get('admin/ofertas/add','OfertaController@nuevaOferta')->name('nuevaOferta');
+    // Route::get('admin/carreras/add','CarreraController@nuevaCarrera')->name('nuevaCarrera');
     // ---v
     Route::post('addcarrera','CarreraController@addCarrera');
     Route::get('edit/autoridad/{id}','AutoridadController@edit');
