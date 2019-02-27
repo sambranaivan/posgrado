@@ -32,7 +32,7 @@ Route::group(['middleware' => ['auth']], function () {
     // ---v
     Route::post('addcarrera','CarreraController@addCarrera');
     Route::get('edit/autoridad/{id}','AutoridadController@edit');
-    Route::get('edit/designacion/{id}','DesignacionController@edit');
+    // Route::get('edit/designacion/{id}','DesignacionController@edit');
     Route::get('edit/unidad/{id}','UnidadController@edit');
     Route::get('edit/resolucion/{id}','ResolucionController@edit');
     Route::Post('update/resolucion','ResolucionController@update');
