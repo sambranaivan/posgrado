@@ -44,6 +44,9 @@ Route::group(['middleware' => ['auth']], function () {
 
        Route::Post('editarCarreraModalidad','CarreraController@updateModalidad');
     Route::Post('editarCarreraFecha','CarreraController@updatefecha');
+    Route::Post('editarCarreraArea','CarreraController@updateArea');
+
+
 
 });
 
@@ -98,8 +101,31 @@ Route::post('/nuevotramite',"TramiteController@subir");
 Route::get('tramites',"TramiteController@listado");
 
 
-//reset password
-
-// Route::get('change/{id}',"UnidadController@password");
 
 
+/**
+ *
+ * INTEGRACION CON SISTEMA DE ALERTA DE EXPEDIENTES FACENA
+ *
+ * RUTAS DE "EXPEDIENTES FACENA"
+ *
+ */
+
+Route::group(['middleware' => ['auth']], function () {
+    //
+    Route::get('expedientes/asuntos','AsuntoController@verTodos');
+    Route::get('expedientes/subscribe','AsuntoController@subscribe');
+    Route::get('expedientes/unsubscribe','AsuntoController@unsubscribe');
+    Route::get('expedientes', 'AsuntoController@verAsuntos');
+
+    Route::get('expedientes/superadmin','UserController@superAdmin');
+    Route::post('expedientes/updatefilters','UserController@updateFilters');
+
+});
+
+Route::get('expedientes/checkupdate','AlertaController@checkUpdate');
+
+
+///probar notificacion
+Route::get('expedientes/test','AsuntoController@sendNotificacion');
+//  TODO route de superadmin
