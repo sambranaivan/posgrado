@@ -44,6 +44,9 @@ Route::group(['middleware' => ['auth']], function () {
 
        Route::Post('editarCarreraModalidad','CarreraController@updateModalidad');
     Route::Post('editarCarreraFecha','CarreraController@updatefecha');
+    Route::Post('editarCarreraArea','CarreraController@updateArea');
+
+
 
 });
 

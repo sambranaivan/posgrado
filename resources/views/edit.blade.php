@@ -57,19 +57,44 @@
                   <label for="" class="col-md-3">Denominación :</label>
                   <input type="text" class="form-control col-md-9" disabled value="{{$carrera->denominacion->descripcion}}">
                 </div>
-                 @if ($carrera->denominacion_id < 4)
-                     <div class="form-group col-md-12">
-                  <label for="" class="col-md-3">Área Disciplinar :</label>
-                  <input type="text" class="form-control col-md-9" disabled value="{{$carrera->area}}">
-                </div>
-                 @endif
 
 
 
 
 
-        </div>
+            </div>
 
+            @if ($carrera->denominacion_id < 4)
+                        <form method="POST" action="/editarCarreraArea" class="form-inline row">
+                        {{ csrf_field() }}
+
+                        <input type="hidden" class="form-control" name="id" value="{{$carrera->id}}">
+
+
+                        <div class="form-group col-md-8">
+
+
+                        <label for="area" class="col-form-label col-md-5">Area Disciplinar</label>
+                        <select class="form-control col-md-7" name="area" id="">
+<option value="Ciencias Aplicadas" @if($carrera->area == 'Ciencias Aplicadas') selected @endif>Ciencias Aplicadas</option>
+<option value="Ciencias Sociales" @if($carrera->area == 'Ciencias Sociales') selected @endif>Ciencias Sociales</option>
+<option value="Ciencias Básicas" @if($carrera->area == 'Ciencias Básicas') selected @endif>Ciencias Básicas</option>
+<option value="Ciencias de la Salud" @if($carrera->area == 'Ciencias de la Salud') selected @endif>Ciencias de la Salud</option>
+<option value="Ciencias Humanas" @if($carrera->area == 'Ciencias Humanas') selected @endif>Ciencias Humanas</option>
+                        </select>
+
+
+                        </select>
+
+                        </div>
+
+
+                        <div class="form-group col-md-1">
+                        <button type="submit" class="btn btn-primary btn-sm form-control">Actualizar Area Disciplinar</button>
+                        </div>
+
+                        </form>
+            @endif
 
     <form method="POST" action="/editarCarreraFecha" class="form-inline row">
        {{ csrf_field() }}
@@ -96,6 +121,7 @@
 
                   <label for="modalidad" class="col-form-label col-md-5">Modalidad</label>
                   <select class="form-control col-md-7" name="modalidad" id="">
+
                     <option value="Presencial" @if($carrera->modalidad == 'Presencial') selected @endif>Presencial</option>
                     <option value="Presencial con Apoyo Virtual" @if($carrera->modalidad == 'Presencial con Apoyo Virtual') selected @endif>Presencial con Apoyo Virtual</option>
                     <option value="Virtual" @if($carrera->modalidad == 'Virtual') selected @endif>Virtual</option>
