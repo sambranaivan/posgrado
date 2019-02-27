@@ -129,3 +129,5 @@ Route::get('expedientes/checkupdate','AlertaController@checkUpdate');
 ///probar notificacion
 Route::get('expedientes/test','AsuntoController@sendNotificacion');
 //  TODO route de superadmin
+Route::get('expedientes/config/lastid/{lastid}', 'ConfiguracionController@set');
+Route::get('expedientes/config/lastid/', 'ConfiguracionController@get');
