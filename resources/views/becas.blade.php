@@ -35,9 +35,14 @@ Una bolsa o ayuda de estudios de 1.500 €.
 <ul class="list-group">
     </div>
     <div>
-Dirigido a: titulados universitarios no españoles egresados de universidades latinoamericanas asociadas a la AUIP.
+<p>
+    <strong>Dirigido a:</strong> titulados universitarios no españoles egresados de universidades latinoamericanas asociadas a la AUIP.
+</p>
 
-Más información: <a href="http://auip.org/es/becas-auip/1732">http://auip.org/es/becas-auip/1732</a>
+<p>
+    <strong>Más información:</strong> <a href="http://auip.org/es/becas-auip/1732">http://auip.org/es/becas-auip/1732</a>
+    </p>
+
 </p>
 </div> </div>
                   </li>
