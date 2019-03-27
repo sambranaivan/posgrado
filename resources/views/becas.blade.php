@@ -291,7 +291,7 @@
                             </p>
 
                                     <p>
-                                <strong>Más información:</strong> <a href="http://auip.org/es/becas-auip/1752">http://auip.org/es/becas-auip/1752</a>
+                                <strong>Más información:</strong> <a href="http://auip.org/es/becas-auip/1750">http://auip.org/es/becas-auip/1750</a>
                                     </p>
                         </div>
                         </div>
