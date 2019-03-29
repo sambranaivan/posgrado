@@ -296,6 +296,123 @@
                         </div>
                         </div>
         {{--  --}}
+                        <div class="card text-left">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img class="card-img-left img-fluid" src="https://ci5.googleusercontent.com/proxy/AxzL81ssfF2jp2kgkYajOx3JQPunLtY9vWEvl0-Ho0A1vOgnJfx3uJVfh-1lxX73GeHDaMycIo4Wd1rydCGt4IcbGGxTpIDdbnBQNYuVBgCSC43TnTk=s0-d-e1-ft#http://auip.org/images/stories/DATOS/BANNERS/2019/banner_alcala.jpg" alt="">
+                                </div>
+                                <div class="col-md-10">
+                                                <h3 class="text-center">
+                                                    Becas para cursar Másteres Oficiales en la Universidad de Alcalá 2019
+
+                                                </h3>
+                                            </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+
+                                <ul class="list-group">
+                                    <li>
+                                <p>
+                                        <strong>Plazo de solicitud</strong>:hasta el 31 de mayo de 2019 a las 23:59 horas (GMT/UTC+01:00) Madrid.
+                                    </p>
+                                    </li>
+
+                                    <li>
+                                <p>
+                                    <strong>Nº de Plazas convocadas</strong> 20.
+                                </p>
+                                </li>
+
+                                <li>
+                                <p>
+                                        <strong>Cuantía de las Becas:</strong>
+                                    </p>
+                                    </li>
+                                                </ul>
+                                <div class="row">
+                                    <div class="col-md-11 offset-md-1">
+                                        <ul class="list-group">
+
+                                        <li><p class="text-justify">
+                                        Alojamiento en la Residencia Universitaria CRUSA (www.crusa.es) en habitación doble compartida. Asimismo, los estudiantes beneficiarios disfrutarán de las mismas tasas e importe de matrícula que los residentes en la Unión Europea.
+                                        </p></li>
+                                </ul>
+                                </div>
+
+                                    </div>
+
+                                    <p>
+                                <strong>Dirigido a:</strong> estudiantes, profesores y egresados, con residencia legal en países distintos a España, de universidades extranjeras asociadas a la AUIP, interesados en realizar un Máster Universitario.
+                            </p>
+
+                                    <p>
+                                <strong>Más información:</strong> <a href=" http://auip.org/es/becas-auip/1762">http://auip.org/es/becas-auip/1762</a>
+                                    </p>
+                        </div>
+                        </div>
+
+        {{--  --}}
+<div class="card text-left">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img class="card-img-left img-fluid" src="https://ci6.googleusercontent.com/proxy/FeeleDtKpfIJYnAYwQYIUFUA3ZJ94vUOPec9-4TIvXZbXMDMVrzF7tPveHn2U_emj57GuIWpAwc3n-GKLj1km_jpSd7uQebmNlZalTw0MSJGdxCg=s0-d-e1-ft#http://auip.org/images/stories/DATOS/BANNERS/2019/banner_unia.jpg" alt="">
+                                </div>
+                                <div class="col-md-10">
+                                                <h3 class="text-center">
+                                                    Becas para cursar Másteres Universitarios en la Universidad Internacional de Andalucía (UNIA) 2019
+
+                                                </h3>
+                                            </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+
+                                <ul class="list-group">
+                                    <li>
+                                <p>
+                                        <strong>Plazo de solicitud</strong>:hasta el 9 de mayo de 2019 a las 23:59 horas (GMT/UTC+01:00) Madrid.
+                                    </p>
+                                    </li>
+
+                                    <li>
+                                <p>
+                                    <strong>Nº de Plazas convocadas</strong> 8.
+                                </p>
+                                </li>
+
+                                <li>
+                                <p>
+                                        <strong>Cuantía de las Becas:</strong>
+                                    </p>
+                                    </li>
+                                                </ul>
+                                <div class="row">
+                                    <div class="col-md-11 offset-md-1">
+                                        <ul class="list-group">
+
+                                        <li><p class="text-justify">
+                                        El programa financia 8 becas de matrícula, 2 de las cuales disfrutarán además de beca de alojamiento.
+                                        </p></li>
+                                </ul>
+                                </div>
+
+                                    </div>
+
+                                    <p>
+                                <strong>Dirigido a:</strong> estudiantes, profesores y egresados vinculados a universidades latinoamericanas asociadas a la AUIP que estén interesados en realizar estudios oficiales de Máster Universitario.
+                            </p>
+
+                                    <p>
+                                <strong>Más información:</strong> <a href="http://auip.org/es/becas-auip/1760">http://auip.org/es/becas-auip/1760</a>
+                                    </p>
+                        </div>
+                        </div>
+        {{--  --}}
 
 </div>
 {{-- end container --}}
