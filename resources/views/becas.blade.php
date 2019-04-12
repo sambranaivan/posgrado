@@ -8,7 +8,32 @@
                 <h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Becas y Subsidios</h1>
                 </div>
                 <div class="col-md-8 offset-md-2">
+<div class="card">
+                    <div class="card-header">
 
+
+
+                                <h3 class="text-center">
+                                    Maestrías en áreas de energía, construcción, infraestructuras e ingeniería.
+                                </h3>
+
+
+
+                    </div>
+                        <div class="card-body">
+                        <p class="card-text">
+                            <img src="{{asset('img/becasoae.png')}}" class="img-thumbnail" alt="">
+                        </p>
+                        <p class="card-text">
+                            <b>Mas información:</b> <a href="http://www.oas.org/es/becas/PAEC/2019/02_Convocatoria_OEA-Structuralia_2019.pdf">http://www.oas.org/es/becas/PAEC/2019/02_Convocatoria_OEA-Structuralia_2019.pdf</a>
+                        </p>
+                        </div>
+
+
+
+
+
+                </div>
                 <div class="card">
                     <div class="card-header">
                         .<div class="row">
@@ -65,6 +90,11 @@
                 </div>
 
         </div>{{-- end row --}}
+        {{--Becas OEM  --}}
+
+
+
+        {{--  --}}
         {{-- OTRA BECA --}}
         <div class="card text-left">
           <div class="card-header">
