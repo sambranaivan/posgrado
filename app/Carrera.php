@@ -21,6 +21,8 @@ class Carrera extends Model
         return $this;
     }
 
+
+
     public function addResolucion($codigo,$descripcion)
     {
         $res = new Resolucion();

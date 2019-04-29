@@ -247,10 +247,15 @@
 
 
       <div class="row" id="listadoResoluciones">
+          @if (Auth::user()->id == 1)
+      <a name="" id="" class="btn btn-primary" href="{{route('addResolucion',['carrera'=>$carrera->id])}}" role="button">Agregar Resolución</a>
+
+                            @endif
             <div class="col-md-12">
                     @foreach ($carrera->resoluciones as $item)
 
                         <div class="list-group">
+
                             <li class="list-group-item clearfix">
                             {{$item->descripcion.": ".$item->codigo }}
 

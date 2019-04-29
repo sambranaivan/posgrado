@@ -71,6 +71,11 @@ class CarreraController extends Controller
 
 
     }
+    public function nuevaResolucion($id){
+        $carrera = Carrera::find($id);
+        $carrera->addResolucion("codigo","nuevo");
+        return redirect("/edit/".$id);
+    }
 
 
     public function doctorados(){
