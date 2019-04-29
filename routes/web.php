@@ -24,6 +24,7 @@ Route::group(['middleware' => ['auth']], function () {
         return view('admin');
     });
 
+    Route::get('add/resolucion/{id}','CarreraController@nuevaResolucion')->name("addResolucion");
     Route::get('edit/{id}','CarreraController@editView');
     Route::Post('editarCarrera','CarreraController@editSave');
     // Route::get('admin/ofertas','OfertaController@index')->name('ofertas');
