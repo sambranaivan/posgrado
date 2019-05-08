@@ -12,38 +12,7 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-10 offset-md-1   ">
-                                        <div class="card text-center">
-                                            <div class="card-header">
-                                                <h3 class="text-title">Seminario de Promoción de Posgrados argentinos en Paraguay </h3>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="card-body">
 
-                                                        <p class="card-text">
-                                                            <img src="{{asset('img/paraguay.png')}}" class="img-thumbnail">
-                                                        </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="card-body">
-                                                        <p class="card-text text-justify">
-En conjunto  con el Ministerio de Educación y Ciencias de la República de Paraguay y la Embajada Argentina en la República de Paraguay estamos organizando un Seminario sobre Posgrados a realizarse en la Ciudad de Asunción los días 6 y 7 de mayo.</p><p class="card-text text-justify"> El Seminario contará con un espacio para reuniones bilaterales con el objetivo de fomentar la cooperación bilateral y un espacio de feria en la que las instituciones argentinas promocionarán la oferta educativa a nivel de posgrado.
-
-Las actividades se desarrollarán en el Auditorio Leopoldo Marechal perteneciente a la Embajada Argentina en Paraguay.
-
-</p><p class="card-text text-justify">
-    A las instituciones interesadas en participar de esta actividad les solicitamos tengan a bien registrarse en el siguiente <u><a href="https://goo.gl/forms/yaj7W2UK9C1jTN3n1">formulario</a></u> antes del 10 de abril.
-
-
-                                                        </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
                            </div>
                        <div class="col-md-6">
 
