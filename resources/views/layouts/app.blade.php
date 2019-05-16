@@ -70,7 +70,7 @@
                         </li>
                          <li class="nav-item">
                             <a class="nav-link  align-middle" href="/eventos">
-                               <h6 class="text-center"><b>eventos</b></h6>
+                               <h6 class="text-center"><b>Eventos</b></h6>
                             </a>
                         </li>
 
