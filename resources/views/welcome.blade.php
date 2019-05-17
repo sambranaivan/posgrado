@@ -23,13 +23,53 @@ DE LA RED DE MACROUNIVERSIDADES PÚBLICAS DE AMÉRICA LATINA Y EL CARIBE
                                                 <div class="col-md-8 offset-md-2">
                                                     <div class="card-body">
 
+
+
+
                                                         <p class="card-text">
                                                             <img src="{{asset('img/afiche_2019.png')}}" class="img-thumbnail">
                                                         </p>
-                                                    <a target="_blank" href="{{asset('pdf/procedimiento_de_postulacion_para_estudiantes.pdf')}}" class="btn btn-danger">
-                                                           Procedimiento de postulación para estudiantes
+
+
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    {{-- <div class="btn-group-vertical"> --}}
+                                                        <a target="_blank" href="{{asset('pdf/Carta_compromiso_para_la_adquisición_de_seguro_de_gastos_médicos.docx')}}" class="btn btn-block btn-sm btn-primary">
+                                                           Carta de Compromiso
+                                                           <i class="fas fa-file-word"></i>
+                                                           </a>
+                                                           <a target="_blank" href="{{asset('pdf/FORMATO_DE_SOLICITUD_Y_PLAN_DE_TRABAJO.docx')}}" class="btn btn-block btn-sm btn-primary">
+                                                           Formato de solicitud y Plan de Trabajo
+                                                           <i class="fas fa-file-word"></i>
+                                                           </a>
+
+                                                    {{-- </div> --}}
+                                                </div>
+                                                <div class="col-md-4">
+                                                    {{-- <div class="btn-group-vertical"> --}}
+
+                                                           <a target="_blank" href="{{asset('pdf/procedimiento_de_postulacion_para_estudiantes.pdf')}}" class="btn btn-block btn-sm btn-danger">
+                                                           Procedimiento de postulación
                                                            <i class="fas fa-file-pdf"></i>
                                                            </a>
+                                                            <a target="_blank" href="{{asset('pdf/Programa-2019-X Convocatoria_PMP.docx')}}" class="btn btn-block btn-sm btn-primary">
+                                                           Programa X Convocatoria 2019
+                                                           <i class="fas fa-file-word"></i>
+                                                           </a>
+
+                                                    {{-- </div> --}}
+                                                </div>
+                                                <div class="col-md-4">
+                                                    {{-- <div class="btn-group-vertical"> --}}
+
+                                                            <a target="_blank" href="{{asset('pdf/PROTOCOLO_PARA_POSTULACIONES_EN_LA_UNNE.docx')}}" class="btn btn-block btn-sm btn-primary">
+                                                           Protocolo para postularse en la UNNE
+                                                           <i class="fas fa-file-word"></i>
+                                                           </a>
+                                                    {{-- </div> --}}
+                                                </div>
+
                                                         </div>
                                                     </div>
 

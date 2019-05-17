@@ -43,7 +43,7 @@ De La Red De Macrouniversidades Públicas De América Latina Y El Caribe
                                                 <div class="col-md-4">
                                                     {{-- <div class="btn-group-vertical"> --}}
 
-                                                           <a target="_blank" href="{{asset('pdf/procedimiento_de_postulacion_para_estudiantes.pdf')}}" class="btn btn-block btn-sm btn-primary">
+                                                           <a target="_blank" href="{{asset('pdf/procedimiento_de_postulacion_para_estudiantes.pdf')}}" class="btn btn-block btn-sm btn-danger">
                                                            Procedimiento de postulación
                                                            <i class="fas fa-file-pdf"></i>
                                                            </a>
@@ -57,7 +57,7 @@ De La Red De Macrouniversidades Públicas De América Latina Y El Caribe
                                                 <div class="col-md-4">
                                                     {{-- <div class="btn-group-vertical"> --}}
 
-                                                            <a target="_blank" href="{{asset('pdf/PROTOCOLO_PARA_POSTULACIONES_EN_LA_UNNE.docx')}}" class="btn btn-block btn-sm btn-danger">
+                                                            <a target="_blank" href="{{asset('pdf/PROTOCOLO_PARA_POSTULACIONES_EN_LA_UNNE.docx')}}" class="btn btn-block btn-sm btn-primary">
                                                            Protocolo para postularse en la UNNE
                                                            <i class="fas fa-file-word"></i>
                                                            </a>
