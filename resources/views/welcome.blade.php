@@ -15,9 +15,9 @@
                         <div class="col-md-10 offset-md-1   ">
                                         <div class="card text-center">
                                             <div class="card-header">
-                                                <h3 class="text-title">X CONVOCATORIA GENERAL DEL PROGRAMA DE MOVILIDAD EN EL POSGRADO (PMP)
-DE LA RED DE MACROUNIVERSIDADES PÚBLICAS DE AMÉRICA LATINA Y EL CARIBE
- </h3>
+                                                    <h3 class="text-title">X CONVOCATORIA GENERAL DEL PROGRAMA DE MOVILIDAD EN EL POSGRADO (PMP)
+                                                            DE LA RED DE MACROUNIVERSIDADES PÚBLICAS DE AMÉRICA LATINA Y EL CARIBE
+                                                    </h3>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2">
