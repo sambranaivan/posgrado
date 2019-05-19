@@ -29,7 +29,7 @@ class mapucheController extends Controller
             //Tell cURL to return the output as a string instead
             //of dumping it to the browser.
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0); // Skip SSL Verification
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0); // Skip SSL Verification
 
 
             //Execute the cURL request.
