@@ -27,10 +27,11 @@ class mapucheController extends Controller
             //Specify the username and password using the CURLOPT_USERPWD option.
             curl_setopt($ch, CURLOPT_USERPWD, $username . ":" . $password);
             curl_setopt($ch, CURLOPT_PORT, 7070);
+            curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
             //Tell cURL to return the output as a string instead
             //of dumping it to the browser.
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0); // Skip SSL Verification
+            // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0); // Skip SSL Verification
 
 
             //Execute the cURL request.
