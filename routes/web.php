@@ -17,6 +17,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
+Route::get("mapuche","mapucheController@index")->name("mapuche");
+
 Route::group(['middleware' => ['auth']], function () {
    // Only authenticated users may enter...
    //
