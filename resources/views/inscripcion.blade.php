@@ -5,14 +5,23 @@
     <div class="row justify-content-center">
 <div class="col-md-10">
             <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <div class="col-md-10"><h2>Inscripción</h2></div>
-                    </div>
+                <div class="card-header text-center">
+
+                        <h2>Inscripción a la Convocatoria de Subsidios para realizar carreras de Posgrado</h2>
+
                 </div>
 
                 <div class="card-body">
+                <div class="text-justify">
 
+                    <p>Podrán aspirar a los subsidios para realizar carreras de Doctorado, Maestría y Especialización, los docentes de la UNNE por concurso o interinos, y los becarios de la Secretaría General de Ciencia y Técnica de la UNNE, becarios de becas cofinanciadas CONICET-UNNE y de proyectos PICTO-UNNE.</p>
+                    <p>Los aspirantes deberán estar inscriptos en la carrera al momento de la presentación. Aquellos que estuvieren inscriptos en más de una carrera de posgrado podrán solicitar el subsidio para realizar sólo una de ellas, no deben superar los 45 años de edad para postularse a los subsidios de carreras de Doctorado o Maestría, y los 50 años para Especialización, al día 31 de diciembre del año de la convocatoria.</p>
+                    <p>El aspirante deberá presentar todos sus antecedentes personales, académicos y de investigación, así como los relacionados con los estudios de posgrado que aspira a realizar, cumplimentando en su totalidad el formulario online. Por mesa de Entrada/Salidas Rectorado deberá presentar únicamente la nota con la solicitud. La Secretaria General de Posgrado con la presentación de la nota corroborará que la documentación se haya subido correctamente y se confirmará la inscripción mandando un mail al postulante.</p>
+                </div>
+                <div class="text-center">
+
+                    <h2>Formulario de Inscripción</h2>
+                </div>
                 <form method="POST" action="{{route('guardarInscripcion')}}" class="form" enctype="multipart/form-data">
                     @csrf
 
