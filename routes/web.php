@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/inscripcion',function(){
     return view('inscripcion');
-});
+})->name('inscripcion');
 Route::get('/inscripcion/completa',function(){
     return view('inscripcionCompleta');
 });
