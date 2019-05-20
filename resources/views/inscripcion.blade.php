@@ -72,7 +72,7 @@
                       <input type="text" class="form-control" name="resolucion"   required>
                     </div>
                     <div class="form-group">
-                      <label for="fecha_cargo">fecha</label>
+                      <label for="fecha_cargo">Fecha de designación</label>
                       <input type="date" class="form-control" name="fecha_cargo"   required>
                     </div>
 
