@@ -17,7 +17,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/inscripcion',function(){
+    return view('inscripcion');
+});
+Route::get('/inscripcion/completa',function(){
+    return view('inscripcionCompleta');
+});
 
+
+Route::post('/inscripcion/save','InscripcionController@recieve')->name('guardarInscripcion');
 Route::get("mapuche","mapucheController@index")->name("mapuche");
 
 Route::group(['middleware' => ['auth']], function () {
