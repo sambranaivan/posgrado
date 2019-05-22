@@ -96,4 +96,11 @@ class InscripcionController extends Controller
         return redirect('/inscripcion/completa');
 
     }
+
+
+    public function verInscriptos()
+    {
+        $inscripciones = inscripcion::all();
+        return view('inscriptos',['inscriptos'=>$inscripciones]);
+    }
 }
