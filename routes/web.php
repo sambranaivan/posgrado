@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/inscripciones','inscripcionController@verInscriptos');
+Route::get('/inscripciones','InscripcionController@verInscriptos');
 
 Auth::routes();
 
