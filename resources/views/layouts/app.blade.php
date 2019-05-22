@@ -27,6 +27,13 @@
         font-family: 'Nunito', sans-serif;
         background-color: white;
     }
+
+.table-tip td.fit,
+.table-tip th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
 </style>
 <body>
     <div id="app">
