@@ -100,7 +100,7 @@ class InscripcionController extends Controller
 
     public function verInscriptos()
     {
-        $inscripciones = inscripcion::all();
+        $inscripciones = inscripcion::where('id','>',1)->get();
         return view('inscriptos',['inscriptos'=>$inscripciones]);
     }
 }
