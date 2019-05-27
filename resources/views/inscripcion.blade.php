@@ -18,8 +18,11 @@
                     <p>Los aspirantes deberán estar inscriptos en la carrera al momento de la presentación. Aquellos que estuvieren inscriptos en más de una carrera de posgrado podrán solicitar el subsidio para realizar sólo una de ellas, no deben superar los 45 años de edad para postularse a los subsidios de carreras de Doctorado o Maestría, y los 50 años para Especialización, al día 31 de diciembre del año de la convocatoria.</p>
                     <p>El aspirante deberá presentar todos sus antecedentes personales, académicos y de investigación, así como los relacionados con los estudios de posgrado que aspira a realizar, cumplimentando en su totalidad el formulario online. Por mesa de Entrada/Salidas Rectorado deberá presentar únicamente la nota con la solicitud. La Secretaria General de Posgrado con la presentación de la nota corroborará que la documentación se haya subido correctamente y se confirmará la inscripción mandando un mail al postulante.</p>
                 </div>
-                <div class="text-center">
 
+                <div class="text-center">
+                    <a name="" id="" class="btn btn-danger white btn-lg" href="{{asset('pdf/2019-0300-nuevo-reglamento-de-subsidios-estudios-de-posgrado.pdf')}}" target="_blank" role="button">Descargar Reglamento
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    </a>
                     <h2>Formulario de Inscripción</h2>
                 </div>
                 <form method="POST" action="{{route('guardarInscripcion')}}" class="form" enctype="multipart/form-data">
