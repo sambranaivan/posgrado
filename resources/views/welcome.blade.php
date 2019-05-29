@@ -10,39 +10,7 @@
                         <div class="col-md-12"><h2 class="text-info">Noticias</h2></div>
                     </div>
                 </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1   ">
-                                        <div class="card text-center">
-                                            <div class="card-header">
-                                                    <h3 class="text-title">CONVOCATORIA 2019 A SUBSIDIOS PARA REALIZAR ESTUDIOS DE POSGRADO
-                                                    </h3>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-8 offset-md-2">
-                                                    <div class="card-body">
 
-
-
-
-                                                        <p class="card-text">
-                                                            <img src="{{asset('img/convocatoria.jpg')}}" class="img-thumbnail">
-                                                        </p>
-                                                    <a name="" id="" class="btn btn-primary btn-lg" href="{{route('inscripcion')}}" role="button">Inscripción</a>
-
-                                                        </div>
-                                                </div>
-
-
-
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-
-                                        </div>
                            </div>
                        <div class="col-md-6">
 
