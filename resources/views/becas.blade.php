@@ -10,6 +10,34 @@
                 <div class="col-md-8 offset-md-2">
                     {{--  --}}
 
+                    {{--  --}}
+  <div class="card">
+                <div class="card-header text-center">
+
+                        <h2>Inscripción a la Convocatoria de Subsidios para realizar carreras de Posgrado</h2>
+
+                </div>
+
+                <div class="card-body">
+                <div class="text-justify">
+                    <p>Podrán aspirar a los subsidios para realizar carreras de Doctorado, Maestría y Especialización, los docentes de la UNNE por concurso o interinos, y los becarios de la Secretaría General de Ciencia y Técnica de la UNNE, becarios de becas cofinanciadas CONICET-UNNE y de proyectos PICTO-UNNE.</p>
+                    <p>Los aspirantes deberán estar inscriptos en la carrera al momento de la presentación. Aquellos que estuvieren inscriptos en más de una carrera de posgrado podrán solicitar el subsidio para realizar sólo una de ellas, no deben superar los 45 años de edad para postularse a los subsidios de carreras de Doctorado o Maestría, y los 50 años para Especialización, al día 31 de diciembre del año de la convocatoria.</p>
+                    <p>El aspirante deberá presentar todos sus antecedentes personales, académicos y de investigación, así como los relacionados con los estudios de posgrado que aspira a realizar, cumplimentando en su totalidad el formulario online. Por mesa de Entrada/Salidas Rectorado deberá presentar únicamente la nota con la solicitud. La Secretaria General de Posgrado con la presentación de la nota corroborará que la documentación se haya subido correctamente y se confirmará la inscripción mandando un mail al postulante.</p>
+                </div>
+
+                <div class="text-center">
+                    <a name="" id="" class="btn btn-danger white " href="{{asset('pdf/2018-301-Convocatoria2019.pdf')}}" target="_blank" role="button">Descargar Convocatoria 2019
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    </a>
+                        <a name="" id="" class="btn btn-danger white " href="{{asset('pdf/2019-0300-nuevo-reglamento-de-subsidios-estudios-de-posgrado.pdf')}}" target="_blank" role="button">Descargar Reglamento de Subsidios
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    </a>
+                <a class="btn btn-primary " href="{{route('inscripcion')}}">Ir a Formulario de Inscripción
+                    <i class="fas fa-form" aria-hidden="true"></i>
+                </a>
+
+                </div>
+            </div>
                      <div class="card text-center">
                                             <div class="card-header">
                                                 <h4 class="text-title">X Convocatoria General Del Programa De Movilidad en El Posgrado (PMP)
