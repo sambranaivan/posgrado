@@ -33,7 +33,7 @@
                         <i class="fas fa-file-pdf" aria-hidden="true"></i>
                     </a>
                 <a class="btn btn-primary " href="{{route('inscripcion')}}">Ir a Formulario de Inscripción
-                    <i class="fas fa-form" aria-hidden="true"></i>
+                    <i class="fab fa-wpforms"></i>
                 </a>
 
                 </div>
