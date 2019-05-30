@@ -28,7 +28,7 @@ Route::get('/inscripcion/completa',function(){
 
 
 Route::post('/inscripcion/save','InscripcionController@recieve')->name('guardarInscripcion');
-Route::get("mapuche","mapucheController@index")->name("mapuche");
+Route::get("/mapuche","mapucheController@index")->name("mapuche");
 
 Route::group(['middleware' => ['auth']], function () {
    // Only authenticated users may enter...
