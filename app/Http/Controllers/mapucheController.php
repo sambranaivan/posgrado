@@ -14,7 +14,7 @@ class mapucheController extends Controller
 
 
             //The URL of the resource that is protected by Basic HTTP Authentication.
-            $url = "https://10.20.15.80/mapuche/agentes/legajo/4028";
+            $url = "https://10.20.15.80/mapuche/agentes/all";
 
 
 
