@@ -4,18 +4,39 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
 <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    <div class="row">
-                        <div class="col-md-12"><h2 class="text-info">Noticias</h2></div>
-                    </div>
-                </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="row">
+                                         <div class="col-md-12"><h2 class="text-info">Noticias</h2></div>
+                                    </div>
+                                </div>
 
+                            </div>
+
+                         </div>
+
+                         <div class="row">
+
+                         <div class="col-md-8 offset-md-2">
+                            <div class="card ">
+                           <div class="card-header">
+                               <h4 class="card-title">Jornadas de Capacitación en Derechos de Propiedad Intelectual</h4>
                            </div>
-                       <div class="col-md-6">
+                           <div class="card-body">
 
-                       </div>
-                    </div>
+                               <div class="row">
+                                   <div class="col-md-6">
+                                       <img src="{{asset('img/banner1.jpg')}}" class="img-fluid" alt="" style="width: 100%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="{{asset('img/banner2.jpg')}}" class="img-fluid" alt="" style="width: 100%">
+                                    </div>
+                                </div>
+
+                            </div>
+                          </div>
+                         </div>
+                         </div>
 
 
 
