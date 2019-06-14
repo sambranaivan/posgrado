@@ -22,12 +22,18 @@ Auth::routes();
 Route::get('/inscripcion',function(){
     return view('inscripcion');
 })->name('inscripcion');
+
+Route::get('/inscripcion/nodocente',function(){
+    return view('inscripcion-no-docente');
+})->name('inscripcionNoDocente');
+
 Route::get('/inscripcion/completa',function(){
     return view('inscripcionCompleta');
 });
 
 
 Route::post('/inscripcion/save','InscripcionController@recieve')->name('guardarInscripcion');
+Route::post('/inscripcion/save','InscripcionController@recieveNoDocente')->name('guardarInscripcionNoDocente');
 Route::get("/mapuche","mapucheController@index")->name("mapuche");
 
 Route::group(['middleware' => ['auth']], function () {

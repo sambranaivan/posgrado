@@ -11,10 +11,40 @@
                     {{--  --}}
 
                     {{--  --}}
+                    <div class="card">
+                     <div class="card-header text-center">
+                          <h2>Subsidios para la realización de Carreras de Posgrado de Especialización y Maestrías para Agentes No Docentes</h2>
+                     </div>
+                      <div class="card-body">
+                          <div class="row">
+
+                              <div class="col-md-8 offset-md-2">
+
+                                        <div class="col-md-12">
+                                            <img src="{{asset('img/nodocente.jpg')}}" style="width: 100%" alt="">
+                                        </div>
+
+                                    </div>
+                                     <div class="col-md-2 offset-md-2">
+
+                                      </a>
+                        <a name="" id="" class="btn btn-danger white " href="{{asset('pdf/2016-0369-Reglamento-subsidio-no-docente.pdf')}}" target="_blank" role="button">Descargar Reglamento
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    </a>
+                                    </div>
+                                    <div class="col-md-6 offset-md-2">
+                                        <a class="btn btn-primary " href="{{route('inscripcionNoDocente')}}">Ir a Formulario de Inscripción
+                                                <i class="fab fa-wpforms"></i>
+                                            </a>
+                                        </div>
+                                </div>
+
+                      </div>
+                    </div>
   <div class="card">
                 <div class="card-header text-center">
 
-                        <h2>Inscripción a la Convocatoria de Subsidios para realizar carreras de Posgrado</h2>
+                        <h2>Inscripción a la Convocatoria de Subsidios para realizar carreras de Posgrado para Docentes de la Universidad Nacional del Nordeste</h2>
 
                 </div>
 
