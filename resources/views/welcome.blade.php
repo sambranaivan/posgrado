@@ -25,10 +25,8 @@
                            <div class="card-body">
 
                                <div class="row">
-                                   <div class="col-md-6">
-                                       <img src="{{asset('img/banner1.jpg')}}" class="img-fluid" alt="" style="width: 100%">
-                                    </div>
-                                    <div class="col-md-6">
+
+                                    <div class="col-md-12">
                                         <img src="{{asset('img/banner2.jpg')}}" class="img-fluid" alt="" style="width: 100%">
                                     </div>
                                 </div>
