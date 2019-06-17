@@ -33,7 +33,7 @@ Route::get('/inscripcion/completa',function(){
 
 
 Route::post('/inscripcion/save','InscripcionController@recieve')->name('guardarInscripcion');
-Route::post('/inscripcion/save','InscripcionController@recieveNoDocente')->name('guardarInscripcionNoDocente');
+Route::post('/inscripcion/saveNo','InscripcionController@recieveNoDocente')->name('guardarInscripcionNoDocente');
 Route::get("/mapuche","mapucheController@index")->name("mapuche");
 
 Route::group(['middleware' => ['auth']], function () {
