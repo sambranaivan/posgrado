@@ -14,6 +14,13 @@
                 <div class="card-body">
                     <h2>Formulario de Inscripción</h2>
 
+                    .<div class="alert alert-danger" role="alert">
+                      <h4 class="alert-heading">Importante</h4>
+                      <p>Se recuerda que se debe presentar la nota de solicitud en Mesa de Entradas/Salidas (Resistencia/Rectorado), para que la presentación del formulario online sea considerada</p>
+                      <p>La Secretaria General de Posgrado con la presentación de la nota corroborará que la documentación se haya subido correctamente y se confirmará la inscripción mandando un mail al postulante.</p>
+                      <p class="mb-0"></p>
+                    </div>
+
                 <form method="POST" action="{{route('guardarInscripcionNoDocente')}}" class="form" enctype="multipart/form-data">
                     @csrf
 
