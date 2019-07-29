@@ -6,5 +6,11 @@ use Illuminate\Http\Request;
 
 class ExpedienteController extends Controller
 {
-    //
+
+
+
+
+
+
+
 }

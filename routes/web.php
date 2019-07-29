@@ -16,12 +16,14 @@ Route::get('/', function () {
 });
 
 Route::get('/inscripciones','InscripcionController@verInscriptos');
+Route::get('/nodocentes', 'InscripcionController@verNoDocentes');
 
 Auth::routes();
 
 Route::get('/inscripcion',function(){
     return view('inscripcion');
 })->name('inscripcion');
+
 
 Route::get('/inscripcion/nodocente',function(){
     return view('inscripcion-no-docente');
