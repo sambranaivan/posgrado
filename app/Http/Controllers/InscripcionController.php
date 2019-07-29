@@ -199,7 +199,7 @@ class InscripcionController extends Controller
 
     public function verNoDocentes()
     {
-        $inscripciones = nodocentes::where('id', '>', 1)->get();
+        $inscripciones = nodocente::where('id', '>', 1)->get();
         return view('inscriptosnd', ['inscriptos' => $inscripciones]);
     }
 }
