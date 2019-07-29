@@ -31,10 +31,6 @@
                             <th class="fit">Fecha de Inicio de Carrera</th>
                             <th class="fit">Costo Total de la Carrera</th>
                             <th class="fit">Aranceles Año 1</th>
-                            <th class="fit">Aranceles Año 2</th>
-                            <th class="fit">Aranceles Año 3</th>
-                            <th class="fit">Aranceles Año 4</th>
-                            <th class="fit">Estado de Cuenta</th>
                             {{-- <th>Constancia de Cuil</th> --}}
                             {{-- <th>Resolucion de Designacion</th> --}}
                             {{-- <th>file_aranceles</th> --}}
@@ -74,10 +70,6 @@
                             <a href="{{asset('pdf/resoluciones/'.$i->file_aranceles)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
                             </td>
                             <td class="fit">{{$i->aranceles_1}}</td>
-                            <td class="fit">{{$i->aranceles_2}}</td>
-                            <td class="fit">{{$i->aranceles_3}}</td>
-                            <td class="fit">{{$i->aranceles_4}}</td>
-                            <td class="fit"><a href="{{asset('pdf/resoluciones/'.$i->file_cuenta)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a></td>
 
 
 
