@@ -53,7 +53,7 @@
                             <td class="fit">{{$i->telefono}}</td>
                             <td class="fit">{{$i->domicilio}}</td>
                             <td class="fit">{{$i->ciudad}}</td>
-                            <td class="fit">{{$i->facultad}}</td>
+                            <td class="fit">{{$i->unidad}}</td>
                             <td class="fit">{{$i->cargo}}</td>
                             <td class="fit">{{$i->resolucion}}
                             <a href="{{asset('pdf/resoluciones/'.$i->file_resolucion)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
