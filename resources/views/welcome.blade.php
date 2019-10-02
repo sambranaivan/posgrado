@@ -26,8 +26,7 @@
 
                                <div class="row">
                                    <div class="col-md-6 offset-md-3 text-center">
-                                       <a href="http://bit.ly/cursorsl" class="btn btn-block btn-success">
-                                        <i class="fa fa-wpforms" aria-hidden="true"></i>
+                                       <a href="http://bit.ly/cursorsl" class="btn btn-block">
                                         <b>Inscripción</b></a>
                                    </div>
                                     <div class="col-md-12">
