@@ -11,7 +11,7 @@
                     {{--  --}}
 
                     {{--  --}}
-                    <div class="card">
+                    {{-- <div class="card">
                      <div class="card-header text-center">
                           <h2>Subsidios para la realización de Carreras de Posgrado de Especialización y Maestrías para Agentes No Docentes</h2>
                      </div>
@@ -40,8 +40,8 @@
                                 </div>
 
                       </div>
-                    </div>
-  <div class="card">
+                    </div> --}}
+  {{-- <div class="card">
                 <div class="card-header text-center">
 
                         <h2>Inscripción a la Convocatoria de Subsidios para realizar carreras de Posgrado para Docentes de la Universidad Nacional del Nordeste</h2>
@@ -67,7 +67,7 @@
                 </a>
 
                 </div>
-            </div>
+            </div> --}}
                      <div class="card text-center">
                                             <div class="card-header">
                                                 <h4 class="text-title">X Convocatoria General Del Programa De Movilidad en El Posgrado (PMP)
