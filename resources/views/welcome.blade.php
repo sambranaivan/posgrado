@@ -25,13 +25,15 @@
                            <div class="card-body">
 
                                <div class="row">
+                                   <div class="col-md-6 offset-md-3 text-center">
+                                       <a href="http://bit.ly/cursorsl" class="btn btn-block btn-success">
+                                        <i class="fa fa-wpforms" aria-hidden="true"></i>
+                                        <b>Inscripción</b></a>
+                                   </div>
                                     <div class="col-md-12">
                                         <img src="{{asset('img/cursorsl.jpeg')}}" class="img-fluid" alt="" style="width: 100%">
                                     </div>
                                     <p></p>
-                                    <div class="col-md-6 offset-md-3 text-center">
-                                        <a href="http://bit.ly/cursorsl" class="btn btn-block btn-success"><b>Inscripción</b></a>
-                                    </div>
                                 </div>
 
                             </div>
