@@ -15,26 +15,6 @@
 
                          </div>
 
-                         <div class="row">
-
-                         <div class="col-md-8 offset-md-2">
-                            <div class="card ">
-                           <div class="card-header">
-                               <h4 class="card-title">Jornadas de Capacitación en Derechos de Propiedad Intelectual</h4>
-                           </div>
-                           <div class="card-body">
-
-                               <div class="row">
-
-                                    <div class="col-md-12">
-                                        <img src="{{asset('img/banner2.jpg')}}" class="img-fluid" alt="" style="width: 100%">
-                                    </div>
-                                </div>
-
-                            </div>
-                          </div>
-                         </div>
-                         </div>
 
 
 
