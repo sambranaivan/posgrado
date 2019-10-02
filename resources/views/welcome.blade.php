@@ -30,7 +30,7 @@
                                     </div>
                                     <p></p>
                                     <div class="col-md-6 offset-md-3 text-center">
-                                        <a href="http://bit.ly/cursorsl" class="btn btn-block btn-success">Inscripcion</a>
+                                        <a href="http://bit.ly/cursorsl" class="btn btn-block btn-success"><b>Inscripción</b></a>
                                     </div>
                                 </div>
 
