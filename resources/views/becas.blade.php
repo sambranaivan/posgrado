@@ -19,7 +19,7 @@
                                         <img class="img-fluid" src="{{asset('img/univa.png')}}" alt="">
 
                                 </p>
-                            <a href="{{asset('univa.pdf')}}" taget="_blank" class="btn btn-success">Descargar</a>
+                            <a href="{{asset('img/univa.pdf')}}" taget="_blank" class="btn btn-success">Descargar</a>
 
                             </div>
                         </div>
