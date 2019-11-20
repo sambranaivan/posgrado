@@ -15,30 +15,6 @@
 
                          </div>
 
-                         <div class="row">
-
-                         <div class="col-md-8 offset-md-2">
-                            <div class="card ">
-                           <div class="card-header text-center">
-                               <h4 class="card-title">Curso de Posgrado</h4>
-                           </div>
-                           <div class="card-body">
-
-                               <div class="row">
-                                   <div class="col-md-6 offset-md-3 text-center">
-                                       <a href="http://bit.ly/cursorsl" class="btn btn-block">
-                                        <b>Inscripción</b></a>
-                                   </div>
-                                    <div class="col-md-12">
-                                        <img src="{{asset('img/cursorsl.jpeg')}}" class="img-fluid" alt="" style="width: 100%">
-                                    </div>
-                                    <p></p>
-                                </div>
-
-                            </div>
-                          </div>
-                         </div>
-                         </div>
 
 
 
