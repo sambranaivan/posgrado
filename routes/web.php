@@ -155,4 +155,4 @@ Route::get('expedientes/config/lastid/{lastid}', 'ConfiguracionController@set');
 Route::get('expedientes/config/lastid/', 'ConfiguracionController@get');
 
 
-Route::get('del/{carrer_id}','CarreraController@delete');
+// Route::get('del/{carrer_id}','CarreraController@delete');
