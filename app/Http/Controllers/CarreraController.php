@@ -263,4 +263,15 @@ public function showcursos($id){
         return $c->toJson();
     }
 
+    public function delete($id){
+        $c = Carrera::find($id);
+        if ($c->delete()) {
+            echo "ok";
+        } else {
+            echo "error";
+        }
+    }
+
+
+
 }
