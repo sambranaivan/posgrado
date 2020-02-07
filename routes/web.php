@@ -76,7 +76,7 @@ Route::group(['middleware' => ['auth']], function () {
 
 Route::get('becas',function(){
     return view('becas');
-});
+})->name('becas');
 Route::get('eventos',function(){
     return view('eventos');
 });
