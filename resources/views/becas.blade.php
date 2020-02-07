@@ -10,16 +10,120 @@
                 <div class="col-md-8 offset-md-2">
 
                         <div class="card text-center">
+                        <div class="card-header">
+                                <h3 class="card-title">CONVOCATORIA BECAS 2020-2021</h3>
+                                <h4 class="card-title">Becas de doctorado y estancias cortas postdoctorales</h4>
+
+                        </div>
+                        <div class="card-body">
+
+
+                            {{--  --}}
+
+
+
+
+
+                        <div class="row">
+                        <div class="col-md-4">
+                        <img class="img-fluid" src="{{asset('img/carolina.jpg')}}" alt="">
+                        </div>
+                        <div class="col-md-8">
+                        <p class="text-justify">Se convocan 50 becas de Doctorado y 50 de estancias cortas entre todos los candidatos que las  instituciones y universidades presenten en función de los convenios de cooperación firmados bilateralmente.
+                        El plazo para presentar candidatos a las becas de doctorado y de estancias cortas de investigación finaliza el <b> jueves 2 de abril de 2020.</b></p>
+
+                        </div>
+                        </div>
+
+                        <p class="text-left">
+                        <h4>Principales características del programa:</h4>
+
+
+                        <ul class="text-left">
+                        <li>Los candidatos a becas de doctorado deben estar en posesión de un máster que admita su acceso al doctorado en el país de expedición de ese título.
+                        <li>Los candidatos a becas de doctorado y estancias cortas postdoctorales tendrán que elegir como centro de destino una de las cincuenta y ocho universidades españolas que han suscrito un acuerdo con Fundación Carolina.</li>
+                        <li>El candidato de doctorado puede optar a cualquier doctorado de esas universidades, con la salvedad de la Universidad de Autónoma de Barcelona, centro en el que esos doctorados están limitados (consultar el apartado “Beneficios de la beca” de la convocatoria en nuestra web).</li>
+                        <li>El número de universidades españolas que cofinancia la estancia de los becarios de doctorado es de veintiocho (ver listado adjunto). En estos casos se mejoran las condiciones del convenio con ustedes en relación a la aportación mensual al becario de doctorado, dado que la universidad española participa en la cofinanciación de la estancia, bien con 400 € mensuales, bien con alojamiento en residencia universitaria. Esta mejora en la distribución de los 1.200 € mensuales NO se aplica a las becas de estancias cortas.</li>
+                        <li>Alta candidatos: <a href="http://gestion.fundacioncarolina.es/institucion/login">http://gestion.fundacioncarolina.es/institucion/login</a> La forma de acceso será mediante la cuenta de correo electrónico con la que se registró su institución y la contraseña. Adjunto información adicional sobre el funcionamiento de la plataforma.</li>
+                        </ul>
+                        </p>
+
+                        <p class="text-left">
+                        <h4>Bases de la convocatoria:</h4>
+
+                        <ul class="text-left"><li>Las bases de la convocatoria de ambos programas están publicadas en http://gestion.fundacioncarolina.es/programas, dentro del apartado Doctorado y Estancias cortas.</li></ul>
+
+
+                        </p>
+                        <p class="text-left">El buzón de información para candidatos donde pueden escribir solicitando información es:
+                        <ul class="text-left">
+
+
+                        <li>Para las becas de Doctorado: <a href="mailto:doctorado_2020@fundacioncarolina.es">doctorado_2020@fundacioncarolina.es</a></li>
+
+                        <li>Para las becas de Estancias Cortas: <a href="mailto:estanciascortas_2020@fundacioncarolina.es">estanciascortas_2020@fundacioncarolina.es</a></li>
+                        </ul>
+                        </p>
+
+
+
+
+
+
+                        </div>
+                </div>
+                </div>
+
+                <div class="col-md-8 offset-md-2">
+
+                        <div class="card text-center">
                             <div class="card-header">
-                                 <h4 class="card-title">CONVOCATORIA DE MOVILIDAD INTERNACIONAL 2019/2020</h4>
+
+                                 <h4 class="card-title">Becas de Postgrado, Movilidad y Estudios Institucionales</h4>
+
                             </div>
                             <div class="card-body">
-                                <p>para que estudiantes a nivel licenciatura y posgrado participen en un Intercambio Académico en la Universidad del Valle de Atemajac (UNIVA), durante el siguiente periodo académico de primavera 2020.</p>
-                                <p class="card-text text-center">
-                                        <img class="img-fluid" src="{{asset('img/univa.png')}}" alt="">
 
-                                </p>
-                            <a href="{{asset('img/univa.pdf')}}" taget="_blank" class="btn btn-success">Descargar</a>
+
+
+
+
+
+
+
+                                    <div class="row">
+                                    <div class="col-md-4">
+                                    <img class="img-fluid" src="{{asset('img/carolina.jpg')}}" alt="">
+                                    </div>
+                                    <div class="col-md-8">
+
+
+<p class="text-justify">En esta 20ª edición se ofertan las siguientes modalidades: 237 becas de posgrado, 61 becas de movilidad de profesorado y 302 becas de estudios institucionales. Aunque estos programas se encuentran al margen del acuerdo entre nuestras instituciones, agradeceremos la difusión de esta convocatoria.</p>
+
+
+</div>
+
+<p class="text-justify">Esta oferta de becas refleja la renovación de la Fundación Carolina como actor del sistema de acción exterior y de la cooperación al desarrollo de España, y como uno de los mecanismos que tratan de contribuir, de manera simultánea, a la conformación del espacio iberoamericano del conocimiento y la educación superior, al fortalecimiento de la Comunidad Iberoamericana de Naciones, y a la implementación de la Agenda 2030, haciendo de la educación, la ciencia, la tecnología y la innovación, la sostenibilidad, y la igualdad entre mujeres y hombres vectores centrales de la cooperación al desarrollo avanzada que dicha Agenda exige.</p>
+
+
+
+<p class="text-justify">En el siguiente enlace encontrará información completa sobre la convocatoria de becas 2020-2021 y material disponible para su difusión:
+
+
+
+<a href="https://www.fundacioncarolina.es/formacion/material-para-la-difusion/">https://www.fundacioncarolina.es/formacion/material-para-la-difusion/</a></p>
+
+
+
+<p class="text-justify">El plazo para solicitar una beca de las áreas de Postgrado y de Estudios Institucionales permanecerá abierto hasta el 10 de marzo de 2020, a las 09.00 a.m. hora española.</p>
+                                    </div>
+
+
+
+
+
+
+
 
                             </div>
                         </div>
@@ -27,19 +131,11 @@
 
                 </div>
 
-                <div class="col-md-8 offset-md-2">
-                <div class="paragraph">
-<div style="background-color: #e5eef2; padding: 20px 10px 15px 10px;"><img src="https://auip.org/images/stories/DATOS/BANNERS/banner_institu_asociadas.jpg" alt="Becas de Movilidad entre Instituciones Asociadas" style="margin-right: 15px; float: left;" width="250">
-<div>
-<p><span class="h2">Programa de Becas de Movilidad Académica entre Instituciones Asociadas a la AUIP 2019</span></p>
-<p><strong>Plazo de solicitud:</strong> <br><strong>Primer plazo:</strong> Para viajes y estancias que se inicien entre <strong>julio y diciembre de 2019</strong>, la convocatoria se cierra el <strong>22 de marzo de 2019 a las 23:59 horas (GMT/UTC+01:00) Madrid.</strong> -&gt; <a href="https://auip.org/es/becas-auip/1790" target="_blank" class="links" rel="noopener noreferrer"><strong>RESOLUCIÓN</strong> </a><br><strong>Segundo plazo:</strong> Para viajes y estancias que se inicien entre <strong>enero y junio de 2020</strong>, la convocatoria se cierra el <strong>31 de octubre de 2019 a las 23:59 horas (GMT/UTC+01:00) Madrid</strong>. <strong><em>(NOTA: No se admitirán solicitudes de beca, para este plazo, antes del 23 de marzo de 2019).</em></strong></p>
-<p><strong>Cuantía de las Becas:</strong> Las ayudas cubren única y exclusivamente el desplazamiento internacional hasta una cuantía máxima de 1.200 euros. Será la AUIP quien, a través de su agente de viajes, facilitará al becario el billete de avión. Para viajes entre España y Portugal, la cuantía de la ayuda será de un máximo de 800 euros y será necesario presentar justificantes o comprobantes de los gastos.</p>
-<p><strong>Dirigido a:</strong> Profesores e investigadores, Gestores de programas de postgrado y doctorado, Estudiantes de postgrado y doctorado.</p>
-<p style="text-align: center;"><a href="https://auip.org/images/stories/DATOS/PDF/2019/Becas_AUIP/bases_movilidad_general2019Ap.pdf" target="_blank" class="button subbutton4 btn btn-primary" rel="noopener noreferrer">Bases del programa</a><a href="http://solicitudes.auip.org" target="_blank" class="button subbutton4 btn btn-primary" rel="noopener noreferrer">Registro de solicitudes</a></p>
-</div>
-</div>
-</div>
-                </div>
+
+
+
+
+
 
         </div>
 
