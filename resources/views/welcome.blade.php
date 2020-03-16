@@ -17,7 +17,7 @@
                                     <div class="card">
                                      <div class="card-body">
                                         <h4 class="card-title text-info text-left">
-                                              ABIERTA LA CONVOCATORIA DE BECAS 2020-2021
+                                              ABIERTA LA CONVOCATORIA DE BECAS 2020/2021
                                         </h4>
                                     <a href="{{route('becas')}}">
                                          <img class="img-fluid"   src="{{asset('img/noticias/carolina.jpg')}}" alt="">
