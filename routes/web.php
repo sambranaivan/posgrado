@@ -80,6 +80,9 @@ Route::get('becas',function(){
 Route::get('eventos',function(){
     return view('eventos');
 });
+Route::get('emovies',function(){
+    return view('emovies');
+});
 Route::get('formacion',function(){
     return view('formacion');
 });
@@ -125,34 +128,34 @@ Route::get('tramites',"TramiteController@listado");
 
 
 
-/**
- *
- * INTEGRACION CON SISTEMA DE ALERTA DE EXPEDIENTES FACENA
- *
- * RUTAS DE "EXPEDIENTES FACENA"
- *
- */
+// /**
+//  *
+//  * INTEGRACION CON SISTEMA DE ALERTA DE EXPEDIENTES FACENA
+//  *
+//  * RUTAS DE "EXPEDIENTES FACENA"
+//  *
+//  */
 
-Route::group(['middleware' => ['auth']], function () {
-    //
-    Route::get('expedientes/asuntos','AsuntoController@verTodos');
-    Route::get('expedientes/subscribe','AsuntoController@subscribe');
-    Route::get('expedientes/unsubscribe','AsuntoController@unsubscribe');
-    Route::get('expedientes', 'AsuntoController@verAsuntos');
+// Route::group(['middleware' => ['auth']], function () {
+//     //
+//     Route::get('expedientes/asuntos','AsuntoController@verTodos');
+//     Route::get('expedientes/subscribe','AsuntoController@subscribe');
+//     Route::get('expedientes/unsubscribe','AsuntoController@unsubscribe');
+//     Route::get('expedientes', 'AsuntoController@verAsuntos');
 
-    Route::get('expedientes/superadmin','UserController@superAdmin');
-    Route::post('expedientes/updatefilters','UserController@updateFilters');
+//     Route::get('expedientes/superadmin','UserController@superAdmin');
+//     Route::post('expedientes/updatefilters','UserController@updateFilters');
 
-});
+// });
 
-Route::get('expedientes/checkupdate','AlertaController@checkUpdate');
-
-
-///probar notificacion
-Route::get('expedientes/test','AsuntoController@sendNotificacion');
-//  TODO route de superadmin
-Route::get('expedientes/config/lastid/{lastid}', 'ConfiguracionController@set');
-Route::get('expedientes/config/lastid/', 'ConfiguracionController@get');
+// Route::get('expedientes/checkupdate','AlertaController@checkUpdate');
 
 
-// Route::get('del/{carrer_id}','CarreraController@delete');
+// ///probar notificacion
+// Route::get('expedientes/test','AsuntoController@sendNotificacion');
+// //  TODO route de superadmin
+// Route::get('expedientes/config/lastid/{lastid}', 'ConfiguracionController@set');
+// Route::get('expedientes/config/lastid/', 'ConfiguracionController@get');
+
+
+// // Route::get('del/{carrer_id}','CarreraController@delete');

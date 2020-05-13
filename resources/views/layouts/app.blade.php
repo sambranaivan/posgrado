@@ -76,8 +76,8 @@
                             </a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link  align-middle" href="/eventos">
-                               <h6 class="text-center"><b>eMOVIES</b></h6>
+                            <a class="nav-link  align-middle" href="/emovies">
+                               <h6 class="text-center"><b>Catálogo eMOVIES</b></h6>
                             </a>
                         </li>
 
@@ -125,7 +125,7 @@
         </main>
         <footer class="footer">
 
-        <img src="{{asset('img/footer.png')}}" class="img-responsive">
+        <img src="{{asset('img/footer.png')}}" class="w-100">
 
     </footer>
     </div>
