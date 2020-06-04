@@ -11,7 +11,7 @@
                                     <h2 class="text-info text-center">Noticias</h2>
                                 </div>
                                 {{-- COLUMNA 1 --}}
-
+<p></p>
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
