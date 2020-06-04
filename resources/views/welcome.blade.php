@@ -13,6 +13,20 @@
                                 {{-- COLUMNA 1 --}}
 
                                 <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"><h4 class="card-title text-info text-left">
+                                            La UNNE avanza con defensas de Tesis de Posgrado bajo la modalidad a distancia
+                                           </h4></a>
+                                       
+                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"> <img class="img-fluid"   src="{{asset('img/noticias/noticia_0664.jpg')}}" alt=""></a>
+                                            <p></p>
+                                       <p class="card-text text-justify">
+                                        Ante la imposibilidad de actividades presenciales por el Covid-19, la Universidad Nacional del Nordeste (UNNE) avanzó en la realización de sus primeras defensas de Tesis de Posgrado bajo la modalidad a distancia en varias unidades académicas. Destacan que además de ser una alternativa ante la emergencia sanitaria, se favoreció la visibilidad de las defensas, ya que pudieron ser presenciadas por público de distintas provincias y países.
+                                       </p>
+                                      
+                                        </div>
+                                    </div>
                                         <p></p>
                                     <div class="card">
                                      <div class="card-body">
