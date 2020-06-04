@@ -172,7 +172,7 @@
                                                Se realizó el seminario-taller "Marcos de referencia para la creación y gestión de carreras de posgrado a distancia"
                                         </h4>
                                         <a href="https://www.youtube.com/watch?v=BNUwEY9lNiA">
-                                         <img class="img-fluid"   src="{{asset('img/noticias/distamcia.png')}}" alt="">
+                                         <img class="img-fluid"   src="{{asset('img/noticias/distamcia.PNG')}}" alt="">
                                          </a>
                                     <p class="card-text">
                                         Mirá el video y enterate de qué se trató 👇🏻
