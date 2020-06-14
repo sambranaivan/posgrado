@@ -86,6 +86,9 @@ Route::get('emovies',function(){
 Route::get('formacion',function(){
     return view('formacion');
 });
+Route::get('subsidios',function(){
+    return view('subsidios');
+})->name('subsidios');
 
 
 

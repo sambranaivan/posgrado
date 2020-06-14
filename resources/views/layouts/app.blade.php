@@ -72,7 +72,12 @@
                         </li>
                          <li class="nav-item">
                             <a class="nav-link  align-middle" href="/becas">
-                               <h6 class="text-center"><b>Becas y Subsidios</b></h6>
+                               <h6 class="text-center"><b>Becas</b></h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  align-middle" href="{{route('subsidios')}}">
+                               <h6 class="text-center"><b>Subsidios</b></h6>
                             </a>
                         </li>
                          <li class="nav-item">

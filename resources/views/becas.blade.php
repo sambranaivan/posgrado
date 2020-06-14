@@ -5,7 +5,7 @@
 
         <div class="row">
                 <div class="col-md-12 text-center text-info">
-                <h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Becas y Subsidios</h1>
+                <h1 class="text-center text-white" style="background-image:url({{asset('img/carreras/fondo.png')}});background-size:cover; ">Becas</h1>
                 </div>
                 <div class="col-md-8 offset-md-2">
 
