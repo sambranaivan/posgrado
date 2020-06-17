@@ -22,9 +22,9 @@
         </ul>
 <h5>Convocatoria 2020</h5>
         <ul>
-                <li>	Docentes y Becarios: <a target="_blank" href="{{asset('doc/2019-301-Convocatoria 2019 Subsidios Docentes y becarios.pdf')}}"> Res. 301/19 CS</a></li>
-                <li>	No Docentes: <a target="_blank" href="{{asset('doc/2019-382-Convocatoria 2019 Subsidios No Docentes.pdf')}}"> Res. 382/19 CS</a></li>
-        <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcion')}}">Formulario de inscripción</a></li>
+                <li>	Docentes y Becarios: <a target="_blank" href="#"> Pendiente</a></li>
+                <li>	No Docentes: <a target="_blank" href="#"> Pendiente</a></li>
+        <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="#">Pendiente</a></li>
         </ul>
 <h5>Convocatoria 2019 </h5>
         <ul>
