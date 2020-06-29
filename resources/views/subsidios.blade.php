@@ -32,6 +32,8 @@
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2019-495-Convocatoria 2019 Docentes y Becarios Aprobados.pdf')}}"> Res. 495/19 CS</a></li>
                 <li>	No Docentes: <a target="_blank" href="{{asset('doc/2019-382-Convocatoria 2019 Subsidios No Docentes.pdf"')}}"> Res. 382/19 CS</a></li>
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2019-640-Convocatoria 2019 No Docentes Aprobados.pdf"')}}">  Res. 640/19 CS</a></li>
+                <li>Cuota 2019 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/Cuota 2019 - Conv 2018 2017 2016.pdf"')}}">Conv. 2018-2017-2016</a></li>
+
         </ul>
 <h5>Convocatoria 2018 </h5>
         <ul>
@@ -39,6 +41,7 @@
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2019-495-Convocatoria 2019 Docentes y Becarios Aprobados.pdf')}}"> Res. 495/19 CS</a></li>
                 <li>	No Docentes: <a target="_blank" href="{{asset('doc/2019-382-Convocatoria 2019 Subsidios No Docentes.pdf')}}"> Res. 382/19 CS</a></li>
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2019-640-Convocatoria 2019 No Docentes Aprobados.pdf')}}">  Res. 640/19 CS</a></li>
+                <li>Cuota 2018 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/Cuota 2018 - Conv 2017 2016 2015.pdf"')}}">Conv. 2017-2018-2015</a></li>
         </ul>
 
 <p><h5>Para cumplimentar las condiciones establecidas en la reglamentación vigente, le solicitamos realice su presentación con los formatos que se detallan más abajo, y en el plazo correspondiente.</h5></p>
@@ -55,6 +58,8 @@
 
                 </div>
                        
+
+
 
 
 
