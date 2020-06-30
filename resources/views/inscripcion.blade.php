@@ -13,7 +13,20 @@
 
                 <div class="card-body">
                     <h2>Formulario de Inscripción</h2>
+                    <div class="alert alert-info" role="alert">
+                      <b><p>Estimado docente/becario:</p>
 
+<p>La inscripción a la convocatoria requiere disponer de la siguiente información, en formato PDF, antes de iniciar la carga de los datos de este formulario:</p>
+<ol class="text-justify">
+<li>Constancia de CUIL</li>
+<li>Resolución de designación (ordinario o interino) en el cargo docente o resolución de otorgamiento de beca de investigación (CyT UNNE, UNNE-CONICET, PICTO-UNNE). Ambos, designación docente o beca deben estar vigentes a la fecha de presentación.</li>
+<li>Resolución de aranceles y costo total de la carrera.</li>
+<li>Constancia de alumno regular del posgrado o constancia de inscripción a la carrera</li>
+<li>Certificación del estado de cuenta, si corresponde.  </li>
+<li>Curriculum Vitae completo del solicitante, según el formato establecido en el Anexo IX de la Ordenanza de Carrera Docente de la UNNE (Resolución Nº 956/09 CS) o en formato CVar del MinCyT (http://cvar.sicytar.mincyt.gob.ar), en formato digital (PDF).</li>
+</ol>
+                      <p class="mb-0"></p></b>
+                    </div>
                 <form method="POST" action="{{route('guardarInscripcion')}}" class="form" enctype="multipart/form-data">
                     @csrf
 

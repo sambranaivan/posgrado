@@ -14,11 +14,17 @@
                 <div class="card-body">
                     <h2>Formulario de Inscripción</h2>
 
-                    .<div class="alert alert-danger" role="alert">
-                      <h4 class="alert-heading">Importante</h4>
-                      <p>Se recuerda que se debe presentar la nota de solicitud en Mesa de Entradas/Salidas (Resistencia/Rectorado), para que la presentación del formulario online sea considerada</p>
-                      <p>La Secretaria General de Posgrado con la presentación de la nota corroborará que la documentación se haya subido correctamente y se confirmará la inscripción mandando un mail al postulante.</p>
-                      <p class="mb-0"></p>
+                    <div class="alert alert-info" role="alert">
+                      <b><p>Estimado agente No Docente:</p>
+
+                      <p>La inscripción a la convocatoria requiere disponer de la siguiente información, en formato PDF, antes de iniciar la carga de los datos de este formulario:</p>
+                      <ol>
+                      <li>Constancia de CUIL</li>
+                      <li>Resolución de designación del cargo que desempeña en la UNNE.</li>
+                      <li>Datos de la carrera, arancel mensual y costo total.</li>
+                      <li>Curriculum Vitae completo del solicitante.</li>
+                      </ol>
+                      </b>
                     </div>
 
                 <form method="POST" action="{{route('guardarInscripcionNoDocente')}}" class="form" enctype="multipart/form-data">
