@@ -143,42 +143,42 @@ class InscripcionController extends Controller
             {
                 $file = $request->file('file_cuil');
                 $name = "ND-".$i->apellido."-".$i->nombre."-cuil.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
                 $i->file_cuil = $name;
             }
             if($request->hasFile('file_resolucion'))
             {
                 $file = $request->file('file_resolucion');
                 $name = "ND-".$i->apellido."-".$i->nombre."-resolucion.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
                 $i->file_resolucion = $name;
             }
              if($request->hasFile('file_aranceles'))
             {
                 $file = $request->file('file_aranceles');
                 $name = "ND-".$i->apellido."-".$i->nombre."-aranceles.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
                 $i->file_aranceles = $name;
             }
               if($request->hasFile('file_posgrado'))
             {
                 $file = $request->file('file_posgrado');
                 $name = "ND-".$i->apellido."-".$i->nombre."-posgrado.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
                 $i->file_posgrado = $name;
             }
               if($request->hasFile('file_cuenta'))
             {
                 $file = $request->file('file_cuenta');
                 $name = "ND-".$i->apellido."-".$i->nombre."-cuenta.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
                 $i->file_cuenta = $name;
             }
               if($request->hasFile('file_cv'))
             {
                 $file = $request->file('file_cv');
                 $name = "ND-".$i->apellido."-".$i->nombre."-cv.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
                 $i->file_cv = $name;
             }
 
