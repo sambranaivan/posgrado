@@ -45,9 +45,9 @@
 <h5>Convocatoria 2018 </h5>
         <ul>
                 <li>	Docentes y Becarios: <a target="_blank" href="{{asset('doc/2018-316-Convocatoria 2018 Subsidios docentes y becarios.pdf')}}"> Res. 316/18 CS</a></li>
-                <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2019-495-Convocatoria 2019 Docentes y Becarios Aprobados.pdf')}}">  CS</a></li>
+                <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2019-495-Convocatoria 2019 Docentes y Becarios Aprobados.pdf')}}"> </a></li>
                 <li>Cuota 2018 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/Cuota 2018 - Conv 2017 2016 2015.pdf')}}">Conv. 2017-2016-2015</a></li>
-                <li>	No Docentes: <a target="_blank" href="{{asset('doc/2019-382-Convocatoria 2019 Subsidios No Docentes.pdf')}}">  CS</a></li>
+                <li>	No Docentes: <a target="_blank" href="{{asset('doc/2019-382-Convocatoria 2019 Subsidios No Docentes.pdf')}}"> </a></li>
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2018-952-Convocatoria 2018 subsidios Beneficiarios No docentes.pdf')}}">  Res. 952/18 CS</a></li>
                 <li>Cuota 2018 de convocatorias anteriores <a target="_blank" href="{{asset('doc/Cuota 2018 -ND.pdf')}}">Conv.2017-2016-2015</a></li>
         </ul>
