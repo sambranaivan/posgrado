@@ -49,7 +49,7 @@
                 <li>Cuota 2018 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/Cuota 2018 - Conv 2017 2016 2015.pdf')}}">Conv. 2017-2016-2015</a></li>
                 <li>	No Docentes: <a target="_blank" href="{{asset('doc/2018-562 subsidio no docente 2018.pdf')}}"> 562/18 CS </a></li>
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/2018-952-Convocatoria 2018 subsidios Beneficiarios No docentes.pdf')}}">  Res. 952/18 CS</a></li>
-                <li>Cuota 2018 de convocatorias anteriores <a target="_blank" href="{{asset('doc/Cuota 2018 -ND.pdf')}}">Conv.2017-2016-2015</a></li>
+                <li>Cuota 2018 de convocatorias anteriores <a target="_blank" href="{{asset('doc/Cuota 2018 -ND.pdf')}}">Conv.2016-2017</a></li>
         </ul>
 
 <p><h5>Para cumplimentar las condiciones establecidas en la reglamentación vigente, le solicitamos realice su presentación con los formatos que se detallan más abajo, y en el plazo correspondiente.</h5></p>
