@@ -193,13 +193,13 @@ class InscripcionController extends Controller
 
     public function verInscriptos()
     {
-        $inscripciones = inscripcion::where('id','>',1)->whereDate('created_at','>','2020-05-01')->get();
+        $inscripciones = inscripcion::where('id','>',1)->whereDate('created_at','>','2020-01-01')->get();
         return view('inscriptos',['inscriptos'=>$inscripciones]);
     }
 
     public function verNoDocentes()
     {
-        $inscripciones = nodocente::where('id', '>', 1)->get();
+        $inscripciones = nodocente::where('id', '>', 1)->whereDate('created_at','>','2020-01-01')->get();
         return view('inscriptosnd', ['inscriptos' => $inscripciones]);
     }
 }
