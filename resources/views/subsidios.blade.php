@@ -20,16 +20,50 @@
                 <li>	Subsidio adicional Reintegro de gastos de traslado y viáticos dentro del país: <a target="_blank" href="{{asset('doc/2019-441-Reintegro Gastos de Pasajes y Viaticos.pdf')}}">Res. 441/19 CS</a></li>
                 <li>	Subsidio adicional Reintegro de gastos de impresión de tesis:  <a target="_blank" href="{{asset('doc/2019-442-Reintegro Gastos de Tesis.pdf')}}">Res. 442/19 CS</a> </li>
         </ul>
-<h5>Convocatoria 2020</h5>
-        <ul>
-        <li>	Docentes y Becarios: <a target="_blank" href="{{asset('doc/2020-208-Convocatoria 2020 Subsidios Docentes.pdf')}}"> Res. 208/20 CS</a></li>
+       
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header bg-primary text-center">
+                      <h3 class="modal-title" id="exampleModalLabel">Instructivo convocatoria 2020</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Si Ud. es <b>DOCENTE</b> o <b>BECARIO</b>, para conocer las condiciones del subsidio lea el Reglamento vigente aprobado por Res. 300/19 CS y 
+                                las condiciones de la convocatoria actual, establecidas en el <b>punto 1</b> Convocatoria 2020 Res. 208/20 Cs</p>
+                        <p>Luego, acceda al formulario del <b>punto 2</b>, en el cual se detalla al inicio toda la información que se le requerirá para la inscripción, en formato PDF.</p>
+                        <p>Cumplido con el formato, acceda al <b>punto 3</b>, descargue el modelo de notas, complete los datos requeridos y envíe a la dirección de correo indicada.</p>
+                        <p>&nbsp;</p>
+                        <p>Si Ud. es <b>NO DOCENTE</b>, para conocer las condiciones del subsidio lea el Reglamento vigente aprobado por Res. 369/16 CS y las condiciones de la convocatoria actual, establecidas en el <b>punto 4</b> Convocatoria 2020 Res. 207/20 Cs</p>
+                        <p>Luego, acceda al formulario del <b>punto 5</b>, en el cual se detalla al inicio toda la información que se le requerirá para la inscripción, en formato PDF.</p>
+                        <p>Cumplido con el formato, acceda al <b>punto 6</b>, descargue el modelo de notas, complete los datos requeridos y envíe a la dirección de correo indicada.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                      {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button> --}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        <b><h4>Convocatoria 2020 <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
+                Instructivo </br>convocatoria 2020
+        </button></h4></b>
+        
+        <ol>
+        <li>	<b>Docentes y Becarios</b>: <a target="_blank" href="{{asset('doc/2020-208-Convocatoria 2020 Subsidios Docentes.pdf')}}"> Res. 208/20 CS</a></li>
         <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcion')}}">Formulario de Inscripción</a></li>
         <li>    Modelo de nota solicitud Subsidios Docentes y Becarios: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2020 de subsidios para Docentes y becarios.docx')}}">Aqui</a></li>
-        </ul><ul>
-        <li>	No Docentes: <a target="_blank" href="{{asset('doc/2020-207-Convocatoria 2020 Subsidios No Docente.pdf')}}"> Res. 207/20 CS</a></li>
+        <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/2020-207-Convocatoria 2020 Subsidios No Docente.pdf')}}"> Res. 207/20 CS</a></li>
         <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcionNoDocente')}}">Formulario de Inscripción</a></li>
         <li>Modelo de nota solicitud Subsidios No Docentes: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2020 de subsidios para No Docentes.docx')}}">Aqui</a></li>
-        </ul>
+        </ol>
+        <hr>
 <h5>Convocatoria 2019 </h5>
         <ul>
                 <li>	Docentes y Becarios: <a target="_blank" href="{{asset('doc/2019-301-Convocatoria 2019 Subsidios Docentes y becarios.pdf')}}"> Res. 301/19 CS</a></li>
@@ -42,6 +76,7 @@
                 
 
         </ul>
+        <hr>
 <h5>Convocatoria 2018 </h5>
         <ul>
                 <li>	Docentes y Becarios: <a target="_blank" href="{{asset('doc/2018-316-Convocatoria 2018 Subsidios docentes y becarios.pdf')}}"> Res. 316/18 CS</a></li>
