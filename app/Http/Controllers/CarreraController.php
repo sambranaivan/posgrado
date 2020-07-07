@@ -25,6 +25,7 @@ class CarreraController extends Controller
 
         foreach ($carreras as $carrera) 
         {
+            echo $carrera->id."</br>";
             $carrera->delete();
         }
     }
