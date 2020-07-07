@@ -19,6 +19,16 @@ class CarreraController extends Controller
         return view('carreras');
     }
 
+    public function borrar()
+    {
+        $carreras = Carrera::whereIn("id",[121,131,134,169])->get();
+
+        foreach ($carreras as $carrera) 
+        {
+            $carrera->delete();
+        }
+    }
+
     public function nuevaCarrera()
     {
             $u = DB::table('unidads')->take(11)->get();

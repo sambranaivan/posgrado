@@ -24,6 +24,9 @@ Route::get('/inscripcion',function(){
     return view('inscripcion');
 })->name('inscripcion');
 
+Route::get('subsidios/instructivo/2020',function(){
+    return view('instructivo');
+})-name('instructivo');
 
 Route::get('/inscripcion/nodocente',function(){
     return view('inscripcion-no-docente');
@@ -67,6 +70,8 @@ Route::group(['middleware' => ['auth']], function () {
        Route::Post('editarCarreraModalidad','CarreraController@updateModalidad');
     Route::Post('editarCarreraFecha','CarreraController@updatefecha');
     Route::Post('editarCarreraArea','CarreraController@updateArea');
+
+    Route::get("borrar","CarreraController@borrar");
 
 
 
