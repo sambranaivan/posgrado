@@ -26,7 +26,7 @@ Route::get('/inscripcion',function(){
 
 Route::get('subsidios/instructivo/2020',function(){
     return view('instructivo');
-})-name('instructivo');
+})->name('instructivo');
 
 Route::get('/inscripcion/nodocente',function(){
     return view('inscripcion-no-docente');
