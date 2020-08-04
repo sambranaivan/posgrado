@@ -14,7 +14,7 @@
                                 <div class="card-body text-justify">
                                        <p ><h4> La Universidad Nacional del Nordeste otorga subsidios para la realización de estudios de posgrado en carreras acreditadas en la Universidad Nacional del Nordeste o en otras Universidades Nacionales del país</h4></p>
                                         <p >
-                                                <h3 class="alert alert-info text-center">
+                                                <h3 class="alert alert-info text-justify">
                                                 
                                       
                                                                 La Secretaria General de Posgrado de la UNNE extiende la presentación de solicitudes de subsidio de la UNNE hasta el <b>20 de agosto</b> a fin de que los interesados puedan contar con mayor información de las carreras que se implementarán a partir del segundo semestre del año en curso.

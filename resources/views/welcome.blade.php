@@ -9,6 +9,15 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="text-info text-center">Noticias</h2>
+                                    <p >
+                                        <a href="{{route('subsidios')}}"><h3 class="alert alert-info text-justify">
+                                        
+                              
+                                                        La Secretaria General de Posgrado de la UNNE extiende la presentación de solicitudes de subsidio de la UNNE hasta el <b>20 de agosto</b> a fin de que los interesados puedan contar con mayor información de las carreras que se implementarán a partir del segundo semestre del año en curso.
+                                             
+                                        
+                                        </h3></a>
+                                </p>
                                 </div>
                                 {{-- COLUMNA 1 --}}
 <p></p>
