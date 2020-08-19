@@ -9,19 +9,50 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="text-info text-center">Noticias</h2>
-                                    <p >
-                                        <a href="{{route('subsidios')}}"><h3 class="alert alert-info text-justify">
-                                        
-                              
-                                                        La Secretaria General de Posgrado de la UNNE extiende la presentación de solicitudes de subsidio de la UNNE hasta el <b>20 de agosto</b> a fin de que los interesados puedan contar con mayor información de las carreras que se implementarán a partir del segundo semestre del año en curso.
-                                             
-                                        
-                                        </h3></a>
-                                </p>
+                                    
                                 </div>
+                                <div class="col-8 offset-2">
+                                    <div class="card">
+                                        <div class="card-body text-center ">
+                                           <a href="https://forms.gle/r7xbru86PpLDFaCH9"><h3 class="card-title text-info text-center">
+                                            INVITACIÓN WEBINARIO </br>"Internacionalización del Curriculum: Diálogo en prospectiva para una acción estratégica ante los nuevos desafíos"
+                                           </h3></a>
+                                       
+                                           <a href="https://forms.gle/r7xbru86PpLDFaCH9"> 
+                                            <img class="img-fluid"   src="{{asset('img/noticias/webinar.jpg')}}" alt=""></a>
+                                            <p></p>
+                                       <p class="card-text text-left">
+                                        <p class="card-text text-left">Esta Secretaría General se complace en invitar especialmente a usted, a participar del webinario “Internacionalización del Curriculum: Diálogo en prospectiva para una acción estratégica ante los nuevos desafíos”, a llevarse a cabo <b>el día jueves 27 de agosto del corriente año a las 10:00hs (Argentina)</b>, por la plataforma de Google Meets.</p>
+
+<p class="card-text text-justify">Cabe destacar que dicho webinario se realiza en el marco del Plan Estratégico de Internacionalización de la Educación Superior de la Universidad Nacional del Nordeste, aprobado por Consejo Superior, Resol. Nº736/19, en relación al Eje Nº 2, del Fortalecimiento la Internacionalización del Curriculum a nivel de grado y posgrado, a través del cual, se busca la innovación curricular, la sistemática incorporación creciente de contenidos internacionales y estudios comparados en los planes de estudios.</p>
+
+<p class="card-text text-justify">En este sentido, el webinario de referencia se encuentra organizado por las Secretarías Generales de Posgrado, Académica y de Relaciones Interinstitucionales, con el objeto de consolidar el proceso de Internacionalización de la Universidad, con una visión integral y sistémica, que abarca todas las funciones principales: docencia, investigación, extensión y transferencia.</p>
+
+<p class="card-text text-justify">Se adjunta al presente correo, el flyer con los detalles de su contenido y cronograma.  Podrán registrarse, a través del siguiente enlace: <a href="https://forms.gle/r7xbru86PpLDFaCH9">https://forms.gle/r7xbru86PpLDFaCH9</a></p>
+
+<p class="card-text text-justify">Finalmente, me permito solicitar tener a bien, confirmar la participación por parte de vuestra instancia a este evento institucional de suma importancia.</p>
+
+<p class="card-text text-justify">Quedo a disposición por cualquier consulta y esperamos contar con su valiosa participación.</p>
+
+<p class="card-text text-justify">Saludos cordiales.</p>
+                                       </p>
+                                      
+                                        </div>
+                                    </div>
+                                </div>
+                                <p >
+                                    <a href="{{route('subsidios')}}"><h3 class="alert alert-info text-justify">
+                                    
+                          
+                                                    La Secretaria General de Posgrado de la UNNE extiende la presentación de solicitudes de subsidio de la UNNE hasta el <b>20 de agosto</b> a fin de que los interesados puedan contar con mayor información de las carreras que se implementarán a partir del segundo semestre del año en curso.
+                                         
+                                    
+                                    </h3></a>
+                            </p>
                                 {{-- COLUMNA 1 --}}
 <p></p>
                                 <div class="col-md-4">
+                                    
                                     <div class="card">
                                         <div class="card-body">
                                            <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"><h4 class="card-title text-info text-left">
