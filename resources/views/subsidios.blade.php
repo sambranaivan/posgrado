@@ -67,10 +67,10 @@
         
         <ol>
         <li>	<b>Docentes y Becarios</b>: <a target="_blank" href="{{asset('doc/2020-208-Convocatoria 2020 Subsidios Docentes.pdf')}}"> Res. 208/20 CS</a></li>
-        <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcion')}}">Formulario de Inscripción</a></li>
+        {{-- <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcion')}}">Formulario de Inscripción</a></li> --}}
         <li>    Modelo de nota solicitud Subsidios Docentes y Becarios: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2020 de subsidios para Docentes y becarios.docx')}}">Aqui</a></li>
         <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/2020-207-Convocatoria 2020 Subsidios No Docente.pdf')}}"> Res. 207/20 CS</a></li>
-        <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcionNoDocente')}}">Formulario de Inscripción</a></li>
+        {{-- <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcionNoDocente')}}">Formulario de Inscripción</a></li> --}}
         <li>Modelo de nota solicitud Subsidios No Docentes: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2020 de subsidios para No Docentes.docx')}}">Aqui</a></li>
         </ol>
         <hr>
