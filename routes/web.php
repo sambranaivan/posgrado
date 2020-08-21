@@ -21,7 +21,8 @@ Route::get('/nodocentes', 'InscripcionController@verNoDocentes');
 Auth::routes();
 
 Route::get('/inscripcion',function(){
-    return view('inscripcion');
+    // return view('inscripcion');
+    return view('subsidios');
 })->name('inscripcion');
 
 Route::get('subsidios/instructivo/2020',function(){
@@ -29,7 +30,8 @@ Route::get('subsidios/instructivo/2020',function(){
 })->name('instructivo');
 
 Route::get('/inscripcion/nodocente',function(){
-    return view('inscripcion-no-docente');
+    // return view('inscripcion-no-docente');
+    return view('subsidios');
 })->name('inscripcionNoDocente');
 
 Route::get('/inscripcion/completa',function(){
