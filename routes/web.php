@@ -101,8 +101,8 @@ Route::get('subsidios',function(){
     return view('subsidios');
 })->name('subsidios');
 Route::get('docentes',function(){
-    return view('padronDocente');
-})->name('padronDocente');
+    return view('padronDocentes');
+})->name('padronDocentes');
 
 
 
