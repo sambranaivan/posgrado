@@ -7,23 +7,36 @@
                     <p></p><div class="card">
                         <div class="card-header">
                             <div class="row">
+
+                               
                                 <div class="col-md-12">
                                     <h2 class="text-info text-center">Noticias</h2>
-                                    
                                 </div>
                                 
                                 <div class="col-md-4">
                                     
                                     <div class="card">
                                         <div class="card-body">
-                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"><h4 class="card-title text-info text-left">
-                                            La UNNE avanza con defensas de Tesis de Posgrado bajo la modalidad a distancia
+                                           <a href="https://forms.gle/wcjfyUV16PCSbJZi7"><h4 class="card-title text-info text-left">
+                                            WEBINAR - "La Responsabilidad Social Universitaria frente a los retos de la Cuarta Revolución Industrial-4IR"
                                            </h4></a>
                                        
-                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"> <img class="img-fluid"   src="{{asset('img/noticias/noticia_0664.jpg')}}" alt=""></a>
+                                           <a href="https://forms.gle/wcjfyUV16PCSbJZi7"> <img class="img-fluid"   src="{{asset('img/webinar.jpg')}}" alt=""></a>
                                             <p></p>
                                        <p class="card-text text-justify">
-                                        Ante la imposibilidad de actividades presenciales por el Covid-19, la Universidad Nacional del Nordeste (UNNE) avanzó en la realización de sus primeras defensas de Tesis de Posgrado bajo la modalidad a distancia en varias unidades académicas. Destacan que además de ser una alternativa ante la emergencia sanitaria, se favoreció la visibilidad de las defensas, ya que pudieron ser presenciadas por público de distintas provincias y países.
+                                        Te invitamos a participar a este ciclo de WEBINAR, ya que la ponencia resulta muy oportuna para profesionales y egresados toda vez que hace un breve recuento del desarrollo social e industrial dado en el marco de la primera, segunda, tercera, y ahora, cuarta revolución industrial y la denominada era exponencial, al mismo tiempo que llama la atención sobre el papel de la educación, y en especial, la educación superior, frente a las demandas laborales actuales y exigencias de los empleadores, que tendrán que enfrentar los nuevos profesionales; y llama la atención acerca de la necesidad de dar un vuelco a las estrategias de formación pues las universidades, en general, se encuentran entre las instituciones menos cambiantes, pues no han estado abiertas a las transformaciones, y por consiguiente, se enseña hoy de la misma forma que hace 100 años. Finalmente se ocupa de las nuevas profesiones de acuerdo al vertiginoso desarrollo tecnológico y de las llamadas competencias blandas.
+ 
+Contaremos con la Disertación de:
+Magíster Wilson López Aragón
+Director de Posgrado de la Fundación universitaria católica Lumen Getium -Unicatólica, Cali, Colombia
+                                       </p>
+                                       <p>
+                                        Contaremos con la Disertación de:
+                                        Magíster Wilson López Aragón
+                                        Director de Posgrado de la Fundación universitaria católica Lumen Getium -Unicatólica, Cali, Colombia
+                                        
+                                        🗓 Miercoles 28 de octubre | 18 hs
+                                        🧑‍💻A través de la plataforma ZOOM
                                        </p>
                                       
                                         </div>
@@ -76,6 +89,21 @@
                                 </div>
                                 {{-- //COLUMNA 2 --}}
                                 <p></p><div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"><h4 class="card-title text-info text-left">
+                                            La UNNE avanza con defensas de Tesis de Posgrado bajo la modalidad a distancia
+                                           </h4></a>
+                                       
+                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"> <img class="img-fluid"   src="{{asset('img/noticias/noticia_0664.jpg')}}" alt=""></a>
+                                            <p></p>
+                                       <p class="card-text text-justify">
+                                        Ante la imposibilidad de actividades presenciales por el Covid-19, la Universidad Nacional del Nordeste (UNNE) avanzó en la realización de sus primeras defensas de Tesis de Posgrado bajo la modalidad a distancia en varias unidades académicas. Destacan que además de ser una alternativa ante la emergencia sanitaria, se favoreció la visibilidad de las defensas, ya que pudieron ser presenciadas por público de distintas provincias y países.
+                                       </p>
+                                      
+                                        </div>
+                                    </div>
+                                    <p></p>
                                     <div class="card">
                                         <div class="card-body">
                                            <h4 class="card-title text-info text-left">
@@ -167,7 +195,7 @@
                                 {{-- COLUMAN 3 --}}
                                 <div class="col-md-4">
 
-                                 <p></p><div class="card">
+                                 <div class="card">
                                      <div class="card-body">
                                         <h4 class="card-title text-info text-left">
                                                Se realizó el seminario-taller "Marcos de referencia para la creación y gestión de carreras de posgrado a distancia"
