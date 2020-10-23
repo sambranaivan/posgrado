@@ -19,6 +19,7 @@
                                         <div class="card-body">
                                            <a href="https://forms.gle/wcjfyUV16PCSbJZi7"><h4 class="card-title text-info text-left">
                                             WEBINAR - "La Responsabilidad Social Universitaria frente a los retos de la Cuarta Revolución Industrial-4IR"
+                                            Miercoles 28 de octubre | 18 hs
                                            </h4></a>
                                        
                                            <a href="https://forms.gle/wcjfyUV16PCSbJZi7"> <img class="img-fluid"   src="{{asset('img/webinar.jpg')}}" alt=""></a>
