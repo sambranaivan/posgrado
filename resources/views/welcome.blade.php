@@ -17,9 +17,10 @@
                                     
                                     <div class="card">
                                         <div class="card-body">
-                                           <h4 class="card-title text-info text-left">
+                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm"> <h4 class="card-title text-info text-left">
                                             “Razón y experiencia mística: Plotino, Eriúgena y Margarita Porete”.
                                            </h4>
+                                          </a>
                                            <h4 class="card-title text-info text-left">
                                             Prof. Dictante: Dr. Ezequiel LUDUEÑA (UBA).
                                            </h4>
@@ -28,8 +29,11 @@
                                             <p></p>
                                        
                                       
-                                      
+                                      <p>
+                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm">Más Información</a>
+                                      </p>
                                         </div>
+
                                     </div>
                                         <p></p>
                                   
