@@ -9,8 +9,27 @@
                             <div class="row">
 
                                
-                                <div class="col-md-12">
+                                <div class="col-md-12 py-2">
                                     <h2 class="text-info text-center">Noticias</h2>
+                                   <div class="col-md-6 offset-md-3">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img  class="img-fluid"  src="{{asset('img/becas_unisc.png')}}" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p>
+                                               
+
+<h4>Informaciones de los Programas y sus convocatorias y Edictos</h4>
+
+
+
+<a href="https://www.unisc.br/es/estudios/todos-los-cursos#maestria-y-doctorado ">https://www.unisc.br/es/estudios/todos-los-cursos#maestria-y-doctorado </a>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                   </div>
                                 </div>
                                 
                                 <div class="col-md-4">
