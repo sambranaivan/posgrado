@@ -17,28 +17,17 @@
                                     
                                     <div class="card">
                                         <div class="card-body">
-                                           <a href="https://forms.gle/wcjfyUV16PCSbJZi7"><h4 class="card-title text-info text-left">
-                                            WEBINAR - "La Responsabilidad Social Universitaria frente a los retos de la Cuarta Revolución Industrial-4IR"
-                                            Miercoles 28 de octubre | 18 hs
-                                           </h4></a>
+                                           <h4 class="card-title text-info text-left">
+                                            “Razón y experiencia mística: Plotino, Eriúgena y Margarita Porete”.
+                                           </h4>
+                                           <h4 class="card-title text-info text-left">
+                                            Prof. Dictante: Dr. Ezequiel LUDUEÑA (UBA).
+                                           </h4>
                                        
-                                           <a href="https://forms.gle/wcjfyUV16PCSbJZi7"> <img class="img-fluid"   src="{{asset('img/webinar.jpg')}}" alt=""></a>
+                                           <img class="img-fluid"   src="{{asset('img/cv_hum.jpg')}}" alt="">
                                             <p></p>
-                                       <p class="card-text text-justify">
-                                        Te invitamos a participar a este ciclo de WEBINAR, ya que la ponencia resulta muy oportuna para profesionales y egresados toda vez que hace un breve recuento del desarrollo social e industrial dado en el marco de la primera, segunda, tercera, y ahora, cuarta revolución industrial y la denominada era exponencial, al mismo tiempo que llama la atención sobre el papel de la educación, y en especial, la educación superior, frente a las demandas laborales actuales y exigencias de los empleadores, que tendrán que enfrentar los nuevos profesionales; y llama la atención acerca de la necesidad de dar un vuelco a las estrategias de formación pues las universidades, en general, se encuentran entre las instituciones menos cambiantes, pues no han estado abiertas a las transformaciones, y por consiguiente, se enseña hoy de la misma forma que hace 100 años. Finalmente se ocupa de las nuevas profesiones de acuerdo al vertiginoso desarrollo tecnológico y de las llamadas competencias blandas.
- 
-Contaremos con la Disertación de:
-Magíster Wilson López Aragón
-Director de Posgrado de la Fundación universitaria católica Lumen Getium -Unicatólica, Cali, Colombia
-                                       </p>
-                                       <p>
-                                        Contaremos con la Disertación de:
-                                        Magíster Wilson López Aragón
-                                        Director de Posgrado de la Fundación universitaria católica Lumen Getium -Unicatólica, Cali, Colombia
-                                        
-                                        🗓 Miercoles 28 de octubre | 18 hs
-                                        🧑‍💻A través de la plataforma ZOOM
-                                       </p>
+                                       
+                                      
                                       
                                         </div>
                                     </div>
