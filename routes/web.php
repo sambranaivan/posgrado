@@ -38,6 +38,10 @@ Route::get('/inscripcion/completa',function(){
     return view('inscripcionCompleta');
 });
 
+Route::get('/ofertavirtual2021',function(){
+    return view('virtual');
+});
+
 
 Route::post('/inscripcion/save','InscripcionController@recieve')->name('guardarInscripcion');
 Route::post('/inscripcion/saveNo','InscripcionController@recieveNoDocente')->name('guardarInscripcionNoDocente');
