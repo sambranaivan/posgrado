@@ -123,7 +123,12 @@
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/cursos">más información</a></td>
                                   
                                     <td><a href="mailto:posgrado@med.unne.edu.ar"> posgrado@med.unne.edu.ar</a></td></tr>
-                            
+                                    <tr><td>Odontología</td><td>Curso de Posgrado</br> Estrategias de lectocomprensión de textos académicos en Inglés relacionados con la Ciencias de la Salud.</td><td><a href="http://posgrado.unne.edu.ar/carreras/cursos">más información</a></td><td><a href="mailto:posgrado@odn.unne.edu.ar">posgrado@odn.unne.edu.ar</a></td>
+                                    </tr>
+                                    <tr><td>Odontología</td><td>Curso de Posgrado</br> Introducción a la Implantología de Alta Complejidad y Rehabilitación Oral </td><td><a href="http://posgrado.unne.edu.ar/carreras/cursos">más información</a></td><td><a href="mailto:posgrado@odn.unne.edu.ar">posgrado@odn.unne.edu.ar</a></td>
+                                    </tr>
+                                    <tr><td>Odontología</td><td>Curso virtual de Posgrado</br> Enseñar y Aprender en tiempos y Espacios Diferentes </td><td><a href="http://posgrado.unne.edu.ar/carreras/cursos">más información</a></td><td><a href="mailto:posgrado@odn.unne.edu.ar">posgrado@odn.unne.edu.ar</a></td>
+                                    </tr>
                            
                             </tbody>
                         </table>
@@ -136,14 +141,14 @@
                                     <th>Facultad</th>
                                   
                                     <th>Oferta</th>
-                                    <th>Contenido</th>
+                                    {{-- <th>Contenido</th> --}}
                                     <th>Link</th>
-                                    <th>Duración</th>
-                                    <th>Fecha de inicio</th>
+                                    {{-- <th>Duración</th> --}}
+                                    {{-- <th>Fecha de inicio</th> --}}
                                     {{-- <th>Finalización prevista</th> --}}
-                                    <th>Director/Responsable<th>
+                                    {{-- <th>Director/Responsable<th> --}}
                                     <th>Consultas</th>
-                                    <th>TE de contacto: </th>
+                                    {{-- <th>TE de contacto: </th> --}}
                                 </tr>
                             </thead>
                                 
@@ -152,86 +157,93 @@
                                     <td>Ciencias Exactas y Naturales y Agrimensura</td>
                                   
                                     <td>Diplomatura Superior en </br> Construccíon de Sistemas Embebidos</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/pdf/resoluciones/resolucion_215.pdf">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:sip.facena@comunidad.unne.edu.ar "> sip.facena@comunidad.unne.edu.ar </a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Ciencias Exactas y Naturales y Agrimensura</td>
                                   
                                     <td>Diplomatura Superior en </br> Toxicología Legal y Forense</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/pdf/resoluciones/resolucion_339.pdf">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:sip.facena@comunidad.unne.edu.ar "> sip.facena@comunidad.unne.edu.ar </a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Ciencias Exactas y Naturales y Agrimensura</td>
                                   
                                     <td>Diplomatura Superior en </br> Hemostasia</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/pdf/resoluciones/resolucion_340.pdf">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:sip.facena@comunidad.unne.edu.ar "> sip.facena@comunidad.unne.edu.ar </a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Arquitectura y Urbanismo</td>
                                   
                                     <td>Diplomatura Superior en </br> Energía Solar</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/pdf/resoluciones/resolucion_221.pdf">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:energiasrenovables.fauunne@gmail.com"> energiasrenovables.fauunne@gmail.com</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Humanidades</td>
                                   
                                     <td>Diplomatura Superior en </br> Problemáticas Políticas Contemporáneas </td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/diplomatura">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:inv_posgrado@hum.unne.edu.ar"> inv_posgrado@hum.unne.edu.ar</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Ciencias Ecónomicas</td>
                                   
                                     <td>Diplomatura Superior en </br> Gestión y Administración de Empresas de familia</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/diplomatura">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:ecoposgrado@gmail.com"> ecoposgrado@gmail.com</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Ciencias Ecónomicas</td>
                                   
                                     <td>Diplomatura Superior en </br> Estudios de Procesos Socioeconómicos</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/diplomatura">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:ecoposgrado@gmail.com"> ecoposgrado@gmail.com</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              
                              
                              
@@ -240,76 +252,85 @@
                                     <td>Derecho</td>
                                   
                                     <td>Diplomatura Superior en </br> Derecho de las Familias, Niños, Niñas y Adolescentes</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/pdf/resoluciones/resolucion_159.pdf">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:diplomaturadefamiliadchvirtual@gmail.com"> diplomaturadefamiliadchvirtual@gmail.com</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              <tr>
                                     <td>Derecho</td>
                                     <td>Curso de Posgrado Virtual:</br> Cuestiones actuales del Derecho Sucesorio </td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/cursos">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto: sucesoriovirtualdch@gmail.com">  sucesoriovirtualdch@gmail.com</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                             
                              <tr>
                                     <td>Derecho</td>
                                   
                                     <td>Diplomatura Superior en </br> Técnicas para la Investigación Empírica en Ciencias Jurídicas y Sociales</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/diplomatura">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto: info.posgrado.derecho@comunidad.unne.edu.ar">  info.posgrado.derecho@comunidad.unne.edu.ar</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                             
                              <tr>
                                     <td>Medicina</td>
                                   
                                     <td>Diplomatura Superior en </br> Pediatría Clínica Avanzada</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://posgrado.unne.edu.ar/carreras/diplomatura">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td><a href="mailto:posgrado@med.unne.edu.ar"> posgrado@med.unne.edu.ar</a></td>
-                                    <td></td></tr>
+                                    {{-- <td></td>--}}
+                                    </tr> 
                              
-                        
+                                    <tr>
+                                        <td>Odontología</td>
+                                        <td>Curso de Posgrado: ¿Cómo diseñar dispositivos pedagógicos digitales y originales a través de las TIC y las TAC en Ciencias de la Salud?</td>
+                                        <td>http://posgrado.unne.edu.ar/carreras/cursos</td><td>posgrado@odn.unne.edu.ar</td>
+                                    </tr>
+                                       
                              <tr>
                                     <td>Ciencias Exactas y Naturales y Agrimensura</td>
                                    
                                     <td>Diplomatura Universitaria en</br> Programación y Robótica Educativa</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://exa.unne.edu.ar/postgrado/1/index.php?tabla=dupyre2020">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td>&nbsp;</td></tr>
                             <tr>
                                     <td>Ciencias Exactas y Naturales y Agrimensura</td>
                                    
                                     <td>Diplomatura Universitaria en</br> Sistemas Fotovoltaicos</td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
                                     <td><a taget="_blank" href="http://exa.unne.edu.ar/postgrado/1/index.php?tabla=dusf">más información</a></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
+                                    {{-- <td></td> --}}
                                     <td></td></tr>
                             </tbody>
                         </table>
