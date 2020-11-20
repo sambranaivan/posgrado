@@ -28,7 +28,7 @@
                                                     </h2>
                                                     <br>
                                                     <h2>
-                                                        Cursadas en modalidad a distancia a través de nuestra plataforma UNNE Virtual
+                                                        Cursadas en modalidad a distancia a través de nuestras plataformas institucionales de educación a distancia.
                                                     </h2>
                                                     
                                                    </a>
