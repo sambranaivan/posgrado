@@ -11,7 +11,36 @@
                                
                                 <div class="col-md-12 py-2">
                                     <h2 class="text-info text-center">Noticias</h2>
-                                   <div class="col-md-6 offset-md-3">
+                                    <div class="col-md-10 offset-md-1">
+                                        
+                                           <div class="alert alert-primary text-center">
+                                                <a href="{{route('oferta.2021')}}" class="">
+                                                   
+                                                    <h1>
+                                                        <b>
+                                                            OFERTA VIRTUAL DE POSGRADO 2021
+                                                        </b>
+                                        
+                                                    </h1>
+                                                    <br>
+                                                    <h2>
+                                                        Elegí entre una amplia variedad de actividades de posgrado en las áreas de Ciencias de la Salud, Ciencias Básicas y Aplicadas, Ciencias Sociales y Humanas. 
+                                                    </h2>
+                                                    <br>
+                                                    <h2>
+                                                        Cursadas en modalidad a distancia a través de nuestra plataforma UNNE Virtual
+                                                    </h2>
+                                                    
+                                                   </a>
+                                            </div>
+
+                                           
+                                           
+                                    </div>
+                                  
+                                </div>
+                                
+                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body text-center">
                                             <img  class="img-fluid"  src="{{asset('img/becas_unisc.png')}}" alt="">
@@ -29,32 +58,7 @@
                                         </div>
 
                                     </div>
-                                   </div>
-                                </div>
-                                
-                                <div class="col-md-4">
-                                    
-                                    <div class="card">
-                                        <div class="card-body">
-                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm"> <h4 class="card-title text-info text-left">
-                                            “Razón y experiencia mística: Plotino, Eriúgena y Margarita Porete”.
-                                           </h4>
-                                          </a>
-                                           <h4 class="card-title text-info text-left">
-                                            Prof. Dictante: Dr. Ezequiel LUDUEÑA (UBA).
-                                           </h4>
-                                       
-                                           <img class="img-fluid"   src="{{asset('img/cv_hum.jpg')}}" alt="">
-                                            <p></p>
-                                       
-                                      
-                                      <p>
-                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm">Más Información</a>
-                                      </p>
-                                        </div>
-
-                                    </div>
-                                        <p></p>
+                                   
                                   
                                 <div class="card">
                                      <div class="card-body">
@@ -104,19 +108,26 @@
                                 <p></p><div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
-                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"><h4 class="card-title text-info text-left">
-                                            La UNNE avanza con defensas de Tesis de Posgrado bajo la modalidad a distancia
-                                           </h4></a>
+                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm"> <h4 class="card-title text-info text-left">
+                                            “Razón y experiencia mística: Plotino, Eriúgena y Margarita Porete”.
+                                           </h4>
+                                          </a>
+                                           <h4 class="card-title text-info text-left">
+                                            Prof. Dictante: Dr. Ezequiel LUDUEÑA (UBA).
+                                           </h4>
                                        
-                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"> <img class="img-fluid"   src="{{asset('img/noticias/noticia_0664.jpg')}}" alt=""></a>
+                                           <img class="img-fluid"   src="{{asset('img/cv_hum.jpg')}}" alt="">
                                             <p></p>
-                                       <p class="card-text text-justify">
-                                        Ante la imposibilidad de actividades presenciales por el Covid-19, la Universidad Nacional del Nordeste (UNNE) avanzó en la realización de sus primeras defensas de Tesis de Posgrado bajo la modalidad a distancia en varias unidades académicas. Destacan que además de ser una alternativa ante la emergencia sanitaria, se favoreció la visibilidad de las defensas, ya que pudieron ser presenciadas por público de distintas provincias y países.
-                                       </p>
+                                       
                                       
+                                      <p>
+                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm">Más Información</a>
+                                      </p>
                                         </div>
+
                                     </div>
-                                    <p></p>
+                                        <p></p>
+                                    
                                     <div class="card">
                                         <div class="card-body">
                                            <h4 class="card-title text-info text-left">
@@ -207,7 +218,21 @@
                                 </div>
                                 {{-- COLUMAN 3 --}}
                                 <div class="col-md-4">
-
+                                    <div class="card">
+                                        <div class="card-body">
+                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"><h4 class="card-title text-info text-left">
+                                            La UNNE avanza con defensas de Tesis de Posgrado bajo la modalidad a distancia
+                                           </h4></a>
+                                       
+                                           <a href="https://medios.unne.edu.ar/index.php?option=com_k2&view=item&id=4309:la-unne-avanza-con-defensas-de-tesis-de-posgrado-bajo-la-modalidad-a-distancia&Itemid=128&lang=es"> <img class="img-fluid"   src="{{asset('img/noticias/noticia_0664.jpg')}}" alt=""></a>
+                                            <p></p>
+                                       <p class="card-text text-justify">
+                                        Ante la imposibilidad de actividades presenciales por el Covid-19, la Universidad Nacional del Nordeste (UNNE) avanzó en la realización de sus primeras defensas de Tesis de Posgrado bajo la modalidad a distancia en varias unidades académicas. Destacan que además de ser una alternativa ante la emergencia sanitaria, se favoreció la visibilidad de las defensas, ya que pudieron ser presenciadas por público de distintas provincias y países.
+                                       </p>
+                                      
+                                        </div>
+                                    </div>
+                                    <p></p>
                                  <div class="card">
                                      <div class="card-body">
                                         <h4 class="card-title text-info text-left">

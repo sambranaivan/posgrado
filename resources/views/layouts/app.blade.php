@@ -85,13 +85,18 @@
                                <h6 class="text-center"><b>Catálogo eMOVIES</b></h6>
                             </a>
                         </li>
+                        <li class="nav-item">
+                        <a class="nav-link  align-middle" href="{{route("oferta.2021")}}">
+                               <h6 class="text-center"><b>Oferta Virtual</b></h6>
+                            </a>
+                        </li>
 
 
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}"><h6>{{ __('Iniciar Sesión') }}</h6></a>
-                            </li>
+                            </li> --}}
                             {{-- <li class="nav-item">
                                 @if (Route::has('register'))
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>

@@ -40,7 +40,7 @@ Route::get('/inscripcion/completa',function(){
 
 Route::get('/ofertavirtual2021',function(){
     return view('virtual');
-});
+})->name("oferta.2021");
 
 
 Route::post('/inscripcion/save','InscripcionController@recieve')->name('guardarInscripcion');
