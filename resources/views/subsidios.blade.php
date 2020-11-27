@@ -99,11 +99,16 @@
 <p><h5>Para cumplimentar las condiciones establecidas en la reglamentación vigente, le solicitamos realice su presentación con los formatos que se detallan más abajo, y en el plazo correspondiente.</h5></p>
 
 <h5>Rendición de subsidios: </h5>
-<ul><li><a target="_blank" href="{{asset('doc/Nota y Formulario de Rendicion de Subsidios Docentes y No Docentes.docx')}}">Nota y Formulario de rendición</a></li></ul>
+<ul><li><a target="_blank" href="{{asset('doc/Nota y Formulario de Rendicion Subsidios Docentes y No Docentes.docx')}}">Nota y Formulario de rendición</a></li></ul>
 <h5>Solicitud de reintegro gastos de traslado y viáticos</h5>
 <ul><li><a target="_blank" href="{{asset('doc/Nota y Formulario de Reintegro de Gastos de traslados y viáticos-Res. 441-2019CS.docx')}}">Nota y Formulario de presentación</a></li></ul>
 <h5>Solicitud de reintegro gastos de impresión de tesis</h5>
 <ul><li><a target="_blank" href="{{asset('doc/Nota de reintegro Gastos de tesis -Res. 442-2019CS.docx')}}">Nota y Formulario de presentación</a></li></ul>
+
+<h5>Solicitud de trámite de renuncia al subsidio otorgado</h5>
+<ul><li><a target="_blank" href="{{asset('doc/Nota de Renuncia a subsidio - Docentes y Becarios-No docentes.docx')}}">Nota de presentación</a></li></ul>
+<h5>Presentación de informe de finalización de estudio</h5>
+<ul><li><a target="_blank" href="{{asset('doc/Nota de informe de finalizacion de  estudios de posgrado.docx')}}">Nota de presentación</a></li></ul>
 
                                 </div>
                         </div>
