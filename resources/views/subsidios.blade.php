@@ -110,7 +110,7 @@
                                         <h5>Presentación de informe de finalización de estudio</h5>
                                         <ul><li><a target="_blank" href="{{asset('doc/Nota de informe de finalizacion de  estudios de posgrado.docx')}}">Nota de presentación</a></li></ul>
 
-                                <hr>
+                                {{-- <hr> --}}
                                 <h5>Datos de la cuenta bancaria para devolución de montos de subsidios</h5>
                                 <ul><li><a target="_blank" href="{{asset('doc/CBU cuenta Patagonia para devolución de subsidios.pdf')}}">CBU cuenta Patagonia para devolución de subsidios</a></li></ul>
                                 
