@@ -113,6 +113,8 @@
                                 {{-- <hr> --}}
                                 <h5>Datos de la cuenta bancaria para devolución de montos de subsidios</h5>
                                 <ul><li><a target="_blank" href="{{asset('doc/CBU cuenta Patagonia para devolución de subsidios.pdf')}}">CBU cuenta Patagonia para devolución de subsidios</a></li></ul>
+                                <h5>Reunión Informativa de Subsidios de Posgrado</h5>
+                                <ul><li><a target="_blank" href="{{asset('doc/Reunión Informativa Subsidios -27-11-2020.pdf')}}">Reunión Informativa 27-11-2020</a></li></ul>
                                 
                                 </div>
                         </div>
