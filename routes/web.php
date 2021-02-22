@@ -112,6 +112,7 @@ Route::get('docentes',function(){
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/carreras','CarreraController@index')->name('carreras');
+Route::get('/carreras/nuevo','CarreraController@index_nuevo')->name('carreras.nuevo');
 Route::get('/carreras/doctorado','CarreraController@doctorados')->name('doctorado');
 Route::get('/carreras/maestria','CarreraController@maestrias')->name('maestrias');
 Route::get('/carreras/especializacion','CarreraController@especializaciones')->name('especializaciones');

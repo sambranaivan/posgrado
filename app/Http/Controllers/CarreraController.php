@@ -18,6 +18,9 @@ class CarreraController extends Controller
     public function index(){
         return view('carreras');
     }
+    public function index_nuevo(){
+        return view('carreras_nuevo');
+    }
 
     public function borrar()
     {
