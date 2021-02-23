@@ -65,9 +65,9 @@
                 <li><p><strong><a href="{{asset('doc/2018-285-Lineamientos pedagógicos carreras de posgrado con modalidad a distancia.pdf')}}" target="_blank">Resolución 2018-0285 CS.</a></strong>&nbsp;Lineamientos pedagógicos carreras de posgrado con modalidad a distancia</p></li>
                 <li><p><strong><a href="{{asset('doc/2008-473-Escala de calificaciones UNNE-vigente a partir del 2009.pdf')}}" target="_blank">Resolución 2008-0473 CS.</a></strong>&nbsp;Escala de calificaciones UNNE-vigente a partir del 2009</p></li>
                 <li><p><strong><a href="{{asset('doc/2017-423-Guia Elaboracion de informe avance-final carreras.pdf')}}" target="_blank">Resolución 2017-0423 CS.</a></strong>&nbsp;Guia Elaboración de informe avance-final carreras</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2016-0668 CS.</a></strong>&nbsp;Reglamento deposito RIUNNE</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2020-155 CS.</a></strong>&nbsp;Autorizar defensa de tesis A distancia</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2020-156 CS.</a></strong>&nbsp;Autorizar adecuación al dictado virtual de las carreras de posgrado presenciales</p></li>
+                <li><p><strong><a href="{{asset('doc/2016-668-Reglamento deposito RIUNNE.pdf')}}" target="_blank">Resolución 2016-0668 CS.</a></strong>&nbsp;Reglamento deposito RIUNNE</p></li>
+                <li><p><strong><a href="{{asset('doc/2020-155-Autorizar defensa de tesis A distancia.pdf')}}" target="_blank">Resolución 2020-155 CS.</a></strong>&nbsp;Autorizar defensa de tesis A distancia</p></li>
+                <li><p><strong><a href="{{asset('doc/2020-156-Autorizar adecuación al dictado virtual de las carreras de posgrado presenciales.pdf')}}" target="_blank">Resolución 2020-156 CS.</a></strong>&nbsp;Autorizar adecuación al dictado virtual de las carreras de posgrado presenciales</p></li>
                 </ol>
             </div>
           </div>
