@@ -59,12 +59,12 @@
           <div id="normativas" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
                 <ol>
-                    <li><p><strong><a href="" target="_blank">Resolución 2015-1100 CS.</a></strong>&nbsp;Ordenanza del sistema de posgrado de la UNNE</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2020-0296 CS.</a></strong>&nbsp;Guía para la presentación de carreras de posgrado</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2018-0221 CS.</a></strong>&nbsp;Aprueba el sistema de educación a distancia de la UNNE</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2018-0285 CS.</a></strong>&nbsp;Lineamientos pedagógicos carreras de posgrado con modalidad a distancia</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2008-0473 CS.</a></strong>&nbsp;Escala de calificaciones UNNE-vigente a partir del 2009</p></li>
-                    <li><p><strong><a href="" target="_blank">Resolución 2017-0423 CS.</a></strong>&nbsp;Guia Elaboración de informe avance-final carreras</p></li>
+                <li><p><strong><a href="{{asset('doc/2015-1100-Ordenanza del sistema de posgrado de la UNNE.pdf')}}" target="_blank">Resolución 2015-1100 CS.</a></strong>&nbsp;Ordenanza del sistema de posgrado de la UNNE</p></li>
+                <li><p><strong><a href="{{asset('doc/2020-296- Guia para la presentacion de carreras de posgrado.pdf')}}" target="_blank">Resolución 2020-0296 CS.</a></strong>&nbsp;Guía para la presentación de carreras de posgrado</p></li>
+                <li><p><strong><a href="{{asset('doc/2018-221-Aprueba el sistema de educación a distancia de la UNNE.pdf')}}" target="_blank">Resolución 2018-0221 CS.</a></strong>&nbsp;Aprueba el sistema de educación a distancia de la UNNE</p></li>
+                <li><p><strong><a href="{{asset('doc/2018-285-Lineamientos pedagógicos carreras de posgrado con modalidad a distancia.pdf')}}" target="_blank">Resolución 2018-0285 CS.</a></strong>&nbsp;Lineamientos pedagógicos carreras de posgrado con modalidad a distancia</p></li>
+                <li><p><strong><a href="{{asset('doc/2008-473-Escala de calificaciones UNNE-vigente a partir del 2009.pdf')}}" target="_blank">Resolución 2008-0473 CS.</a></strong>&nbsp;Escala de calificaciones UNNE-vigente a partir del 2009</p></li>
+                <li><p><strong><a href="{{asset('doc/2017-423-Guia Elaboracion de informe avance-final carreras.pdf')}}" target="_blank">Resolución 2017-0423 CS.</a></strong>&nbsp;Guia Elaboración de informe avance-final carreras</p></li>
                     <li><p><strong><a href="" target="_blank">Resolución 2016-0668 CS.</a></strong>&nbsp;Reglamento deposito RIUNNE</p></li>
                     <li><p><strong><a href="" target="_blank">Resolución 2020-155 CS.</a></strong>&nbsp;Autorizar defensa de tesis A distancia</p></li>
                     <li><p><strong><a href="" target="_blank">Resolución 2020-156 CS.</a></strong>&nbsp;Autorizar adecuación al dictado virtual de las carreras de posgrado presenciales</p></li>
