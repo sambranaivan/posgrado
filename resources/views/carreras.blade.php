@@ -147,20 +147,21 @@
         <div id="guia_de_trámites" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div class="card-body">
               <ul style="font-size:1.2em">
-                <li>5.1.	<a href="#">Formalización</a></li>
+                <li>5.1.	Formalización</li>
                 <ul>
-                <li>5.1.1.	<a href="#">Carreras nuevas</a></li>
-                <li>5.1.2.	<a href="#">Carreras en funcionamiento </a></li>
+                <li>5.1.1.	<a href="{{asset("doc/guia para la formalizacion de carreras de posgrado.docx")}}">Guía para la formalizacion de Carreras nuevas</a></li>
+                <li>5.1.2.  <a href="{{asset('doc\modelo nota solicitud de formalizacion  carreras nuevas.doc')}}">Modelo de nota de solicitud de formalizacion de Carreras nuevas</a></li>
+                <li>5.1.2.	<a href="{{asset('doc/guia para la formalizacion de carreras de posgrado- convocatoria cs basicas.docx')}}">Guía para la formalizacion de Carreras en funcionamiento </a></li>
                 </ul>
-                <li>5.2.	<a href="#">Presentación de acreditación de carreras </a></li>
+                <li>5.2.	Presentación de acreditación de carreras </li>
                     <ul>
-                <li>5.2.1.	<a href="#">Carreras nuevas</a></li>
-                <li>5.2.2.	<a href="#">Carreras en funcionamiento </a></li>
+                <li>5.2.1.	<a >Carreras nuevas</a></li>
+                    <li>5.2.2.	<a >Carreras en funcionamiento </a></li>
                     </ul>
-                <li>5.3.	<a href="#">Presentación de respuesta a la vista</a></li>
-                <li>5.4.	<a href="#">Solicitud de nuevo dictado de carrera</a></li>
-                <li>5.5.	<a href="#">Solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</a></li>
-                <li>5.6.	<a href="#">Informar cese de actividades de una carrera</a></li>
+                <li>5.3.	<a >Presentación de respuesta a la vista</a></li>
+                <li>5.4.	<a >Solicitud de nuevo dictado de carrera</a></li>
+                <li>5.5.	<a >Solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</a></li>
+                <li>5.6.	<a >Informar cese de actividades de una carrera</a></li>
             </ul>
             
           </div>
