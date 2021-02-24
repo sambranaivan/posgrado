@@ -147,21 +147,35 @@
         <div id="guia_de_trámites" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div class="card-body">
               <ul style="font-size:1.2em">
-                <li>5.1.	Formalización</li>
+                <li>5.1.	Creación de Carreras de Posgrado</li>
                 <ul>
-                <li>5.1.1.	<a href="{{asset("doc/guia para la formalizacion de carreras de posgrado.docx")}}">Guía para la formalizacion de Carreras nuevas</a></li>
-                <li>5.1.2.  <a href="{{asset('doc\modelo nota solicitud de formalizacion  carreras nuevas.doc')}}">Modelo de nota de solicitud de formalizacion de Carreras nuevas</a></li>
-                <li>5.1.2.	<a href="{{asset('doc/guia para la formalizacion de carreras de posgrado- convocatoria cs basicas.docx')}}">Guía para la formalizacion de Carreras en funcionamiento </a></li>
+                  <li>5.1.1.  <a href="{{asset('doc\modelo nota solicitud de formalizacion  carreras nuevas.doc')}}">Modelo de nota de solicitud de formalizacion de Carreras nuevas</a></li>
                 </ul>
-                <li>5.2.	Presentación de acreditación de carreras </li>
-                    <ul>
-                <li>5.2.1.	<a >Carreras nuevas</a></li>
-                    <li>5.2.2.	<a >Carreras en funcionamiento </a></li>
-                    </ul>
-                <li>5.3.	<a >Presentación de respuesta a la vista</a></li>
-                <li>5.4.	<a >Solicitud de nuevo dictado de carrera</a></li>
-                <li>5.5.	<a >Solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</a></li>
-                <li>5.6.	<a >Informar cese de actividades de una carrera</a></li>
+                <li>5.2 Formalización ante CONEAU</li>
+                  <ul> <li>5.2.1.	<a href="{{asset("doc/guia para la formalizacion de carreras de posgrado.docx")}}">Guía para la formalizacion de Carreras nuevas</a></li>
+                <li>5.2.2.	<a href="{{asset('doc/guia para la formalizacion de carreras de posgrado- convocatoria cs basicas.docx')}}">Guía para la formalizacion de Carreras en funcionamiento </a></li>
+                <li>5.2.3</li>
+                <li>5.2.4</li>
+                </ul>
+                <li>5.3.	Acreditación ante CONEAU</li>
+                <ul>
+                <li>5.3.1. Modelo de nota de presentación de carreras nuevas</li>
+                <li>5.3.2. Modelo de nota de presentación de carreras en funcionamiento</li>
+                <li>5.3.3. Modelos de nota de elevación de Respuesta a la vista</li>
+                </ul>
+                <li>5.4. Modificación de la carrera<li> 
+                  <ul>
+                <li>5.4. 1. Modelo de nota de solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</li>
+              </ul>
+                <li>5.5. Nuevo dictado de carrera</li>
+                  <ul>
+                <li>.5. 5.1. Modelo de nota de solicitud de nuevo dictado de la carrera</li>
+                  </ul>
+                <li>5.6. Cese de actividades de una carrera</li>
+                <ul>
+                  <li>5.6.1 Modelo de nota para informar cese de actividades de una carrera</li>
+                  </ul>
+                
             </ul>
             
           </div>
