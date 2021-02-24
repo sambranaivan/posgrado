@@ -149,7 +149,7 @@
               <ul style="font-size:1.2em">
                 <li>5.1.	Creación de Carreras de Posgrado</li>
                 <ul>
-                  <li>5.1.1.  <a href="{{asset('doc\modelo nota solicitud de formalizacion  carreras nuevas.doc')}}">Modelo de nota de solicitud de formalizacion de Carreras nuevas</a></li>
+                  <li>5.1.1.  Modelo de nota de solicitud de formalizacion de Carreras nuevas</li>
                 </ul>
                 <li>5.2 Formalización ante CONEAU</li>
                   <ul> <li>5.2.1.	<a href="{{asset("doc/guia para la formalizacion de carreras de posgrado.docx")}}">Guía para la formalizacion de Carreras nuevas</a></li>
