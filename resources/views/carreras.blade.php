@@ -166,13 +166,13 @@
                 </ul>
                 <li>5.4. Modificación de la carrera<li> 
                   <ul>
-                <li>5.4. 1. Modelo de nota de solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</li>
+                <li>5.4.1. Modelo de nota de solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</li>
               </ul>
                 <li>5.5. Nuevo dictado de carrera</li>
                   <ul>
-                <li>.5. 5.1. Modelo de nota de solicitud de nuevo dictado de la carrera</li>
+                <li>5.5.1. Modelo de nota de solicitud de nuevo dictado de la carrera</li>
                   </ul>
-                <li>5.6. Cese de actividades de una carrera</li>
+                <li>5.6 Cese de actividades de una carrera</li>
                 <ul>
                   <li>5.6.1 Modelo de nota para informar cese de actividades de una carrera</li>
                   </ul>
