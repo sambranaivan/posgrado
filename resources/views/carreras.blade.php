@@ -154,14 +154,15 @@
                 <li>5.2 Formalización ante CONEAU</li>
                   <ul> <li>5.2.1.	<a href="{{asset("doc/guia para la formalizacion de carreras de posgrado.docx")}}">Guía para la formalizacion de Carreras nuevas</a></li>
                 <li>5.2.2.	<a href="{{asset('doc/guia para la formalizacion de carreras de posgrado- convocatoria cs basicas.docx')}}">Guía para la formalizacion de Carreras en funcionamiento </a></li>
-                <li>5.2.3</li>
-                <li>5.2.4</li>
+                  <li>5.2.3. <a href="{{asset('doc/modelo nota solicitud de formalizacion  carreras nuevas.doc')}}"> Modelo de nota de solicitud de formalización de Carreras nuevas</a></li>
+                <li>5.2.4. Modelo de nota de solicitud de formalización de Carreras en funcionamiento</li>
+
                 </ul>
                 <li>5.3.	Acreditación ante CONEAU</li>
                 <ul>
-                <li>5.3.1. Modelo de nota de presentación de carreras nuevas</li>
-                <li>5.3.2. Modelo de nota de presentación de carreras en funcionamiento</li>
-                <li>5.3.3. Modelos de nota de elevación de Respuesta a la vista</li>
+                <li>5.3.1. <a href="{{asset('doc/modelo de nota de solicitud de acreditacion de carreras nuevas Decano-Rectora.docx')}}"  >Modelo de nota de presentación de carreras nuevas</a></li>
+                <li>5.3.2. <a href="{{asset('doc/modelo de nota de solicitud de acreditacion de carreras en funcionamiento Decano-Rectora.docx')}}" >Modelo de nota de presentación de carreras en funcionamiento</a></li>
+                <li>5.3.3. <a href="{{asset('doc/modelo de nota de elevacion de Resopuesta a la Vista de carreras en funcionamiento Decano-Rectora.docx')}}" >Modelos de nota de elevación de Respuesta a la vista</a></li>
                 </ul>
                 <li>5.4. Modificación de la carrera<li> 
                   <ul>
