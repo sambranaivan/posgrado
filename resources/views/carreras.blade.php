@@ -156,7 +156,7 @@
                     </div>
                    
                   </li>
-                5.1.1. <a href="{{asset("doc/Modelo de nota Creación de carreras nuevas.docx")}}">Modelo de nota de solicitud de formalizacion de Carreras nuevas</a>
+                5.1.1. <a href="{{asset("doc/Modelo de nota Creación de carreras nuevas.docx")}}">Modelo de nota de solicitud de Creacion de Carreras nuevas</a>
 
 
                   
@@ -178,7 +178,7 @@
                         <ul>
                             <li>
                               <div class="alert alert-info text-justify">
-                                Para iniciar el trámite el director de la misma elevará el proyecto con las modificaciones realizadas al plan de estudio, cuerpo docente o reglamento de la carrera (según Resol Nº 0296/20 CS) al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior la creación de la carrera, adjuntando toda la información que se requiere.  
+                                Para iniciar el trámite el director de la misma elevará el proyecto con las modificaciones realizadas al plan de estudio, cuerpo docente o reglamento de la carrera (según Resol Nº 0296/20 CS) al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior la modificación de la carrera, adjuntando toda la información que se requiere.  
                               </div>  
                             </li>
                           5.4.1. <a href="{{asset('doc/modelo de nota Modificación de carrera.docx')}}"> Modelo de nota de solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</a>
@@ -187,7 +187,10 @@
                       <ul>
                           <li>
                             <div class="alert alert-info text-justify">
-                              Para iniciar el trámite el director de la carrera solicitará el nuevo dictado de la misma al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior se autorice el dictado de una nueva edición de la carrera, adjuntando toda la información que se requiere. En el caso de incorporar modificaciones se realizará en primer término el trámite correspondiente.
+                              <p>
+
+                                Para iniciar el trámite el director de la carrera solicitará el nuevo dictado de la misma al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Tener en cuenta que la normativa exige informe aprobado de la última cohorte dictada. Luego el Decano solicitará al Consejo Superior se autorice el dictado de una nueva edición de la carrera. En el caso de incorporar modificaciones se realizará en primer término el trámite correspondiente
+                              </p>
                             </div>
                           </li>
                       
