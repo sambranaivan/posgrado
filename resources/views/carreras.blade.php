@@ -174,27 +174,27 @@
                 <li>5.3.2. <a href="{{asset('doc/modelo de nota de solicitud de acreditacion de carreras en funcionamiento Decano-Rectora.docx')}}" >Modelo de nota de presentación de carreras en funcionamiento</a></li>
                 <li>5.3.3. <a href="{{asset('doc/modelo de nota de elevacion de Resopuesta a la Vista de carreras en funcionamiento Decano-Rectora.docx')}}" >Modelos de nota de elevación de Respuesta a la vista</a></li>
                 </ul>
-                <li><b>5.4. Modificación de la carrera</b><li> 
-                  <ul>
-                <li>
-                  <div class="alert alert-info text-justify">
-                    Para iniciar el trámite el director de la misma elevará el proyecto con las modificaciones realizadas al plan de estudio, cuerpo docente o reglamento de la carrera (según Resol Nº 0296/20 CS) al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior la creación de la carrera, adjuntando toda la información que se requiere.  
-                  </div>  
-                </li>
-              5.4.1. <a href="{{asset('doc/modelo de nota Modificación de carrera.docx')}}"> Modelo de nota de solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</a>
-              </ul>
+                <li><b>5.4. Modificación de la carrera</b></li> 
+                        <ul>
+                            <li>
+                              <div class="alert alert-info text-justify">
+                                Para iniciar el trámite el director de la misma elevará el proyecto con las modificaciones realizadas al plan de estudio, cuerpo docente o reglamento de la carrera (según Resol Nº 0296/20 CS) al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior la creación de la carrera, adjuntando toda la información que se requiere.  
+                              </div>  
+                            </li>
+                          5.4.1. <a href="{{asset('doc/modelo de nota Modificación de carrera.docx')}}"> Modelo de nota de solicitud de modificación de plan de estudio, cuerpo docente o Reglamento de carrera</a>
+                    </ul>
                 <li><b>5.5. Nuevo dictado de carrera</b></li>
-                  <ul>
-                <li>
-                  <div class="alert alert-info text-justify">
-                    Para iniciar el trámite el director de la carrera solicitará el nuevo dictado de la misma al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior se autorice el dictado de una nueva edición de la carrera, adjuntando toda la información que se requiere. En el caso de incorporar modificaciones se realizará en primer término el trámite correspondiente.
-                  </div>
-                </li>
-                  
-              5.5.1. <a href="{{asset('doc/Modelo de nota Nuevo dictado de carrera.docx')}}"> Modelo de nota de solicitud de nuevo dictado de la carrera</a>
+                      <ul>
+                          <li>
+                            <div class="alert alert-info text-justify">
+                              Para iniciar el trámite el director de la carrera solicitará el nuevo dictado de la misma al Decano de la Facultad, y por su intermedio a la Secretaria de Posgrado, quien pondrá a consideración de la Comisión de Posgrado y con el dictamen favorable elevará al Consejo Directivo para su aprobación. Una vez aprobada el Decano solicitará al Consejo Superior se autorice el dictado de una nueva edición de la carrera, adjuntando toda la información que se requiere. En el caso de incorporar modificaciones se realizará en primer término el trámite correspondiente.
+                            </div>
+                          </li>
+                      
+                  5.5.1. <a href="{{asset('doc/Modelo de nota Nuevo dictado de carrera.docx')}}"> Modelo de nota de solicitud de nuevo dictado de la carrera</a>
 
 
-                  </ul>
+                      </ul>
                 <li><b>5.6 Cese de actividades de una carrera</b></li>
                 <ul>
                   <li>5.6.1 Modelo de nota para informar cese de actividades de una carrera</li>
