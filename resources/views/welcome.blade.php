@@ -154,10 +154,7 @@
                                        <a href="{{route('becas')}}">
                                             <img class="img-fluid"   src="{{asset('img/noticias/carolina.jpg')}}" alt="">
                                             </a><p></p>
-                                       <p class="card-text">PLAZOS DE SOLICITUD:</p>
-   <p class="card-text">Postgrado: 10 de marzo de 2020</p>
-   
-   <p class="card-text">Doctorado, estancias cortas, programas de movilidad de profesores y estudios institucionales: 3 de abril a las 9 AM (hora española). Doctorado.IUE y Movilidad de profesorado argentino: 1 de abril, a las 9 AM, y el 2 de abril, a las 9 AM, respectivamente</p>
+                                      
    <p> <a href="{{route('becas')}}">>>Más Informacion sobre Becas</a></p>
                                          </p>
                                         </div>

@@ -11,7 +11,7 @@
 
                         <div class="card text-center">
                         <div class="card-header">
-                                <h3 class="card-title">CONVOCATORIA BECAS 2020-2021</h3>
+                                <h3 class="card-title">CONVOCATORIA BECAS 2021-2022</h3>
                                 <h4 class="card-title">Becas de doctorado y estancias cortas postdoctorales</h4>
 
                         </div>
@@ -29,9 +29,9 @@
                         <img class="img-fluid" src="{{asset('img/carolina.jpg')}}" alt="">
                         </div>
                         <div class="col-md-8">
-                        <p class="text-justify">Se convocan 50 becas de Doctorado y 50 de estancias cortas entre todos los candidatos que las  instituciones y universidades presenten en función de los convenios de cooperación firmados bilateralmente.
-                        El plazo para presentar candidatos a las becas de doctorado y de estancias cortas de investigación finaliza el <b> jueves 2 de abril de 2020.</b></p>
-
+                        <p class="text-justify">Se convocan 35 becas de Doctorado y 50 de estancias cortas entre todos los candidatos que las
+                                instituciones y universidades presenten en función de los convenios de cooperación firmados
+                                bilateralmente.</p>
                         </div>
                         </div>
 
