@@ -59,9 +59,27 @@
 
                                     </div>
                                    
-                                  
-                                <div class="card">
-                                     <div class="card-body">
+                                    <p></p><div class="card">
+                                        <div class="card-body">
+                                           <h4 class="card-title text-info text-left">
+                                                La UNNE presente en la primera reunión del Comité permanente de Posgrado de AUGM en Curitiba
+                                           </h4>
+                                           <p>
+                                           <a href="#">
+                                            <img class="img-fluid"   src="{{asset('img/noticias/curitiba.jpg')}}" alt="">
+                                            </a>
+                                           </p>
+                                       <p class="card-text text-justify">
+                                         La secretaria de Posgrado de la Universidad, Gladys Dapozo, participa de esta reunión realizada en la UFPR (Universidade Federal do Paraná), Brasil. En la misma se realizó una mesa debate sobre “Situación actual, desafíos y oportunidades del posgrado en las universidades de UGM”.</p>
+   
+   <p class="card-text text-justify">Se presentaron los informes sobre las movilidades del programa Escala de Posgrado y se delinearon líneas de acción para consolidar el espacio de desarrollo del posgrado (ESPO-AUGM) entre las universidades participantes, entre otras cuestiones.</p>
+   
+   <p class="card-text text-justify">La Asociación de Universidades Grupo Montevideo (AUGM) es una Red de Universidades públicas, autónomas y autogobernadas de Argentina, Bolivia, Brasil, Chile, Paraguay y Uruguay.</p>
+   
+                                        </div>
+                                    </div>
+                                {{-- <div class="card"> --}}
+                                     {{-- <div class="card-body">
                                         <h4 class="card-title text-info text-left">
                                                 Nueva Carrera de Posgrado en la FAU
                                         </h4>
@@ -80,8 +98,8 @@
                                             </a>
 
                                       </p>
-                                     </div>
-                                 </div>
+                                     </div> --}}
+                                 {{-- </div> --}}
                                 <p></p><div class="card">
                                      <div class="card-body">
                                         <h4 class="card-title text-info text-left">
@@ -194,25 +212,7 @@
                                      </div>
                                  </div>
                                  {{--  --}}
-                                 <p></p><div class="card">
-                                     <div class="card-body">
-                                        <h4 class="card-title text-info text-left">
-                                             La UNNE presente en la primera reunión del Comité permanente de Posgrado de AUGM en Curitiba
-                                        </h4>
-                                        <p>
-                                        <a href="#">
-                                         <img class="img-fluid"   src="{{asset('img/noticias/curitiba.jpg')}}" alt="">
-                                         </a>
-                                        </p>
-                                    <p class="card-text text-justify">
-                                      La secretaria de Posgrado de la Universidad, Gladys Dapozo, participa de esta reunión realizada en la UFPR (Universidade Federal do Paraná), Brasil. En la misma se realizó una mesa debate sobre “Situación actual, desafíos y oportunidades del posgrado en las universidades de UGM”.</p>
-
-<p class="card-text text-justify">Se presentaron los informes sobre las movilidades del programa Escala de Posgrado y se delinearon líneas de acción para consolidar el espacio de desarrollo del posgrado (ESPO-AUGM) entre las universidades participantes, entre otras cuestiones.</p>
-
-<p class="card-text text-justify">La Asociación de Universidades Grupo Montevideo (AUGM) es una Red de Universidades públicas, autónomas y autogobernadas de Argentina, Bolivia, Brasil, Chile, Paraguay y Uruguay.</p>
-
-                                     </div>
-                                 </div>
+                                
 
 
                                 </div>
