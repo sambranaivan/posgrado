@@ -59,9 +59,9 @@
                         <ul class="text-left">
 
 
-                        <li>Para las becas de Doctorado: <a href="mailto:doctorado_2020@fundacioncarolina.es">doctorado_2020@fundacioncarolina.es</a></li>
+                        <li>Para las becas de Doctorado: <a href="mailto:doctorado_2021@fundacioncarolina.es">doctorado_2021@fundacioncarolina.es</a></li>
 
-                        <li>Para las becas de Estancias Cortas: <a href="mailto:estanciascortas_2020@fundacioncarolina.es">estanciascortas_2020@fundacioncarolina.es</a></li>
+                        <li>Para las becas de Estancias Cortas: <a href="mailto:estanciascortas_2021@fundacioncarolina.es">estanciascortas_2021@fundacioncarolina.es</a></li>
                         </ul>
                         </p>
 
