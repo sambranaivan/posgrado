@@ -32,6 +32,11 @@
                         <p class="text-justify">Se convocan 35 becas de Doctorado y 50 de estancias cortas entre todos los candidatos que las
                                 instituciones y universidades presenten en función de los convenios de cooperación firmados
                                 bilateralmente.</p>
+                                <p class="text-justify">
+                                        El plazo para presentar candidatos a las becas de doctorado y de estancias cortas de
+investigación finaliza el <b>jueves 8 de abril de 2021</b>, inclusive.
+
+                                </p>
                         </div>
                         </div>
 
@@ -110,7 +115,7 @@
 
 
 
-<p class="text-justify">En el siguiente enlace encontrará información completa sobre la convocatoria de becas 2021-2022 y material disponible para su difusión:
+<p class="text-left">En el siguiente enlace encontrará información completa sobre la convocatoria de becas 2021-2022 y material disponible para su difusión:
 
 
 
