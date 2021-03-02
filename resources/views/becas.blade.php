@@ -110,7 +110,7 @@
 
 
 
-<p class="text-justify">En el siguiente enlace encontrará información completa sobre la convocatoria de becas 2020-2021 y material disponible para su difusión:
+<p class="text-justify">En el siguiente enlace encontrará información completa sobre la convocatoria de becas 2021-2022 y material disponible para su difusión:
 
 
 
@@ -118,7 +118,7 @@
 
 
 
-<p class="text-justify">El plazo para solicitar una beca de las áreas de Postgrado y de Estudios Institucionales permanecerá abierto hasta el 10 de marzo de 2020, a las 09.00 a.m. hora española.</p>
+<p class="text-justify">El plazo para solicitar una beca de las áreas de Postgrado y de Estudios Institucionales permanecerá abierto hasta el 17 de marzo de 2021, a las 09.00 a.m. hora española.</p>
                                     </div>
 
 
