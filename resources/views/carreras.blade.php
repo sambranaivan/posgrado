@@ -89,9 +89,9 @@
 
                     <p style="text-align: justify;">Las solicitudes de&nbsp;acreditación al solo efecto del reconocimiento oficial provisorio del título de carreras nuevas se presentan ante la CONEAU en la última semana de los meses de abril y octubre de cada año.</p>
 <p style="text-align: justify;">En forma previa, las instituciones&nbsp;<strong>deben formalizar</strong>&nbsp;la presentación de sus carreras nuevas.&nbsp;Esta formalización electrónica podrá realizarse hasta el día 15 de los meses de marzo o septiembre de cada año, dependiendo de la fecha de presentación abril u octubre, respectivamente.</p>
-<p><span style="color: #000000;"><strong>♦&nbsp;Formalización de la carrera:&nbsp;</strong>hasta el <strong>15 de marzo de 2021</strong> a través de</span> <strong><a href="http://209.13.179.3/coneauglobal/atenea/acerca-de.aspx" target="_blank" rel="noopener noreferrer">CONEAU Global</a></strong>.&nbsp;<a href="http://www.coneau.gov.ar/archivos/AyudaFormalizaciones.pdf">Manual de ayuda para formalizar.</a></p>
+<p><span style="color: #000000;"><strong>♦&nbsp;Formalización de la carrera:&nbsp;</strong>hasta el <strong>15 de marzo de 2021</strong> </p>
 <p><span style="color: #333399;"><strong>&nbsp;<span style="color: #000000;">♦ Solicitud de&nbsp;acreditación de la carrera: </span></strong><span style="color: #000000;">entre el</span><span style="color: #000000;">&nbsp;<strong>26 y el 30 de abril d</strong><strong>e 2021</strong>&nbsp;</span><span style="color: #000000;">a través de</span>&nbsp;<strong><a href="http://209.13.179.3/coneauglobal/atenea/acerca-de.aspx" target="_blank" rel="noopener noreferrer">CONEAU Global</a>.&nbsp;</strong></span></p>
-<p><span style="color: #000000;"><strong>♦&nbsp;Apertura del expediente electrónico:</strong> <span style="color: #000000;">entre el<strong> entre el&nbsp;26 y el 30 de abril de 2021</strong></span>&nbsp;a través de la plataforma </span><strong><span style="color: #000000;">Trámites a Distancia</span>&nbsp;<a href="https://tramitesadistancia.gob.ar/tramitesadistancia/inicio-publico">TAD</a></strong>.&nbsp;Para obtener más información sobre este procedimiento<a href="http://www.coneau.gob.ar/CONEAU/?page_id=2691">&nbsp;<strong>click aquí</strong>.</a></p>
+<p><span style="color: #000000;"><strong>♦&nbsp;Apertura del expediente electrónico:</strong> <span style="color: #000000;">entre el<strong> entre el&nbsp;26 y el 30 de abril de 2021</strong></span>&nbsp;a través de la plataforma </span><strong><span style="color: #000000;">Trámites a Distancia</span>&nbsp;<a href="https://tramitesadistancia.gob.ar/tramitesadistancia/inicio-publico">TAD</a></strong>.</p>
 <p style="text-align: justify;">La información completa de los requisitos para la presentación de la carrera puede consultarla en la Nota Técnica de Carreras Nuevas:</p>
 <p style="text-align: justify;"><strong>–&nbsp;<a href="http://www.coneau.gob.ar/archivos/form09posg/NOTATECNICACNUEVAS.pdf">Nota técnica (presentación de la solicitud de reconocimiento oficial provisorio del título).</a></strong></p>
 </div>
@@ -122,12 +122,12 @@
 
                     <p><strong><span style="color: #000000;">♦</span>&nbsp;<a href="https://www.coneau.gob.ar/archivos/form09posg/RS-2020-88507670-APN-CONEAU-ME.pdf" target="_blank" rel="noopener noreferrer">RESFC-2020-416-APN-CONEAU#MECCYT</a>&nbsp;|&nbsp;<a href="https://www.coneau.gob.ar/archivos/form09posg/IF-2020-88253952-APN-DAC-CONEAU.pdf" target="_blank" rel="noopener noreferrer">ANEXO</a></strong></p>
 <p><span style="color: #000000;"><strong>La primera etapa de la sexta convocatoria corresponde a las carreras de posgrado de especialización, maestría y doctorado pertenecientes al área de Ciencias Básicas.</strong></span></p>
-<p><span style="color: #000000;">♦&nbsp;<strong>Formalización: </strong>hasta el&nbsp;<strong>29 de marzo de 2021</strong>&nbsp;a través de</span>&nbsp;<a href="https://global.coneau.gob.ar/coneauglobal/" target="_blank" rel="noopener noreferrer">CONEAU Global</a></p>
+<p><span style="color: #000000;">♦&nbsp;<strong>Formalización: </strong>hasta el&nbsp;<strong>29 de marzo de 2021</strong></p>
 <p><span style="color: #000000;"><strong>♦ Taller preparatorio: 9 de abril&nbsp; | Taller de Sistemas: 14 de abril</strong></span></p>
 <p><span style="color: #000000;"><strong>♦ Modalidad a distancia</strong>. <strong>Inscripción:</strong> <strong>del 18 de febrero al 5 de marzo </strong></span><a href="https://global.coneau.gob.ar/coneauglobal/iniciar-sesion/?ir=/coneauglobal/publico/escuela-coneau/pos2021/" target="_blank" rel="noopener noreferrer">disponible desde aquí</a></p>
 <label class="mx-4">Para registrar la inscripción deberá ingresar a CONEAU Global a través del usuario institucional. Al ingresar al formulario podrá conocer los cupos disponibles para cada unidad académica. <strong><em><span style="color: #12164d;">Actividades no aranceladas</span></em></strong></label>
 <h6></h6>
-<p><span style="color: #000000;"><strong>♦ <a href="https://global.coneau.gob.ar/coneauglobal/" >Presentación de solicitud de acreditación y autoevaluación</a> hasta el 18 de agosto de 2021</strong>&nbsp;a&nbsp;través de&nbsp;<strong><a href="https://global.coneau.gob.ar/coneauglobal/" target="_blank" rel="noopener noreferrer">CONEAU Global</a></strong></span></p>
+<p><span style="color: #000000;"><strong>♦ <a href="https://global.coneau.gob.ar/coneauglobal/" >Presentación de solicitud de acreditación y autoevaluación</a> hasta el 18 de agosto de 2021</strong></p>
 <p><span style="color: #000000;">♦&nbsp;</span><a href="https://www.coneau.gob.ar/archivos/form09posg/CsBasicas_NOTATECNICA.pdf" target="_blank" rel="noopener noreferrer"><strong>Nota Técnica&nbsp;(Presentación de la solicitud de acreditación)</strong></a></p>
 <p><span style="color: #000000;">♦</span>&nbsp;<a href="https://www.coneau.gob.ar/coneau/acreditacion-de-carreras-2/" target="_blank" rel="noopener noreferrer"><strong>Implementación de Trámites a Distancia&nbsp;(TAD)</strong></a></p>
 
@@ -162,10 +162,10 @@
                   
                 </ul>
                 <li><b>5.2 Formalización ante CONEAU</b></li>
-                  <ul> <li>5.2.1.	<a href="{{asset("doc/guia para la formalizacion de carreras de posgrado.docx")}}">Guía para la formalizacion de Carreras nuevas</a></li>
-                <li>5.2.2.	<a href="{{asset('doc/guia para la formalizacion de carreras de posgrado- convocatoria cs basicas.docx')}}">Guía para la formalizacion de Carreras en funcionamiento </a></li>
+                  <ul> <li>5.2.1.	<a href="{{asset("doc/carreras/circuito interno del proceso de formalizacion y presentacion en la UNNE.docx")}}">Circuito interno para la formalización y presentación de Carreras Nuevas.</a></li>
+                <li>5.2.2.	<a href="{{asset('doc/carreras/circuito interno para la formalizacion y presentacion de carreras de posgrado en funcionamiento convocatoria cs basicas.docx')}}">Circuito interno para la formalización y presentación de Carreras en funcionamiento e informe de autoevaluación</a></li>
                   <li>5.2.3. <a href="{{asset('doc/modelo nota solicitud de formalizacion  carreras nuevas.doc')}}"> Modelo de nota de solicitud de formalización de Carreras nuevas</a></li>
-                <li>5.2.4. Modelo de nota de solicitud de formalización de Carreras en funcionamiento</li>
+                  <li>5.2.4. <a href="{{asset('doc/carreras/modelo de nota de solicitud de formalizacion de carreras en funcionamiento Decano-secretaria posg.docx')}}" >Modelo de nota de solicitud de formalización de Carreras en funcionamiento</a></li>
 
                 </ul>
                 <li><b>5.3.	Acreditación ante CONEAU</b></li>
