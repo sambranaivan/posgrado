@@ -152,7 +152,7 @@
                                                  ABIERTA LA CONVOCATORIA DE BECAS 2021/2022
                                            </h4>
                                        <a href="{{route('becas')}}">
-                                            <img class="img-fluid"   src="{{asset('img/noticias/carolina.jpg')}}" alt="">
+                                            <img class="img-fluid"   src="https://www.fundacioncarolina.es/wp-content/uploads/2021/01/cartel-convocatoria-2021-para-web-1.jpg" alt="">
                                             </a><p></p>
                                       
    <p> <a href="{{route('becas')}}">>>Más Informacion sobre Becas</a></p>
