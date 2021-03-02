@@ -42,6 +42,25 @@
                                 
                                 <div class="col-md-4">
                                     <div class="card">
+                                        <div class="card-body">
+                                        
+                                           <h4 class="card-title text-info text-left">
+                                            Diplomatura Superior en Problemáticas Políticas Contemporáneas
+
+
+                                           </h4>
+                                       
+                                           <img class="img-fluid"   src="https://hum.unne.edu.ar/postgrado/problematicas/problematicas.jpg" alt="">
+                                            <p></p>
+                                       
+                                      
+                                      <h4>
+                                          <a href="https://hum.unne.edu.ar/postgrado/problematicas/problematicas.htm">Más Información</a>
+                                      </h4>
+                                        </div>
+
+                                    </div>
+                                    <div class="card">
                                         <div class="card-body text-center">
                                             <img  class="img-fluid"  src="{{asset('img/becas_unisc.png')}}" alt="">
                                         </div>
@@ -124,32 +143,13 @@
                                 </div>
                                 {{-- //COLUMNA 2 --}}
                                 <p></p><div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm"> <h4 class="card-title text-info text-left">
-                                            “Razón y experiencia mística: Plotino, Eriúgena y Margarita Porete”.
-                                           </h4>
-                                          </a>
-                                           <h4 class="card-title text-info text-left">
-                                            Prof. Dictante: Dr. Ezequiel LUDUEÑA (UBA).
-                                           </h4>
-                                       
-                                           <img class="img-fluid"   src="{{asset('img/cv_hum.jpg')}}" alt="">
-                                            <p></p>
-                                       
-                                      
-                                      <p>
-                                          <a href="https://hum.unne.edu.ar/postgrado/curso/filo_razon.htm">Más Información</a>
-                                      </p>
-                                        </div>
-
-                                    </div>
+                                    
                                         <p></p>
                                     
                                     <div class="card">
                                         <div class="card-body">
                                            <h4 class="card-title text-info text-left">
-                                                 ABIERTA LA CONVOCATORIA DE BECAS 2020/2021
+                                                 ABIERTA LA CONVOCATORIA DE BECAS 2021/2022
                                            </h4>
                                        <a href="{{route('becas')}}">
                                             <img class="img-fluid"   src="{{asset('img/noticias/carolina.jpg')}}" alt="">
