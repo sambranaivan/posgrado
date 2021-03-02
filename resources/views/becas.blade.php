@@ -98,7 +98,10 @@
                                     <div class="col-md-8">
 
 
-<p class="text-justify">En esta 20ª edición se ofertan las siguientes modalidades: 237 becas de posgrado, 61 becas de movilidad de profesorado y 302 becas de estudios institucionales. Aunque estos programas se encuentran al margen del acuerdo entre nuestras instituciones, agradeceremos la difusión de esta convocatoria.</p>
+<p class="text-justify">En esta 21ª edición se ofertan las siguientes modalidades: 225 becas de posgrado, 27 becas de
+        movilidad de profesorado y 37 becas de estudios institucionales. Aunque estos programas se
+        encuentran al margen del acuerdo entre nuestras instituciones, agradeceremos la difusión de
+        esta convocatoria.</p>
 
 
 </div>
