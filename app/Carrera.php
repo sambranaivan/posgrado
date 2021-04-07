@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Carrera extends Model
 {
+    use SoftDeletes;
+
     //register
     public function setUnidadAcademica($unidad)
     {
