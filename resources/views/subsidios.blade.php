@@ -29,7 +29,7 @@
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header bg-primary text-center">
-                      <h3 class="modal-title" id="exampleModalLabel">Instructivo convocatoria 2020</h3>
+                      <h3 class="modal-title" id="exampleModalLabel">Instructivo convocatoria 2021</h3>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
