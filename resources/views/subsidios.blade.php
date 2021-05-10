@@ -52,6 +52,10 @@
                   </div>
                 </div>
               </div>
+              <b><h4>Convocatoria 2021 
+                <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
+                Instructivo </br>convocatoria 2021
+                </button>
               
         <b><h4>Convocatoria 2020 
                 {{-- <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">

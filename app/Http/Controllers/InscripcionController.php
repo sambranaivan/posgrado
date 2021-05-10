@@ -76,13 +76,13 @@ class InscripcionController extends Controller
                 $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_posgrado = $name;
             }
-              if($request->hasFile('file_cuenta'))
-            {
-                $file = $request->file('file_cuenta');
-                $name = $i->apellido."-".$i->nombre."-cuenta.pdf";
-                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
-                $i->file_cuenta = $name;
-            }
+            //   if($request->hasFile('file_cuenta'))
+            // {
+            //     $file = $request->file('file_cuenta');
+            //     $name = $i->apellido."-".$i->nombre."-cuenta.pdf";
+            //     $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
+            //     $i->file_cuenta = $name;
+            // }
               if($request->hasFile('file_cv'))
             {
                 $file = $request->file('file_cv');
