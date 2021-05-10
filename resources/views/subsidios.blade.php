@@ -43,6 +43,10 @@
                         <p>Si Ud. es <b>NO DOCENTE</b>, para conocer las condiciones del subsidio lea el Reglamento vigente aprobado por Res. 369/16 CS y las condiciones de la convocatoria actual, establecidas en el <b>punto 4</b> Convocatoria 2021 Res. S/N Cs</p>
                         <p>Luego, acceda al formulario del <b>punto 5</b>, en el cual se detalla al inicio toda la información que se le requerirá para la inscripción, en formato PDF.</p>
                         <p>Cumplido con el formato, acceda al <b>punto 6</b>, descargue el modelo de notas, complete los datos requeridos y envíe a la dirección de correo indicada.</p>
+                        <p>
+                               Las solicitudes se recibirán en la Secretaría General de Posgrado, en el horario de 8:00 a 17:00 Hs
+                               Y en la Secretaría General de Extensión (Resistencia), de 13:00 a 17:00 Hs
+                        </p>
                         
                     </div>
                     <div class="modal-footer">
@@ -68,6 +72,10 @@
                 <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/Convocatoria 2021 Subsidios No docentes.pdf')}}"> Resolución Convocatoria 2021 Subsidios No Docentes </a></li>
                 <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcionNoDocente')}}">Formulario de Inscripción</a></li>
                 <li>Modelo de nota solicitud Subsidios No Docentes: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2021 de subsidios para No Docentes.docx')}}">Aqui</a></li>
+                <li>
+                          <b>Las solicitudes se recibirán en la Secretaría General de Posgrado, en el horario de 8:00 a 17:00 Hs
+                                Y en la Secretaría General de Extensión (Resistencia), de 13:00 a 17:00 Hs</b>
+                </li>
                 {{-- <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-320.20 - Beneficiarios de subsidios 2020 - No Docentes.pdf')}}"> Res. 320/20 CS</a></li> --}}
                  {{-- <li>Cuota 2020 de convocatorias anteriores <a target="_blank" href="{{asset('doc/2020-237-Subsidios No docentes cuota 2020.pdf')}}">Res. 237/2020 CS</a></li> --}}
         </ol>
