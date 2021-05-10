@@ -49,8 +49,8 @@
                                 <th>{{$i->id}}</th>
                             <td class="fit">{{$i->apellido}}</td>
                             <td class="fit">{{$i->nombre}}</td>
-                            <td class="fit"><a href="{{asset('pdf/resoluciones/2020/'.$i->file_cv)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a></td>
-                            <td class="fit">{{$i->cuil}}<a href="{{asset('pdf/resoluciones/2020/'.$i->file_cuil)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
+                            <td class="fit"><a href="{{asset('/pdf/inscripciones/2021/docentes/'.$i->file_cv)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a></td>
+                            <td class="fit">{{$i->cuil}}<a href="{{asset('/pdf/inscripciones/2021/docentes/'.$i->file_cuil)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
                             </td>
                             <td class="fit">{{$i->nacimiento}}</td>
                             <td class="fit">{{$i->email}}</td>
@@ -60,24 +60,24 @@
                             <td class="fit">{{$i->facultad}}</td>
                             <td class="fit">{{$i->cargo}}</td>
                             <td class="fit">{{$i->resolucion}}
-                            <a href="{{asset('pdf/resoluciones/2020/'.$i->file_resolucion)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
+                            <a href="{{asset('/pdf/inscripciones/2021/docentes/'.$i->file_resolucion)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
                             </td>
                             <td class="fit">{{$i->fecha_cargo}}</td>
                             <td class="fit">{{$i->intitucion}}</td>
                             <td class="fit">{{$i->carrera}}
-                            <a href="{{asset('pdf/resoluciones/2020/'.$i->file_posgrado)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
+                            <a href="{{asset('/pdf/inscripciones/2021/docentes/'.$i->file_posgrado)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
                             </td>
                             <td class="fit">{{$i->duracion}}</td>
                             <td class="fit">{{$i->titulo}}</td>
                             <td class="fit">{{$i->carrera_inicio}}</td>
                             <td class="fit">{{$i->carrera_costo}}
-                            <a href="{{asset('pdf/resoluciones/2020/'.$i->file_aranceles)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
+                            <a href="{{asset('/pdf/inscripciones/2021/docentes/'.$i->file_aranceles)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a>
                             </td>
                             <td class="fit">{{$i->aranceles_1}}</td>
                             <td class="fit">{{$i->aranceles_2}}</td>
                             <td class="fit">{{$i->aranceles_3}}</td>
                             <td class="fit">{{$i->aranceles_4}}</td>
-                            <td class="fit"><a href="{{asset('pdf/resoluciones/2020/'.$i->file_cuenta)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a></td>
+                            <td class="fit"><a href="{{asset('/pdf/inscripciones/2021/docentes/'.$i->file_cuenta)}}" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i></a></td>
 
 
 
