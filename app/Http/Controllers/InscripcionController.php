@@ -83,6 +83,7 @@ class InscripcionController extends Controller
             //     $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
             //     $i->file_cuenta = $name;
             // }
+            $i->file_cuenta = "";
               if($request->hasFile('file_cv'))
             {
                 $file = $request->file('file_cv');
