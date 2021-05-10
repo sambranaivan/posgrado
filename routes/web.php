@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/inscripciones','InscripcionController@verInscriptos');
-Route::get('/nodocentes', 'InscripcionController@verNoDocentes');
 
 Auth::routes();
 
@@ -50,6 +48,11 @@ Route::get("/mapuche","mapucheController@index")->name("mapuche");
 Route::group(['middleware' => ['auth']], function () {
    // Only authenticated users may enter...
    //
+
+    
+Route::get('/inscripciones/docentes','InscripcionController@verInscriptos');
+Route::get('/inscripciones/nodocentes', 'InscripcionController@verNoDocentes');
+
     Route::get('admin',function(){
         return view('admin');
     });
