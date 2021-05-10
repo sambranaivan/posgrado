@@ -45,7 +45,7 @@
                         <p>Cumplido con el formato, acceda al <b>punto 6</b>, descargue el modelo de notas, complete los datos requeridos y envíe a la dirección de correo indicada.</p>
                         <p>
                                Las solicitudes se recibirán en la Secretaría General de Posgrado, en el horario de 8:00 a 17:00 Hs
-                               Y en la Secretaría General de Extensión (Resistencia), de 13:00 a 17:00 Hs
+                               Y en la Secretaría General de Extensión (Resistencia), de 14:00 a 17:00 Hs
                         </p>
                         
                     </div>
@@ -74,7 +74,7 @@
                 <li>Modelo de nota solicitud Subsidios No Docentes: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2021 de subsidios para No Docentes.docx')}}">Aqui</a></li>
                 <li>
                           <b>Las solicitudes se recibirán en la Secretaría General de Posgrado, en el horario de 8:00 a 17:00 Hs
-                                Y en la Secretaría General de Extensión (Resistencia), de 13:00 a 17:00 Hs</b>
+                                Y en la Secretaría General de Extensión (Resistencia), de 14:00 a 17:00 Hs</b>
                 </li>
                 {{-- <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-320.20 - Beneficiarios de subsidios 2020 - No Docentes.pdf')}}"> Res. 320/20 CS</a></li> --}}
                  {{-- <li>Cuota 2020 de convocatorias anteriores <a target="_blank" href="{{asset('doc/2020-237-Subsidios No docentes cuota 2020.pdf')}}">Res. 237/2020 CS</a></li> --}}
