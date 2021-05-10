@@ -155,7 +155,7 @@
                     </div>
                     {{-- Adjuntar Resolución de aranceles y costo total de la carrera, y constancia de alumno regular de posgrado y certificación del estado de cuenta, todo en formato digital (PDF). --}}
                     <div class="form-group">
-                      <label for="file_aranceles">Datos de la carrera, arancel mensual y costo total de la carrera(PDF)</label>
+                      <label for="file_aranceles">Datos de la carrera, arancel mensual y costo total de la carrera</label>
                       <input type="file" class="form-control-file" name="file_aranceles" required>
                     </div>
                      <div class="form-group">
