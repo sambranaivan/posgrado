@@ -52,42 +52,42 @@ class InscripcionController extends Controller
             {
                 $file = $request->file('file_cuil');
                 $name = $i->apellido."-".$i->nombre."-cuil.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_cuil = $name;
             }
             if($request->hasFile('file_resolucion'))
             {
                 $file = $request->file('file_resolucion');
                 $name = $i->apellido."-".$i->nombre."-resolucion.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_resolucion = $name;
             }
              if($request->hasFile('file_aranceles'))
             {
                 $file = $request->file('file_aranceles');
                 $name = $i->apellido."-".$i->nombre."-aranceles.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_aranceles = $name;
             }
               if($request->hasFile('file_posgrado'))
             {
                 $file = $request->file('file_posgrado');
                 $name = $i->apellido."-".$i->nombre."-posgrado.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_posgrado = $name;
             }
               if($request->hasFile('file_cuenta'))
             {
                 $file = $request->file('file_cuenta');
                 $name = $i->apellido."-".$i->nombre."-cuenta.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_cuenta = $name;
             }
               if($request->hasFile('file_cv'))
             {
                 $file = $request->file('file_cv');
                 $name = $i->apellido."-".$i->nombre."-cv.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/',$name);
+                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_cv = $name;
             }
 
@@ -142,43 +142,43 @@ class InscripcionController extends Controller
             if($request->hasFile('file_cuil'))
             {
                 $file = $request->file('file_cuil');
-                $name = "ND-".$i->apellido."-".$i->nombre."-cuil.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
+                $name = $i->apellido."-".$i->nombre."-cuil.pdf";
+                $file->move(public_path().'/pdf/inscripciones/2021/no_docentes/',$name);
                 $i->file_cuil = $name;
             }
             if($request->hasFile('file_resolucion'))
             {
                 $file = $request->file('file_resolucion');
-                $name = "ND-".$i->apellido."-".$i->nombre."-resolucion.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
+                $name = $i->apellido."-".$i->nombre."-resolucion.pdf";
+                $file->move(public_path().'/pdf/inscripciones/2021/no_docentes/',$name);
                 $i->file_resolucion = $name;
             }
              if($request->hasFile('file_aranceles'))
             {
                 $file = $request->file('file_aranceles');
-                $name = "ND-".$i->apellido."-".$i->nombre."-aranceles.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
+                $name = $i->apellido."-".$i->nombre."-aranceles.pdf";
+                $file->move(public_path().'/pdf/inscripciones/2021/no_docentes/',$name);
                 $i->file_aranceles = $name;
             }
               if($request->hasFile('file_posgrado'))
             {
                 $file = $request->file('file_posgrado');
-                $name = "ND-".$i->apellido."-".$i->nombre."-posgrado.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
+                $name = $i->apellido."-".$i->nombre."-posgrado.pdf";
+                $file->move(public_path().'/pdf/inscripciones/2021/no_docentes/',$name);
                 $i->file_posgrado = $name;
             }
               if($request->hasFile('file_cuenta'))
             {
                 $file = $request->file('file_cuenta');
-                $name = "ND-".$i->apellido."-".$i->nombre."-cuenta.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
+                $name = $i->apellido."-".$i->nombre."-cuenta.pdf";
+                $file->move(public_path().'/pdf/inscripciones/2021/no_docentes/',$name);
                 $i->file_cuenta = $name;
             }
               if($request->hasFile('file_cv'))
             {
                 $file = $request->file('file_cv');
-                $name = "ND-".$i->apellido."-".$i->nombre."-cv.pdf";
-                $file->move(public_path().'/pdf/resoluciones/2020/ND/',$name);
+                $name = $i->apellido."-".$i->nombre."-cv.pdf";
+                $file->move(public_path().'/pdf/inscripciones/no_docentes/2021/',$name);
                 $i->file_cv = $name;
             }
 
