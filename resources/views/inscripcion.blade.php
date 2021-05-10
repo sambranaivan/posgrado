@@ -20,7 +20,7 @@
 <ol class="text-justify">
 <li>Constancia de CUIL</li>
 <li>Resolución de designación (ordinario o interino) en el cargo docente o resolución de otorgamiento de beca de investigación (CyT UNNE, UNNE-CONICET, PICTO-UNNE). Ambos, designación docente o beca deben estar vigentes a la fecha de presentación.</li>
-<li>Resolución de aranceles y costo total de la carrera.</li>
+<li>Datos de la carrera, arancel mensual y costo total.</li>
 <li>Constancia de alumno regular del posgrado o constancia de inscripción a la carrera</li>
 {{-- <li>Certificación del estado de cuenta, si corresponde.  </li> --}}
 <li>Curriculum Vitae completo del solicitante, según el formato establecido en el Anexo IX de la Ordenanza de Carrera Docente de la UNNE (Resolución Nº 956/09 CS) o en formato CVar del MinCyT (http://cvar.sicytar.mincyt.gob.ar), en formato digital (PDF).</li>

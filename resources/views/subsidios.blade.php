@@ -36,11 +36,11 @@
                     </div>
                     <div class="modal-body">
                         <p>Si Ud. es <b>DOCENTE</b> o <b>BECARIO</b>, para conocer las condiciones del subsidio lea el Reglamento vigente aprobado por Res. 300/19 CS y 
-                                las condiciones de la convocatoria actual, establecidas en el <b>punto 1</b> Convocatoria 2020 Res. 208/20 Cs</p>
+                                las condiciones de la convocatoria actual, establecidas en el <b>punto 1</b> Convocatoria 2021 Res. S/N Cs</p>
                         <p>Luego, acceda al formulario del <b>punto 2</b>, en el cual se detalla al inicio toda la información que se le requerirá para la inscripción, en formato PDF.</p>
                         <p>Cumplido con el formato, acceda al <b>punto 3</b>, descargue el modelo de notas, complete los datos requeridos y envíe a la dirección de correo indicada.</p>
                         <p>&nbsp;</p>
-                        <p>Si Ud. es <b>NO DOCENTE</b>, para conocer las condiciones del subsidio lea el Reglamento vigente aprobado por Res. 369/16 CS y las condiciones de la convocatoria actual, establecidas en el <b>punto 4</b> Convocatoria 2020 Res. 207/20 Cs</p>
+                        <p>Si Ud. es <b>NO DOCENTE</b>, para conocer las condiciones del subsidio lea el Reglamento vigente aprobado por Res. 369/16 CS y las condiciones de la convocatoria actual, establecidas en el <b>punto 4</b> Convocatoria 2021 Res. S/N Cs</p>
                         <p>Luego, acceda al formulario del <b>punto 5</b>, en el cual se detalla al inicio toda la información que se le requerirá para la inscripción, en formato PDF.</p>
                         <p>Cumplido con el formato, acceda al <b>punto 6</b>, descargue el modelo de notas, complete los datos requeridos y envíe a la dirección de correo indicada.</p>
                         
@@ -52,10 +52,26 @@
                   </div>
                 </div>
               </div>
-              {{-- <b><h4>Convocatoria 2021 
+              <b><h4>Convocatoria 2021 
                 <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
                 Instructivo </br>convocatoria 2021
-                </button> --}}
+        </button>
+
+</h4></b>
+        
+        <ol>
+                <li>	<b>Docentes y Becarios</b>: <a target="_blank" href="{{asset('doc/Convocatoria 2021 Subsidios Docentes y Becarios.pdf')}}">Resolución Convocatoria 2021 Subsidios Docentes y Becarios </a></li>
+                <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcion')}}">Formulario de Inscripción</a></li>
+                {{-- <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-295.20-Beneficiarios de subsidios 2020 - Docentes y Becarios.pdf')}}"> Res. 295/20 CS</a></li> --}}
+                 {{-- <li>Cuota 2020 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/2020-236-Subsidios Docentes y Becarios Cuota 2020.pdf')}}">Res. 236/2020 CS</a></li> --}}
+                <li>    Modelo de nota solicitud Subsidios Docentes y Becarios: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2021 de subsidios para Docentes y becarios.docx')}}">Aqui</a></li>
+                <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/Convocatoria 2021 Subsidios No docentes.pdf')}}"> Resolución Convocatoria 2021 Subsidios No Docentes </a></li>
+                <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcionNoDocente')}}">Formulario de Inscripción</a></li>
+                <li>Modelo de nota solicitud Subsidios No Docentes: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2021 de subsidios para No Docentes.docx')}}">Aqui</a></li>
+                {{-- <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-320.20 - Beneficiarios de subsidios 2020 - No Docentes.pdf')}}"> Res. 320/20 CS</a></li> --}}
+                 {{-- <li>Cuota 2020 de convocatorias anteriores <a target="_blank" href="{{asset('doc/2020-237-Subsidios No docentes cuota 2020.pdf')}}">Res. 237/2020 CS</a></li> --}}
+        </ol>
+        <hr>
               
         <b><h4>Convocatoria 2020 
                 {{-- <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
