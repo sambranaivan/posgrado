@@ -139,27 +139,27 @@
                       <input type="number" class="form-control" name="aranceles_1"   required>
                     </div>
                     {{-- Aranceles Año 2 --}}
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                       <label for="aranceles_2">Aranceles Año 2: </label>
                       <input type="number" class="form-control" name="aranceles_2"   required>
-                    </div>
+                    </div> --}}
                     {{-- Aranceles Año 3 --}}
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                       <label for="aranceles_3">Aranceles Año 3: </label>
                       <input type="number" class="form-control" name="aranceles_3"   required>
-                    </div>
+                    </div> --}}
                     {{-- Aranceles Año 4 --}}
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                       <label for="aranceles_4">Aranceles Año 4: </label>
                       <input type="number" class="form-control" name="aranceles_4"   required>
-                    </div>
+                    </div> --}}
                     {{-- Adjuntar Resolución de aranceles y costo total de la carrera, y constancia de alumno regular de posgrado y certificación del estado de cuenta, todo en formato digital (PDF). --}}
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                       <label for="file_aranceles">Datos de la carrera, arancel mensual y costo total de la carrera</label>
                       <input type="file" class="form-control-file" name="file_aranceles" required>
-                    </div>
+                    </div> --}}
                      <div class="form-group">
-                      <label for="file_posgrado">Adjuntar Constancia de Alumno Regular de Posgradp(PDF)</label>
+                      <label for="file_posgrado">Adjuntar Constancia de Alumno Regular de Posgrado(PDF)</label>
                       <input type="file" class="form-control-file" name="file_posgrado" required>
                     </div>
                     {{-- <div class="form-group">

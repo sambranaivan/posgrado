@@ -34,9 +34,9 @@ class InscripcionController extends Controller
             $i->carrera_inicio = $request->carrera_inicio;
             $i->carrera_costo = $request->carrera_costo;
             $i->aranceles_1 = $request->aranceles_1;
-            $i->aranceles_2 = $request->aranceles_2;
-            $i->aranceles_3 = $request->aranceles_3;
-            $i->aranceles_4 = $request->aranceles_4;
+            $i->aranceles_2 = "0";
+            $i->aranceles_3 = "0";
+            $i->aranceles_4 = "0";
 
 
             // archivos
@@ -62,13 +62,14 @@ class InscripcionController extends Controller
                 $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
                 $i->file_resolucion = $name;
             }
-             if($request->hasFile('file_aranceles'))
-            {
-                $file = $request->file('file_aranceles');
-                $name = $i->apellido."-".$i->nombre."-aranceles.pdf";
-                $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
-                $i->file_aranceles = $name;
-            }
+            //  if($request->hasFile('file_aranceles'))
+            // {
+            //     $file = $request->file('file_aranceles');
+            //     $name = $i->apellido."-".$i->nombre."-aranceles.pdf";
+            //     $file->move(public_path().'/pdf/inscripciones/2021/docentes/',$name);
+            //     $i->file_aranceles = $name;
+            // }
+            $i->file_aranceles = "";
               if($request->hasFile('file_posgrado'))
             {
                 $file = $request->file('file_posgrado');
