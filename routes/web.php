@@ -18,19 +18,19 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/subsidios/inscripcion_docente',function(){
-    return view('inscripcion');
-    // return view('subsidios');
-})->name('inscripcion');
+// Route::get('/subsidios/inscripcion_docente',function(){
+//     return view('inscripcion');
+//     // return view('subsidios');
+// })->name('inscripcion');
 
 Route::get('subsidios/instructivo/2020',function(){
     return view('instructivo');
 })->name('instructivo');
 
-Route::get('/subsidios/inscripcion_nodocente',function(){
-    return view('inscripcion-no-docente');
-    // return view('subsidios');
-})->name('inscripcionNoDocente');
+// Route::get('/subsidios/inscripcion_nodocente',function(){
+//     return view('inscripcion-no-docente');
+//     // return view('subsidios');
+// })->name('inscripcionNoDocente');
 
 Route::get('/inscripcion/completa',function(){
     return view('inscripcionCompleta');
