@@ -139,7 +139,7 @@
                   <h2 class="titulo">Ciencias Humanas</h2>
 
                   <p ><span ><a href="http://www.coneau.gob.ar/archivos/form09posg/RS-2021-30525294-APN-CONEAU-ME.pdf"><strong ><span >♦&nbsp;RESFC-2021-24-APN-CONEAU#MECCYT</span></strong></a><strong ><span >&nbsp;|&nbsp;</span></strong><a  href="http://www.coneau.gob.ar/archivos/form09posg/IF-2021-29287699-APN-DAC-CONEAU.pdf"><strong ><span >ANEXO</span></strong></a></span></p>
-                  <p ><span ><span >La segunda etapa de la sexta convocatoria corresponde a las carreras de posgrado de especializaciones, maestrías y doctorados pertenecientes al área de Ciencias Humanas.</span></span></p>
+                  <p ><span ><span ><strong>La segunda etapa de la sexta convocatoria corresponde a las carreras de posgrado de especializaciones, maestrías y doctorados pertenecientes al área de Ciencias Humanas.</strong></span></span></p>
                   <p ><span ><span >♦&nbsp;<strong ><span >Formalización:&nbsp;</span></strong>hasta el&nbsp;<strong ><span >11 de junio de 2021</span></strong>&nbsp;a través de</span></span><span ><span >&nbsp;<a  href="https://global.coneau.gob.ar/coneauglobal/"><span >CONEAU Global</span></a></span></span></p>
               
                   <p ><span ><strong ><span >♦&nbsp;Presentación&nbsp;de solicitud de acreditación y autoevaluación:</span></strong></span></p>
