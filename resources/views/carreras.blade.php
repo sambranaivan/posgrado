@@ -132,6 +132,37 @@
 <p><span style="color: #000000;">♦</span>&nbsp;<a href="https://www.coneau.gob.ar/coneau/acreditacion-de-carreras-2/" target="_blank" rel="noopener noreferrer"><strong>Implementación de Trámites a Distancia&nbsp;(TAD)</strong></a></p>
 
                 </div>
+
+                <div class="card-body">
+                  {{-- humanas --}}
+                  
+                  <h2 class="titulo">Ciencias Humanas</h2>
+
+                  <p ><span ><a href="http://www.coneau.gob.ar/archivos/form09posg/RS-2021-30525294-APN-CONEAU-ME.pdf"><strong ><span >♦&nbsp;RESFC-2021-24-APN-CONEAU#MECCYT</span></strong></a><strong ><span >&nbsp;|&nbsp;</span></strong><a  href="http://www.coneau.gob.ar/archivos/form09posg/IF-2021-29287699-APN-DAC-CONEAU.pdf"><strong ><span >ANEXO</span></strong></a></span></p>
+                  <p ><span ><span >La segunda etapa de la sexta convocatoria corresponde a las carreras de posgrado de especializaciones, maestrías y doctorados pertenecientes al área de Ciencias Humanas.</span></span></p>
+                  <p ><span ><span >♦&nbsp;<strong ><span >Formalización:&nbsp;</span></strong>hasta el&nbsp;<strong ><span >11 de junio de 2021</span></strong>&nbsp;a través de</span></span><span ><span >&nbsp;<a  href="https://global.coneau.gob.ar/coneauglobal/"><span >CONEAU Global</span></a></span></span></p>
+                  {{-- <p ><span ><span>♦&nbsp;<strong ><span >Taller Preparatorio:</span></strong><span > Se</span><span > realizará por cupos para cada unidad académica.* <b>La inscripción se encuentra abierta hasta el 31/05. </b></span></span></span><span ><span ><span ><strong><a  href="https://global.coneau.gob.ar/coneauglobal/iniciar-sesion/?ir=/coneauglobal/publico/escuela-coneau/pos2021cshum/">Acceda al formulario</a></strong></span></span></span></p>
+                  <p ><span><span ><span ><span >–E</span></span></span><span ><span ><span >l </span><span ><span ><b>10 de junio de 2021 </b>para las carreras pertenecientes a los</span></span><strong ><span >&nbsp;CPRES Centro, Noroeste, Noreste, Nuevo Cuyo y Sur.<br>
+                  </span></strong><span >–El</span><strong ><span > 11 de junio </span></strong><span >para las carreras pertenecientes a los</span><strong ><span >&nbsp;CPRES Metropolitano y Bonaerense.</span></strong></span></span></span></p>
+                  <p ><span ><span ><span ><strong>Horario:</strong> de 10 a 13 hs. (El mismo puede variar según la asignación de grupos).</span></span></span></p>
+                  <h5 >*Los cupos asignados serán indicados en cada caso, al ingresar a la ficha de inscripción. La inscripción deberá realizarse a través de un usuario con rol de administrador institucional.</h5>
+                  <p><span ><span ><strong ><span >♦ Taller de sistemas: </span></strong><span >El</span><strong ><span > 14 de junio del 2021. <b>La inscripción se encontrará abierta&nbsp;hasta el 31/05.</b></span></strong><span ><span ><span> Sólo podrá participar un asistente por unidad académica.</span> <strong><a  href="https://global.coneau.gob.ar/coneauglobal/publico/escuela-coneau/pos2021cshumsis/">Acceda al formulario&nbsp;</a></strong></span></span></span></span></p>
+                  <p><span ><span ><span ><span ><span >–</span>En el horario de <b>10 a 12hs </b></span></span><span >para las carreras pertenecientes a los <strong>CPRES Centro, Noroeste, Noreste, Nuevo Cuyo y Sur.</strong><br>
+                  <span ><span >–</span></span>En el horario de <b>15 a 17hs </b>para las carreras pertenecientes a los <strong>CPRES </strong><strong>Metropolitano y Bonaerense.</strong></span></span></span></p> --}}
+                  <p ><span ><strong ><span >♦&nbsp;Presentación&nbsp;de solicitud de acreditación y autoevaluación:</span></strong></span></p>
+                  <p ><span ><span >La presentación de las carreras &nbsp;deberá realizarse a&nbsp;través de</span></span><span>&nbsp;</span><span ><span ><a  href="https://global.coneau.gob.ar/coneauglobal/"><span >CONEAU Global</span></a></span></span><span ><a  href="https://172.16.0.3/coneauglobal/"><span >&nbsp;</span></a></span><span ><span >de acuerdo con el siguiente cronograma.</span></span></p>
+                  <p ><span ><span >– Presentación de las solicitudes de acreditación y autoevaluaciones de las carreras pertenecientes a los&nbsp;<strong ><span >CPRES Centro, Noreste, Noroeste, Nuevo Cuyo y Sur: hasta el 3 de diciembre de 2021.</span></strong>&nbsp;</span></span></p>
+                  {{-- <p ><span ><span >– Presentación de las solicitudes de acreditación de las autoevaluaciones de las carreras pertenecientes a los&nbsp;<strong ><span >CPRES Metropolitano y&nbsp; Bonaerense: hasta el 27 de mayo de 2022</span></strong>.</span></span></p> --}}
+                  <p ><span ><span >♦&nbsp;<a  href="http://www.coneau.gob.ar/archivos/form09posg/CsHumanas_NOTATECNICA.pdf"><strong ><span >Nota Técnica&nbsp;(Presentación de la solicitud de acreditación)</span></strong></a></span></span></p>
+                  <p ><span ><span >♦&nbsp;<a  href="https://www.coneau.gob.ar/coneau/acreditacion-de-carreras-2/"><strong ><span >Implementación de Trámites a Distancia&nbsp;(TAD)</span></strong></a></span></span></p>
+                  
+                                
+
+                </div>
+
+
+
+
           </div>
         </div>
       </div>
