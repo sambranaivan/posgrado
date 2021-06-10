@@ -34,5 +34,55 @@ class UserController extends Controller
         return redirect('expedientes/superadmin');
     }
 
+    public function updateClave()
+    {
+
+        $u = User::find(2);
+        $u->password = Hash::make('m3dicin4');
+        $u->save();
+
+        $u = User::find(3);
+        $u->password = Hash::make('0dontologi4');
+        $u->save();
+        
+        $u = User::find(4);
+        $u->password = Hash::make('4rquitectur4');
+        $u->save();
+
+        $u = User::find(5);
+        $u->password = Hash::make('4grarias');
+        $u->save();
+
+        $u = User::find(6);
+        $u->password = Hash::make('3conomic4s');
+        $u->save();
+
+        $u = User::find(7);
+        $u->password = Hash::make('3xact4s');
+        $u->save();
+       
+        $u = User::find(8);
+        $u->password = Hash::make('v3terinari4s');
+        $u->save();
+
+        $u = User::find(9);
+        $u->password = Hash::make('d3rech0');
+        $u->save();
+
+      
+        $u = User::find(10);
+        $u->password = Hash::make('hum4nidad3s');
+        $u->save();
+
+        $u = User::find(11);
+        $u->password = Hash::make('1ngenieri4');
+        $u->save();
+
+        
+
+     
+
+    }
+
 
 }
