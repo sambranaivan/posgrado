@@ -19,7 +19,7 @@
 
                    
                     <h2 class="titulo">Normativa</h2>
-                    
+                <p><b>Ley de Educación Superior&nbsp;</b><b><a href="{{asset("doc/Ley-24521-de-Educacion-Superior.pdf")}}">N° 24521</a></b></p>
                     <p><b>Resoluciones Ministeriales de estándares&nbsp;</b><b><a href="https://www.coneau.gob.ar/archivos/resoluciones/RESME160-11.pdf">N° 160/11</a>, <a href="https://www.coneau.gob.ar/archivos/resoluciones/ResME2385-15.pdf">Nº 2385/15</a>,&nbsp; <a href="https://www.coneau.gob.ar/archivos/form09posg/ResMED2641_17.pdf">Nº 2641/17</a> y <a href="https://www.coneau.gob.ar/archivos/form09posg/RM2643-19EstandaresEspecmed.pdf">Nº 2643/19</a> (<a href="https://www.coneau.gob.ar/archivos/anexos/IF-2019-68496634-APN-SECPU-MECCYT.pdf">Anexo</a>).</b></p>
                     <h3 class="titulo">Carreras en funcionamiento</h3>
 
