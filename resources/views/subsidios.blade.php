@@ -65,19 +65,12 @@
         
         <ol>
                 <li>	<b>Docentes y Becarios</b>: <a target="_blank" href="{{asset('doc/2021-0207-Convocatoria 2021 Subsidios Docentes y Becarios.pdf')}}">Res 207/21 Convocatoria 2021 Subsidios Docentes y Becarios </a></li>
-                {{-- <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcion')}}">Formulario de Inscripción</a></li> --}}
-                {{-- <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-295.20-Beneficiarios de subsidios 2020 - Docentes y Becarios.pdf')}}"> Res. 295/20 CS</a></li> --}}
-                 {{-- <li>Cuota 2020 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/2020-236-Subsidios Docentes y Becarios Cuota 2020.pdf')}}">Res. 236/2020 CS</a></li> --}}
-                <li>    Modelo de nota solicitud Subsidios Docentes y Becarios: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2021 de subsidios para Docentes y becarios.docx')}}">Aqui</a></li>
+                <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-295.20-Beneficiarios de subsidios 2020 - Docentes y Becarios.pdf')}}"> Res. 295/20 CS</a></li>
+                <li>Cuota 2021 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/2020-236-Subsidios Docentes y Becarios Cuota 2020.pdf')}}">Res. 236/2020 CS</a></li>
+               
                 <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/2021-0206-Convocatoria 2021 Subsidios No Docentes.pdf')}}"> Res 206/21 Convocatoria 2021 Subsidios No Docentes </a></li>
-                {{-- <li>	Acceso para presentar la información requerida en la postulación: <a target="_blank" href="{{route('inscripcionNoDocente')}}">Formulario de Inscripción</a></li> --}}
-                <li>Modelo de nota solicitud Subsidios No Docentes: <a href="{{asset('doc/Solicitud de postulación a la convocatoria 2021 de subsidios para No Docentes.docx')}}">Aqui</a></li>
-                <li>
-                          <b>Las solicitudes se recibirán en la Secretaría General de Posgrado, en el horario de 8:00 a 17:00 Hs
-                                Y en la Secretaría General de Extensión (Resistencia), de 14:00 a 17:00 Hs</b>
-                </li>
-                {{-- <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-320.20 - Beneficiarios de subsidios 2020 - No Docentes.pdf')}}"> Res. 320/20 CS</a></li> --}}
-                 {{-- <li>Cuota 2020 de convocatorias anteriores <a target="_blank" href="{{asset('doc/2020-237-Subsidios No docentes cuota 2020.pdf')}}">Res. 237/2020 CS</a></li> --}}
+                <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res 278.21-No Docentes - Cuota 2021 - Conv 2021.pdf')}}"> Res. 278/21 CS</a></li>
+                <li>Cuota 2021 de convocatorias anteriores No Docentes <a target="_blank" href="{{asset('doc/Res 276.21-No Docentes - Cuota 2021 - Conv 2020 - 2019.pdf')}}">Res. 276/21 CS</a></li>
         </ol>
         <hr>
               
