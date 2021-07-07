@@ -57,16 +57,16 @@
                 </div>
               </div>
               <b><h4>Convocatoria 2021 
-                <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
+                {{-- <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
                 Instructivo </br>convocatoria 2021
-        </button>
+        </button> --}}
 
 </h4></b>
         
         <ol>
                 <li>	<b>Docentes y Becarios</b>: <a target="_blank" href="{{asset('doc/2021-0207-Convocatoria 2021 Subsidios Docentes y Becarios.pdf')}}">Res 207/21 Convocatoria 2021 Subsidios Docentes y Becarios </a></li>
-                <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res-295.20-Beneficiarios de subsidios 2020 - Docentes y Becarios.pdf')}}"> Res. 295/20 CS</a></li>
-                <li>Cuota 2021 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/2020-236-Subsidios Docentes y Becarios Cuota 2020.pdf')}}">Res. 236/2020 CS</a></li>
+                <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res 279.21-Docentes - Cuota 2021 - Conv 2021.pdf')}}"> Res. 279/21 CS</a></li>
+                <li>Cuota 2021 de convocatorias anteriores Docentes y Becarios <a target="_blank" href="{{asset('doc/Res 277.21-Docentes y Becarios - Cuota 2021 - Conv 2020 - 2019 - 2018.pdf')}}">Res. 277/21 CS</a></li>
                
                 <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/2021-0206-Convocatoria 2021 Subsidios No Docentes.pdf')}}"> Res 206/21 Convocatoria 2021 Subsidios No Docentes </a></li>
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res 278.21-No Docentes - Cuota 2021 - Conv 2021.pdf')}}"> Res. 278/21 CS</a></li>
