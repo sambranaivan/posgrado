@@ -70,7 +70,8 @@
                
                 <li>	<b>No Docentes</b>: <a target="_blank" href="{{asset('doc/2021-0206-Convocatoria 2021 Subsidios No Docentes.pdf')}}"> Res 206/21 Convocatoria 2021 Subsidios No Docentes </a></li>
                 <li>Resultados de la convocatoria: <a target="_blank" href="{{asset('doc/Res 278.21-No Docentes - Cuota 2021 - Conv 2021.pdf')}}"> Res. 278/21 CS</a></li>
-                <li>Cuota 2021 de convocatorias anteriores No Docentes <a target="_blank" href="{{asset('doc/Res 276.21-No Docentes - Cuota 2021 - Conv 2020 - 2019.pdf')}}">Res. 276/21 CS</a></li>
+                <li>Cuota 2021 de convocatorias anteriores No Docentes <a target="_blank" href="{{asset('doc/Res 276.21-No Docentes - Cuota 2021 - Conv 2020 - 2019.pdf')}}">Res. 276/21 CS</a> <a target="_blank" href="{{asset('Res 441.21 -No Docentes - Cuota 2021 - Conv 2020 - Lista Complementaria.pdf')}}">Res. 441/21 CS</a></li>
+                
         </ol>
         <hr>
               
