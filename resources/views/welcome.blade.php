@@ -7,9 +7,29 @@
                     <p></p><div class="card">
                         <div class="card-header">
                             <div class="row">
-
-                               
                                 <div class="col-md-12 py-2">
+                                    <h2 class="text-info text-center">Noticias</h2>
+                                    <div class="col-md-10 offset-md-1">
+                                        
+                                           <div class="alert alert-primary text-center">
+                                                <a href="{{route('asuncion.2022')}}" class="">
+                                                   
+                                                    <h1>
+                                                        <b>
+                                                           Jornada Internacional de Promoción del Posgrado UNNE 2022
+                                                        </b>
+                                        
+                                                    </h1>                                                    
+                                                   </a>
+                                            </div>
+
+                                           
+                                           
+                                    </div>
+                                  
+                                </div>
+                               
+                                {{-- <div class="col-md-12 py-2">
                                     <h2 class="text-info text-center">Noticias</h2>
                                     <div class="col-md-10 offset-md-1">
                                         
@@ -38,7 +58,7 @@
                                            
                                     </div>
                                   
-                                </div>
+                                </div> --}}
                                 
                                 <div class="col-md-4">
                                     <div class="card">
