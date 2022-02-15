@@ -7,7 +7,7 @@
             <div class="card">
               
 
-            <iframe src="{{asset('doc/Documento sin título.pdf')}}" width="100%" height="500px">
+            <iframe src="{{asset('doc/jipp2022.pdf')}}" width="100%" height="500px">
                 </iframe>
             </div>{{-- end card --}}
 
