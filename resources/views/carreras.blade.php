@@ -261,10 +261,17 @@
                 </a>
             </a>
         </div>
+        <div class="col-md-12 text-center">
+        <a href="{{asset('doc/posgrado_catalogo_2022.pdf')}}" target="_blank" class="btn btn-danger">
+            <i class="fa fa-file-pdf">&nbsp; Descargar Catálogo de Ofertas 2022</i>
+        </a>
+        </div>
 
 
     </div>
+   
 </div>
+
 {{--  end container --}}
 @endsection
 
