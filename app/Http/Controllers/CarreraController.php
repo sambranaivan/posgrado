@@ -93,19 +93,19 @@ class CarreraController extends Controller
 
 
     public function doctorados(){
-        $c = Carrera::where('denominacion_id',3)->get();
+        $c = Carrera::where('denominacion_id',3)->orderby('nombre')->get();
         $u = DB::table('unidads')->take(11)->get();
         $areas = DB::table('carreras')->select('area')->where('area',"<>","")->distinct()->get();
         return view('showCarreras')->with('carreras',$c)->with('titulo','Doctorado')->with('selected',false)->with('ref','Doctorado')->with('unidades',$u)->with('areas',$areas);
     }
      public function cursos(){
-        $c = Carrera::where('denominacion_id',5)->get();
+        $c = Carrera::where('denominacion_id',5)->orderby('nombre')->get();
         $u = DB::table('unidads')->take(11)->get();
         $areas = DB::table('carreras')->select('area')->where('area',"<>","")->distinct()->get();
         return view('showCarreras')->with('carreras',$c)->with('titulo','Cursos de Posgrado')->with('selected',false)->with('ref','Cursos de posgrado')->with('unidades',$u)->with('areas',$areas);
     }
     public function maestrias(){
-        $c = Carrera::where('denominacion_id',2)->get();
+        $c = Carrera::where('denominacion_id',2)->orderby('nombre')->get();
         $areas = DB::table('carreras')->select('area')->where('area',"<>","")->distinct()->get();
         $u = DB::table('unidads')->take(11)->get();
         return view('showCarreras')->with('carreras',$c)->with('titulo','Maestría')->with('selected',false)->with('ref','Maestria')->with('unidades',$u)->with('areas',$areas);;
