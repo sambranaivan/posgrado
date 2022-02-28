@@ -112,7 +112,7 @@ class CarreraController extends Controller
 
     }
     public function especializaciones(){
-        $c = Carrera::where('denominacion_id',1)->get();
+        $c = Carrera::where('denominacion_id',1)->orderby('nombre')->get();
         $areas = DB::table('carreras')->select('area')->where('area',"<>","")->distinct()->get();
         $u = DB::table('unidads')->take(11)->get();
         return view('showCarreras')->with('carreras',$c)->with('titulo','Especialización')->with('selected',false)->with('ref','Especializacion')->with('unidades',$u)->with('areas',$areas);;
