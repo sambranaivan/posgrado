@@ -64,12 +64,14 @@
                                     <div class="card">
                                         <div class="card-body">
                                         
-                                           <h4 class="card-title text-info text-left">
-                                          DOCTORADO EN HISTORIA
-
-                                           </h4>
+                                           
+                                                <h4 class="card-title text-info text-left">
+                                                    DOCTORADO EN HISTORIA
+          
+                                                     </h4>
+                                           
                                        
-                                        <img class="img-fluid"   src="{{asset('img/doctorado_historia.jpeg')}}" alt="">
+                                                    <a target="_blank" href="{{asset('img\Doctorado en Historia triptico.pdf')}}"><img class="img-fluid"   src="{{asset('img/doctorado_historia.jpeg')}}" alt=""></a>
                                             <p>
                                                 <b>REUNIÓN INFORMATIVA: 11 de marzo 17 hs</b>
 
