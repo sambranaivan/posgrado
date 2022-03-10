@@ -9,7 +9,7 @@
                             <div class="row">
                                 <div class="col-md-12 py-2">
                                     <h2 class="text-info text-center">Noticias</h2>
-                                    <div class="col-md-10 offset-md-1">
+                                    {{-- <div class="col-md-10 offset-md-1">
                                         
                                            <div class="alert alert-primary text-center">
                                                 <a href="{{route('asuncion.2022')}}" class="">
@@ -25,7 +25,7 @@
 
                                            
                                            
-                                    </div>
+                                    </div> --}}
                                   
                                 </div>
                                
@@ -61,6 +61,32 @@
                                 </div> --}}
                                 
                                 <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                        
+                                           <h4 class="card-title text-info text-left">
+                                          DOCTORADO EN HISTORIA
+
+                                           </h4>
+                                       
+                                        <img class="img-fluid"   src="{{asset('img/doctorado_historia.jpeg')}}" alt="">
+                                            <p>
+                                                <b>REUNIÓN INFORMATIVA: 11 de marzo 17 hs</b>
+
+Presencial: Salón de Actos
+
+Virtual (zoom):ID de reunión: 869 7224 7231
+
+Código de acceso: 236530
+                                            </p>
+                                       
+                                      
+                                            <p>Los datos específicos sobre los mecanismos y requisitos de pre-inscripción están disponibles en la página web de la Facultad de Humanidades <a href="https://hum.unne.edu.ar/postgrado/doctorados/historia/doctorado_historia.htm  ">https://hum.unne.edu.ar/postgrado/doctorados/historia/doctorado_historia.htm  </a>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <br>
                                     <div class="card">
                                         <div class="card-body">
                                         
