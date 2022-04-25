@@ -9,23 +9,28 @@
                             <div class="row">
                                 <div class="col-md-12 py-2">
                                     <h2 class="text-info text-center">Noticias</h2>
-                                    {{-- <div class="col-md-10 offset-md-1">
+                                    <div class="col-md-10 offset-md-1">
                                         
                                            <div class="alert alert-primary text-center">
-                                                <a href="{{route('asuncion.2022')}}" class="">
+                                             
                                                    
                                                     <h1>
+                                                        <a href="https://forms.gle/NEkNJWeexY4cNhYA7" target="_blank" class="">
                                                         <b>
-                                                           Jornada Internacional de Promoción del Posgrado UNNE 2022
+                                                        Taller "Sistemas de Información para la acreditación de carreras de Posgrado"
                                                         </b>
-                                        
-                                                    </h1>                                                    
-                                                   </a>
+                                                    </a>
+                                                </h1>                                                    
+                                                        <a href="{{asset('doc/Res 0204_22.pdf')}}" target="_blank">
+                                                           (Aprobado por Res 204/22.CS)
+                                                        </a>
+                                                    
+                                                 
                                             </div>
 
                                            
                                            
-                                    </div> --}}
+                                    </div>
                                   
                                 </div>
                                
