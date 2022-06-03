@@ -61,8 +61,8 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  align-middle" href="/tramites">
-                               <h6 class="text-center"><b>Guia de Trámites</b></h6>
+                            <a class="nav-link  align-middle" href="/adicional">
+                               <h6 class="text-center"><b>Adicional por título</b></h6>
                             </a>
                         </li>
                          <li class="nav-item">
@@ -85,11 +85,11 @@
                                <h6 class="text-center"><b>Catálogo eMOVIES</b></h6>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                         <a class="nav-link  align-middle" href="{{route("oferta.2021")}}">
                                <h6 class="text-center"><b>Oferta Virtual</b></h6>
                             </a>
-                        </li>
+                        </li> --}}
 
 
                         <!-- Authentication Links -->

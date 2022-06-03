@@ -147,7 +147,7 @@ Route::get('nuevotramite',function(){
 
 Route::post('/nuevotramite',"TramiteController@subir");
 
-Route::get('tramites',"TramiteController@listado");
+Route::get('adicional',"TramiteController@listado");
 
 Route::get('jipp2022',function(){
     return view("asuncion");
