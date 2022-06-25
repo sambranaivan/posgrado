@@ -24,7 +24,7 @@
                     </p>
                     <p>
                       <ul>
-                        <li>Modelo de nota para solicitud de adicional para docentes. <a target="_blank" href="#">(link)</a></li>
+                        <li>Modelo de nota para solicitud de adicional para docentes. <a target="_blank" href="{{asset('doc/Nota solicitud adicional título-Docente.docx')}}">(link)</a></li>
 
                         <li>Modelo de notas para solicitud de adicional para no docentes. <a target="_blank" href="#">(link)</a></li>
                       </ul>
